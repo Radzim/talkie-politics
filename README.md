@@ -23,7 +23,7 @@ The main analysis uses:
 - Political Compass (62 questions)
 - 8Values (70 questions)
 
-The remaining 9 tests are stored separately in `results_extended/` and are not passed through the full classification pipeline.
+The remaining test data is stored separately in `results_all.xop` and is not passed through the full classification pipeline.
 
 ## Repository structure
 
