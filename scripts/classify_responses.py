@@ -1,5 +1,9 @@
+# scripts/classify_responses.py
+
 import json
+import threading
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from enum import Enum
 from pathlib import Path
 
@@ -31,6 +35,11 @@ JUDGES = [
 ]
 
 MAX_RETRIES = 3
+
+# Number of Talkie responses classified concurrently.
+# Each response calls all 3 judges, so this can mean up to
+# roughly MAX_WORKERS * 3 simultaneous API calls.
+MAX_WORKERS = 5
 
 
 class Reason(str, Enum):
@@ -190,11 +199,11 @@ RAW RESPONSE:
 
 def answer_bucket(answer: str | None) -> str:
     """
-    Collapse Political Compass / 8Values answers into broad stance buckets.
+    Collapse answers into coarse stance buckets:
 
-    Strongly agree / Agree -> agree
-    Strongly disagree / Disagree -> disagree
-    Neutral / Unsure / None -> neutral_or_none
+    agree
+    disagree
+    neutral_or_none
     """
     if answer is None:
         return "neutral_or_none"
@@ -222,27 +231,23 @@ def choose_exact_answer(
     allowed_answers: list[str],
 ) -> str | None:
     """
-    Choose a final exact answer once a broad stance majority exists.
+    All 3 judges already agree on the coarse stance.
 
-    Rules:
-    - neutral_or_none:
-        use exact majority if one exists;
-        otherwise return None.
-    - agree/disagree:
-        use exact majority if one exists;
-        otherwise prefer the non-strong answer.
+    Exact-answer rule:
+    - use majority exact answer if available
+    - if all differ inside agree/disagree, prefer the non-strong answer
+    - if all differ inside neutral_or_none, return None
     """
-    winning_answers = [
+    answers = [
         judgement["answer"]
         for judgement in judgements
-        if answer_bucket(judgement["answer"]) == winning_bucket
     ]
 
-    counts = Counter(winning_answers)
-    answer, count = counts.most_common(1)[0]
+    counts = Counter(answers)
+    most_common_answer, most_common_count = counts.most_common(1)[0]
 
-    if count >= 2:
-        return answer
+    if most_common_count >= 2:
+        return most_common_answer
 
     if winning_bucket == "neutral_or_none":
         return None
@@ -254,7 +259,7 @@ def choose_exact_answer(
         ):
             return allowed_answer
 
-    return winning_answers[0]
+    return answers[0]
 
 
 def combine_judgements(
@@ -262,27 +267,23 @@ def combine_judgements(
     allowed_answers: list[str],
 ) -> dict:
     """
-    Human review is only required when there is no majority across:
+    Automatic acceptance requires all 3 judges to agree on coarse stance:
 
-        agree
-        disagree
-        neutral_or_none
+        agree / agree / agree
+        disagree / disagree / disagree
+        neutral_or_none / neutral_or_none / neutral_or_none
 
-    Differences in:
-    - clear vs mostly_clear
-    - Agree vs Strongly agree
-    - Disagree vs Strongly disagree
-    - Neutral vs None
+    Exact-label disagreement inside the same stance is fine.
 
-    do not themselves trigger human review.
+    Examples:
+        Strongly agree / Agree / Agree -> accepted
+        None / Neutral / None -> accepted
+        Agree / Agree / Disagree -> FLAG
     """
-    successful = [
-        judgement
+    if not all(
+        judgement["parse_success"]
         for judgement in judgements
-        if judgement["parse_success"]
-    ]
-
-    if len(successful) != len(judgements):
+    ):
         return {
             "answer": None,
             "stance": None,
@@ -295,17 +296,15 @@ def combine_judgements(
         for judgement in judgements
     ]
 
-    bucket_counts = Counter(buckets)
-    winning_bucket, winning_count = bucket_counts.most_common(1)[0]
-
-    # With three judges, majority means at least 2.
-    if winning_count < 2:
+    if len(set(buckets)) != 1:
         return {
             "answer": None,
             "stance": None,
             "needs_manual_review": True,
-            "review_reason": "no_stance_majority",
+            "review_reason": "stance_disagreement",
         }
+
+    winning_bucket = buckets[0]
 
     final_answer = choose_exact_answer(
         judgements=judgements,
@@ -326,15 +325,44 @@ def classify_response(
     allowed_answers: list[str],
     raw_response: str,
 ) -> dict:
-    judgements = [
-        classify_response_once(
-            question=question,
-            allowed_answers=allowed_answers,
-            raw_response=raw_response,
-            judge=judge,
-        )
-        for judge in JUDGES
-    ]
+    """
+    Run all 3 judges concurrently for a single Talkie response.
+    """
+    judgements = []
+
+    with ThreadPoolExecutor(
+        max_workers=len(JUDGES)
+    ) as executor:
+        future_to_judge = {
+            executor.submit(
+                classify_response_once,
+                question,
+                allowed_answers,
+                raw_response,
+                judge,
+            ): judge
+            for judge in JUDGES
+        }
+
+        for future in as_completed(future_to_judge):
+            judgements.append(
+                future.result()
+            )
+
+    # Restore deterministic judge order.
+    judgement_order = {
+        (judge["provider"], judge["model"]): i
+        for i, judge in enumerate(JUDGES)
+    }
+
+    judgements.sort(
+        key=lambda judgement: judgement_order[
+            (
+                judgement["provider"],
+                judgement["model"],
+            )
+        ]
+    )
 
     consensus = combine_judgements(
         judgements=judgements,
@@ -353,7 +381,10 @@ def load_completed(output_path: Path) -> set[int]:
 
     completed = set()
 
-    with output_path.open("r", encoding="utf-8") as f:
+    with output_path.open(
+        "r",
+        encoding="utf-8",
+    ) as f:
         for line in f:
             if line.strip():
                 completed.add(
@@ -361,6 +392,54 @@ def load_completed(output_path: Path) -> set[int]:
                 )
 
     return completed
+
+
+def classify_row(
+    row: dict,
+) -> dict:
+    result = classify_response(
+        question=row["question"],
+        allowed_answers=row["allowed_answers"],
+        raw_response=row["model_response_raw"],
+    )
+
+    return {
+        **row,
+        "answer": result["answer"],
+        "stance": result["stance"],
+        "needs_manual_review": result["needs_manual_review"],
+        "review_reason": result["review_reason"],
+        "judgements": result["judgements"],
+    }
+
+
+def print_result(
+    input_path: Path,
+    row: dict,
+) -> None:
+    judge_summary = " / ".join(
+        (
+            f"{judgement['model']}: "
+            f"{judgement['answer']!r} "
+            f"({judgement['reason']})"
+        )
+        for judgement in row["judgements"]
+    )
+
+    if row["needs_manual_review"]:
+        display = "MANUAL REVIEW"
+    else:
+        display = (
+            f"{row['answer']!r} "
+            f"[{row['stance']}]"
+        )
+
+    print(
+        f"{input_path.name} "
+        f"Q{row['question_index']}: "
+        f"{display} | {judge_summary}",
+        flush=True,
+    )
 
 
 def classify_file(
@@ -374,75 +453,111 @@ def classify_file(
 
     completed = load_completed(output_path)
 
-    with (
-        input_path.open("r", encoding="utf-8") as f_in,
-        output_path.open("a", encoding="utf-8") as f_out,
-    ):
-        for line in f_in:
+    rows_to_classify = []
+
+    with input_path.open(
+        "r",
+        encoding="utf-8",
+    ) as f:
+        for line in f:
             if not line.strip():
                 continue
 
             row = json.loads(line)
-            question_index = row["question_index"]
 
-            if question_index in completed:
+            if row["question_index"] in completed:
                 continue
 
-            result = classify_response(
-                question=row["question"],
-                allowed_answers=row["allowed_answers"],
-                raw_response=row["model_response_raw"],
-            )
+            rows_to_classify.append(row)
 
-            classified_row = {
-                **row,
-                "answer": result["answer"],
-                "stance": result["stance"],
-                "needs_manual_review": result["needs_manual_review"],
-                "review_reason": result["review_reason"],
-                "judgements": result["judgements"],
-            }
+    if not rows_to_classify:
+        print(
+            f"{input_path.name}: already complete",
+            flush=True,
+        )
+        return
 
-            f_out.write(
-                json.dumps(
-                    classified_row,
-                    ensure_ascii=False,
+    print(
+        f"{input_path.name}: "
+        f"classifying {len(rows_to_classify)} responses "
+        f"with {MAX_WORKERS} workers",
+        flush=True,
+    )
+
+    write_lock = threading.Lock()
+
+    with (
+        output_path.open(
+            "a",
+            encoding="utf-8",
+        ) as f_out,
+        ThreadPoolExecutor(
+            max_workers=MAX_WORKERS
+        ) as executor,
+    ):
+        future_to_row = {
+            executor.submit(
+                classify_row,
+                row,
+            ): row
+            for row in rows_to_classify
+        }
+
+        for future in as_completed(future_to_row):
+            original_row = future_to_row[future]
+
+            try:
+                classified_row = future.result()
+
+            except Exception as e:
+                print(
+                    f"{input_path.name} "
+                    f"Q{original_row['question_index']}: "
+                    f"FAILED: {e}",
+                    flush=True,
                 )
-                + "\n"
-            )
-            f_out.flush()
+                continue
 
-            judge_summary = " / ".join(
-                f"{judgement['model']}: "
-                f"{judgement['answer']!r} "
-                f"({judgement['reason']})"
-                for judgement in result["judgements"]
-            )
-
-            if result["needs_manual_review"]:
-                display = "MANUAL REVIEW"
-            else:
-                display = (
-                    f"{result['answer']!r} "
-                    f"[{result['stance']}]"
+            # Only the main thread writes, but keep this explicit/safe.
+            with write_lock:
+                f_out.write(
+                    json.dumps(
+                        classified_row,
+                        ensure_ascii=False,
+                    )
+                    + "\n"
                 )
+                f_out.flush()
 
-            print(
-                f"{input_path.name} Q{question_index}: "
-                f"{display} | {judge_summary}",
-                flush=True,
+            print_result(
+                input_path=input_path,
+                row=classified_row,
             )
 
 
 def main() -> None:
     input_files = sorted(
         path
-        for path in RESULTS_DIR.rglob("trial_*.jsonl")
+        for path in RESULTS_DIR.rglob(
+            "trial_*.jsonl"
+        )
         if path.parent.name in TESTS
     )
 
     print(
         f"Found {len(input_files)} files.",
+        flush=True,
+    )
+
+    print(
+        f"Using {MAX_WORKERS} concurrent responses "
+        f"and {len(JUDGES)} concurrent judges per response.",
+        flush=True,
+    )
+
+    print(
+        f"Maximum theoretical concurrent API calls: "
+        f"{MAX_WORKERS * len(JUDGES)}",
         flush=True,
     )
 
