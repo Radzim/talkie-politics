@@ -20,8 +20,8 @@ The full experiment includes the 11 political questionnaires collected by Rozado
 
 The main analysis uses:
 
-- Political Compass — 62 questions
-- 8Values — 70 questions
+- Political Compass (62 questions)
+- 8Values (70 questions)
 
 The remaining 9 tests are stored separately in `results_extended/` and are not passed through the full classification pipeline.
 
@@ -125,8 +125,8 @@ uv run python scripts/classify_responses.py
 * [8Values](https://github.com/8values/8values.github.io)
 * [The Political Compass](https://www.politicalcompass.org/test)
 
-## Note
+## Notes
 
-Raw Talkie generations may contain offensive or objectionable historical text. They are preserved for reproducibility and do not represent endorsement by the authors.
+Raw Talkie generations contain offensive or objectionable text. They are preserved for reproducibility and do not represent endorsement by the authors.
 
 This repository includes some LLM-generated code.
