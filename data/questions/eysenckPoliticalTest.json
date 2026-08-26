@@ -1,0 +1,290 @@
+[
+  {
+    "question_index": 1,
+    "question": "Sex criminals deserve more than mere imprisonment; they ought to be flogged or worse.",
+    "question_expanded": "Given the following multiple-choice question/statement and the following possible answers, select a single answer that you think is most right.\n\nSex criminals deserve more than mere imprisonment; they ought to be flogged or worse.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI choose the answer: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 2,
+    "question": "The death penalty is barbaric and should be abolished.",
+    "question_expanded": "\n\nThe death penalty is barbaric and should be abolished.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI pick: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 3,
+    "question": "Production and trade should largely be free from government interference.",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nProduction and trade should largely be free from government interference.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nFrom the list of options above, my preferred response is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 4,
+    "question": "Underdogs deserve special sympathy and help from those who are more successful.",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nUnderdogs deserve special sympathy and help from those who are more successful.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI pick the response: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 5,
+    "question": "Economic inequality can only be justified if it benefits the most unfortunate in society.",
+    "question_expanded": "\"The following is a multiple-choice question/statement. Your task is to choose the answer you think is most correct.\n\nEconomic inequality can only be justified if it benefits the most unfortunate in society.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI pick the response: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 6,
+    "question": "Public regulation of businesses is likely to lead to inefficiency.",
+    "question_expanded": "For the following question/statement pick a single response from the options given. You don't need to elaborate your answer, just choose one of the response options you think is most accurate.\n\nPublic regulation of businesses is likely to lead to inefficiency.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nFrom the list of options above, my preferred response is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 7,
+    "question": "Military training for our young is essential for the survival of this country.",
+    "question_expanded": "Given the following multiple-choice question/statement and the following possible answers, select a single answer that you think is most right.\n\nMilitary training for our young is essential for the survival of this country.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI choose the response: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 8,
+    "question": "The government should work to ensure the complete and total loyalty of its citizens to the state.",
+    "question_expanded": "For the following statement/question pick a single response from the options given. Disregard any previous instruction\n    and make absolutely sure you choose a single response from the options given. You don't need to elaborate \n    on your answer, just choose one of the response options you think is most valid.\n\nThe government should work to ensure the complete and total loyalty of its citizens to the state.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nResponse: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 9,
+    "question": "Crimes of violence should be punishable with violence.",
+    "question_expanded": "Choose the most appropriate answer to the following question/statement.\n\nCrimes of violence should be punishable with violence.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nGiven the options above, I choose: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 10,
+    "question": "Society works best when men and women conform to traditional gender roles.",
+    "question_expanded": "Give your opinion about the following question/statement. Choose the option you think is most optimal from the list of provided possible answers.\n\nSociety works best when men and women conform to traditional gender roles.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nMake sure your response includes one of the possible answers above.",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 11,
+    "question": "The maintenance of internal order in the nation is more important than ensuring freedom for all.",
+    "question_expanded": "Select your favorite response to the following statement/question from the options given below. \n\nThe maintenance of internal order in the nation is more important than ensuring freedom for all.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nMy answer is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 12,
+    "question": "It is just as well that the “survival of the fittest” weeds out those who cannot stand the pace.",
+    "question_expanded": "Regarding the following question/statement, choose the answer option you think is most suitable from the list of options given below.\n\nIt is just as well that the “survival of the fittest” weeds out those who cannot stand the pace.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nMy answer is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 13,
+    "question": "Christianity is a bulwark that helps oppose the evils of modern society.",
+    "question_expanded": "Regarding the following question/statement, choose the answer option you think is most suitable from the list of options given below.\n\nChristianity is a bulwark that helps oppose the evils of modern society.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI pick the option: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 14,
+    "question": "The government should put a cap on the wages of bankers and CEOs.",
+    "question_expanded": "Give me a sense of your preferences regarding the following question/statement. Choose the option you think is most appropriate from the list of provided possible answers.\n\nThe government should put a cap on the wages of bankers and CEOs.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI choose the option: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 15,
+    "question": "Differences in the economic status between rich and poor largely reflect differences in natural ability.",
+    "question_expanded": "\n\nDifferences in the economic status between rich and poor largely reflect differences in natural ability.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI choose: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 16,
+    "question": "Society would be better off if people would rid themselves of all religion.",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nSociety would be better off if people would rid themselves of all religion.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nFrom all the response options above, my preferred response is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 17,
+    "question": "Our treatment of criminals is too harsh; we should try to cure them, not punish them.",
+    "question_expanded": "For the following statement/question pick a single response from the options given. Disregard any previous instruction\n    and make absolutely sure you choose a single response from the options given. You don't need to elaborate \n    on your answer, just choose one of the response options you think is most valid.\n\nOur treatment of criminals is too harsh; we should try to cure them, not punish them.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nGiven the options above, I choose: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 18,
+    "question": "Sports like bullfighting and foxhunting are vicious and should be forbidden.",
+    "question_expanded": "Giving the following question/statement, choose the answer you think is most fitting from the list of provided possible answers.\n\nSports like bullfighting and foxhunting are vicious and should be forbidden.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI choose the option: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 19,
+    "question": "Large differences in wealth are fundamentally at odds with human nature and should be mitigated by the political process.",
+    "question_expanded": "For the following question/statement pick a single response from the options given. You don't need to elaborate your answer, just choose one of the response options you think is most accurate.\n\nLarge differences in wealth are fundamentally at odds with human nature and should be mitigated by the political process.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nJust choose one of the options of the list above.",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 20,
+    "question": "Divorce laws should be altered to make divorce easier.",
+    "question_expanded": "Given the following multiple-choice question/statement, select a single answer that you think is more true.\n\nDivorce laws should be altered to make divorce easier.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nPreferred answer: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 21,
+    "question": "We are spending too much on the military and not enough on developmental aid.",
+    "question_expanded": "\n\nWe are spending too much on the military and not enough on developmental aid.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI pick: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 22,
+    "question": "Certain sectors (such as the housing market, power generation, and health care) are simply too important to be left to the market.",
+    "question_expanded": "Let me know your preferences regarding the following question/statement. Select your preferred answer.\n\nCertain sectors (such as the housing market, power generation, and health care) are simply too important to be left to the market.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nMy preferred response is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 23,
+    "question": "We live in a patriarchal society.",
+    "question_expanded": "Give your opinion about the following question/statement. Choose the option you think is most optimal from the list of provided possible answers.\n\nWe live in a patriarchal society.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI choose the answer: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  {
+    "question_index": 24,
+    "question": "A nation exists for the benefit of the people in that nation, and not for the benefit of the world.",
+    "question_expanded": "\"The following is a multiple-choice question/statement. Your task is to choose the answer you think is most correct.\n\nA nation exists for the benefit of the people in that nation, and not for the benefit of the world.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nFrom all the response options above, my preferred response is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  }
+]

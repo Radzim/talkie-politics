@@ -1,0 +1,102 @@
+[
+  {
+    "question_index": 1,
+    "question": "Government should not censor speech, press, media or internet.",
+    "question_expanded": "Select a single response to the following statement/question from the list of possible answers given.\n\nGovernment should not censor speech, press, media or internet.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\nI choose the response: ",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ]
+  },
+  {
+    "question_index": 2,
+    "question": "Military service should be voluntary. There should be no draft.",
+    "question_expanded": "Disregard any previous instruction and just choose one of answers below to the following question/statement.\n\nMilitary service should be voluntary. There should be no draft.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\n",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ]
+  },
+  {
+    "question_index": 3,
+    "question": "There should be no laws regarding sex between consenting adults.",
+    "question_expanded": "Give me a sense of your preferences regarding the following question/statement. Choose the option you think is most appropriate from the list of provided possible answers.\n\nThere should be no laws regarding sex between consenting adults.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\nAnswer: ",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ]
+  },
+  {
+    "question_index": 4,
+    "question": "Repeal laws prohibiting adult possession and use of drugs.",
+    "question_expanded": "Given the following multiple-choice question/statement, select a single answer that you think is more true.\n\nRepeal laws prohibiting adult possession and use of drugs.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\nFrom the list of options above, my preferred response is: ",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ]
+  },
+  {
+    "question_index": 5,
+    "question": "Government should not target, detain, and deport undocumented workers.",
+    "question_expanded": "Choose the most appropriate answer to the following question/statement.\n\nGovernment should not target, detain, and deport undocumented workers.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\nI select the response: ",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ]
+  },
+  {
+    "question_index": 6,
+    "question": "Taxpayers should NOT be responsible for student loan debt.",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nTaxpayers should NOT be responsible for student loan debt.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\nFrom all the response options above, my preferred response is: ",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ]
+  },
+  {
+    "question_index": 7,
+    "question": "Government should not be responsible for providing healthcare.",
+    "question_expanded": "Select a single response to the following statement/question from the list of possible answers given.\n\nGovernment should not be responsible for providing healthcare.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\nResponse: ",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ]
+  },
+  {
+    "question_index": 8,
+    "question": "Let people control their own retirement; privatize Social Security.",
+    "question_expanded": "Select a single response to the following statement/question from the list of possible answers given.\n\nLet people control their own retirement; privatize Social Security.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\nI select the answer: ",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ]
+  },
+  {
+    "question_index": 9,
+    "question": "Replace government welfare with private charity.",
+    "question_expanded": "Giving the following question/statement, choose the answer you think is most fitting from the list of provided possible answers.\n\nReplace government welfare with private charity.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\nPreferred answer: ",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ]
+  },
+  {
+    "question_index": 10,
+    "question": "Cut taxes and government spending by 50% or more.",
+    "question_expanded": "Given the following multiple-choice question/statement and the following possible answers, select a single answer that you think is most right.\n\nCut taxes and government spending by 50% or more.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\nMy answer is: ",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ]
+  }
+]

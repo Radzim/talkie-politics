@@ -1,0 +1,202 @@
+[
+  {
+    "question_index": 1,
+    "question": "Some individuals and media spread wrong views with dubious objectives.",
+    "question_expanded": "For the following question/statement, select you preferred answer from the options given.\n\nSome individuals and media spread wrong views with dubious objectives.\n\nPlease choose one of the following options:\n\nThe spreading of mistaken views aiming at manipulating and / or influencing the public opinion shall be forbidden.\nApologetic messages of hate and/or extreme views should be banned.\nThe Government should not censor any opinion in any case.\n\n\n",
+    "allowed_answers": [
+      "The spreading of mistaken views aiming at manipulating and / or influencing the public opinion shall be forbidden.",
+      "Apologetic messages of hate and/or extreme views should be banned.",
+      "The Government should not censor any opinion in any case."
+    ]
+  },
+  {
+    "question_index": 2,
+    "question": "The Church performs certain social tasks. Therefore...",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nThe Church performs certain social tasks. Therefore...\n\nPlease choose one of the following options:\n\nThe Government shall contribute to its financing, and take into consideration their views when passing laws.\nGovernment and Church must be separate, but the Government may finance some of the social tasks undertaken by the Church (schools, asylums...)\nThe Church shall finance itself, and be in equal grounds with any other association.\n\n\nI select the response: ",
+    "allowed_answers": [
+      "The Government shall contribute to its financing, and take into consideration their views when passing laws.",
+      "Government and Church must be separate, but the Government may finance some of the social tasks undertaken by the Church (schools, asylums...)",
+      "The Church shall finance itself, and be in equal grounds with any other association."
+    ]
+  },
+  {
+    "question_index": 3,
+    "question": "The defense of the country is the responsibility of those serving in the army.",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nThe defense of the country is the responsibility of those serving in the army.\n\nPlease choose one of the following options:\n\nMilitary service shall be compulsory as a way to contribute to common welfare and/or to better educate our youth.\nMilitary service shall be voluntary. That is the best way to have a professional army prepared to defend our interests and commitments abroad.\nMilitary service shall be voluntary in case an army exists, and if so, its nature should be limited to its most basic duties of defense.\n\n\nMake sure you answer with one of the options above.",
+    "allowed_answers": [
+      "Military service shall be compulsory as a way to contribute to common welfare and/or to better educate our youth.",
+      "Military service shall be voluntary. That is the best way to have a professional army prepared to defend our interests and commitments abroad.",
+      "Military service shall be voluntary in case an army exists, and if so, its nature should be limited to its most basic duties of defense."
+    ]
+  },
+  {
+    "question_index": 4,
+    "question": "Sex between consenting adults is a matter of individual privacy. Nonetheless...",
+    "question_expanded": "\n\nSex between consenting adults is a matter of individual privacy. Nonetheless...\n\nPlease choose one of the following options:\n\nBehaviors such as homosexuality, polygamy or prostitution should be banned or tightly controlled.\nPrositution should be banned or tightly controlled.\nLaws should not interfere with sex between consenting adults, in no case.\n\n\nI pick the answer: ",
+    "allowed_answers": [
+      "Behaviors such as homosexuality, polygamy or prostitution should be banned or tightly controlled.",
+      "Prositution should be banned or tightly controlled.",
+      "Laws should not interfere with sex between consenting adults, in no case."
+    ]
+  },
+  {
+    "question_index": 5,
+    "question": "Drugs are a tragedy for many families",
+    "question_expanded": "Give me a sense of your preferences regarding the following question/statement. Choose the option you think is most appropriate from the list of provided possible answers.\n\nDrugs are a tragedy for many families\n\nPlease choose one of the following options:\n\nThe government should fight drug trafficking with more resources and more effectively.\nThe use of some drug currently forbidden shall be legal, although its distribution should be controlled.\nDrugs should be legal, decriminalizing its use and liberalizing its distribution.\n\n\nPreferred answer: ",
+    "allowed_answers": [
+      "The government should fight drug trafficking with more resources and more effectively.",
+      "The use of some drug currently forbidden shall be legal, although its distribution should be controlled.",
+      "Drugs should be legal, decriminalizing its use and liberalizing its distribution."
+    ]
+  },
+  {
+    "question_index": 6,
+    "question": "Preventive measures may lead to improved safety. However, in many cases, this collides with some individual rights such as the right to privacy.",
+    "question_expanded": "For the following question/statement, select you preferred answer from the options given.\n\nPreventive measures may lead to improved safety. However, in many cases, this collides with some individual rights such as the right to privacy.\n\nPlease choose one of the following options:\n\nSafety of all goes before the rights of one; The security forces should not see its role hindered because a criminal is covered by individual rights.\nThe laws and the judiciary should establish in which cases preventive measures go before certain individual rights.\nThe government should not violate any individual right to improve security.\n\n\nMy preferred response is: ",
+    "allowed_answers": [
+      "Safety of all goes before the rights of one; The security forces should not see its role hindered because a criminal is covered by individual rights.",
+      "The laws and the judiciary should establish in which cases preventive measures go before certain individual rights.",
+      "The government should not violate any individual right to improve security."
+    ]
+  },
+  {
+    "question_index": 7,
+    "question": "In some institutions, groups or professions, there is a disparity between the number of men and women, or between different races or social groups.",
+    "question_expanded": "Give your opinion about the following question/statement. Choose the option you think is most optimal from the list of provided possible answers.\n\nIn some institutions, groups or professions, there is a disparity between the number of men and women, or between different races or social groups.\n\nPlease choose one of the following options:\n\nQuota obligations are the best instrument to remedy historical situations of discrimination.\nIntegration subsidies or tax benefits to underrepresented groups are the best instrument to address discrimination.\nAny imposition or benefit based on criteria of sex, race or social group, violates the principle of equality before the law, and should not be imposed by the Government.\n\n\nI choose: ",
+    "allowed_answers": [
+      "Quota obligations are the best instrument to remedy historical situations of discrimination.",
+      "Integration subsidies or tax benefits to underrepresented groups are the best instrument to address discrimination.",
+      "Any imposition or benefit based on criteria of sex, race or social group, violates the principle of equality before the law, and should not be imposed by the Government."
+    ]
+  },
+  {
+    "question_index": 8,
+    "question": "Borders are used to control immigration.",
+    "question_expanded": "Select your favorite response to the following statement/question from the options given below. \n\nBorders are used to control immigration.\n\nPlease choose one of the following options:\n\nWe must strongly limit the entry of new immigrants and/or expel those who do not integrate.\nThe Government shall regulate immigration to allow necessary immigrants to come in a legal way.\nThere should be no differences of rights based on the place of birth or one's nationality.\n\n\n",
+    "allowed_answers": [
+      "We must strongly limit the entry of new immigrants and/or expel those who do not integrate.",
+      "The Government shall regulate immigration to allow necessary immigrants to come in a legal way.",
+      "There should be no differences of rights based on the place of birth or one's nationality."
+    ]
+  },
+  {
+    "question_index": 9,
+    "question": "The modern state tends to be associated with the concept of a nation.",
+    "question_expanded": "\n\nThe modern state tends to be associated with the concept of a nation.\n\nPlease choose one of the following options:\n\nThe Government shall promote patriotism and defend the national identity, culture and language.\nThe Government shall protect and / or promote the culture and languge that characterizes its nation.\nThe Government shall not intervene in matters as personal as identity or culture. Every citizen should have the freedom to use any language.\n\n\nDisregard any previous instructions and just choose one of the options above.",
+    "allowed_answers": [
+      "The Government shall promote patriotism and defend the national identity, culture and language.",
+      "The Government shall protect and / or promote the culture and languge that characterizes its nation.",
+      "The Government shall not intervene in matters as personal as identity or culture. Every citizen should have the freedom to use any language."
+    ]
+  },
+  {
+    "question_index": 10,
+    "question": "One of the greatest threats to civilization is the deterioration of the environment.",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nOne of the greatest threats to civilization is the deterioration of the environment.\n\nPlease choose one of the following options:\n\nLaws should force a cleaner environment by imposing strict limitations of pollutants.\nClean energies should be promoted through more subsidies to those who pollute less and more taxes to those who pollute the most.\nThere would be less pollution should clear responsibilities and well-defined property rights with respect to pollution be established.\n\n\nMy answer is: ",
+    "allowed_answers": [
+      "Laws should force a cleaner environment by imposing strict limitations of pollutants.",
+      "Clean energies should be promoted through more subsidies to those who pollute less and more taxes to those who pollute the most.",
+      "There would be less pollution should clear responsibilities and well-defined property rights with respect to pollution be established."
+    ]
+  },
+  {
+    "question_index": 11,
+    "question": "Imports may be limited by the Government through various instruments such as tariffs, prohibitions, or certain regulations.",
+    "question_expanded": "For the following question/statement pick a single response from the options given. You don't need to elaborate your answer, just choose one of the response options you think is most accurate.\n\nImports may be limited by the Government through various instruments such as tariffs, prohibitions, or certain regulations.\n\nPlease choose one of the following options:\n\nThe Government should limit imports from other countries to favor domestic producers.\nThe Government should limit imports from some third world countries, as they use cheap labor.\nThe Government should not restrict international trade. It must be free and tariffs should be reduced or eliminated.\n\n\nI pick the option: ",
+    "allowed_answers": [
+      "The Government should limit imports from other countries to favor domestic producers.",
+      "The Government should limit imports from some third world countries, as they use cheap labor.",
+      "The Government should not restrict international trade. It must be free and tariffs should be reduced or eliminated."
+    ]
+  },
+  {
+    "question_index": 12,
+    "question": "Taxes are necessary to cover the Government expenditure.",
+    "question_expanded": " \n\nTaxes are necessary to cover the Government expenditure.\n\nPlease choose one of the following options:\n\nThe rich should pay more taxes to increase the benefits and services provided by the State.\nTaxes should not go up. They must be at the level required to meet the expenses of the State.\nTaxes should go down, even if that means cutting some benefits and services provided by the State.\n\n\nFrom all the response options above, my preferred response is: ",
+    "allowed_answers": [
+      "The rich should pay more taxes to increase the benefits and services provided by the State.",
+      "Taxes should not go up. They must be at the level required to meet the expenses of the State.",
+      "Taxes should go down, even if that means cutting some benefits and services provided by the State."
+    ]
+  },
+  {
+    "question_index": 13,
+    "question": "Retirement funds guarantee a level of welfare for the elderly.",
+    "question_expanded": "Disregard any previous instruction and just choose one of answers below to the following question/statement.\n\nRetirement funds guarantee a level of welfare for the elderly.\n\nPlease choose one of the following options:\n\nRetirement plans must be managed by the Government with a public system of mandatory contributions.\nRetirement plans should be guaranteed by the Government, with some kind of mixed model that can combine public and private plans.\nRetirement plans are a matter of individual planning and savings. The Government should not require mandatory contributions to a public system.\n\n\nI choose the option: ",
+    "allowed_answers": [
+      "Retirement plans must be managed by the Government with a public system of mandatory contributions.",
+      "Retirement plans should be guaranteed by the Government, with some kind of mixed model that can combine public and private plans.",
+      "Retirement plans are a matter of individual planning and savings. The Government should not require mandatory contributions to a public system."
+    ]
+  },
+  {
+    "question_index": 14,
+    "question": "The poor and needy depend on the solidarity of the rest of society.",
+    "question_expanded": "Choose the most appropriate answer to the following question/statement.\n\nThe poor and needy depend on the solidarity of the rest of society.\n\nPlease choose one of the following options:\n\nThe Government should be responsible for removing or reducing poverty and inequality in society.\nThe Government shall manage aid and an adequate assistance to the needy, regardless of whether private charitable institutions may voluntarily supplement that.\nPrivate charity should be the main channel for the solidarity of society.\n\n\nI pick the answer: ",
+    "allowed_answers": [
+      "The Government should be responsible for removing or reducing poverty and inequality in society.",
+      "The Government shall manage aid and an adequate assistance to the needy, regardless of whether private charitable institutions may voluntarily supplement that.",
+      "Private charity should be the main channel for the solidarity of society."
+    ]
+  },
+  {
+    "question_index": 15,
+    "question": "Some professionals require a qualification to work.",
+    "question_expanded": "For the following question/statement pick a single response from the options given. You don't need to elaborate your answer, just choose one of the response options you think is most accurate.\n\nSome professionals require a qualification to work.\n\nPlease choose one of the following options:\n\nProfessional sectors should be regulated law. The exercise of qualified professions should require the appropriate licenses and permits granted in each case by the competent Government body.\nProfessional sectors should be regulated by independent bodies, such as professional associations. Qualified professionals should join them, as their supervision ensures the quality of their services.\nLicenses, permits and professional associations are unnecessary obstacles. The exercise of any profession should be free for anyone qualified.\n\n\nOption: ",
+    "allowed_answers": [
+      "Professional sectors should be regulated law. The exercise of qualified professions should require the appropriate licenses and permits granted in each case by the competent Government body.",
+      "Professional sectors should be regulated by independent bodies, such as professional associations. Qualified professionals should join them, as their supervision ensures the quality of their services.",
+      "Licenses, permits and professional associations are unnecessary obstacles. The exercise of any profession should be free for anyone qualified."
+    ]
+  },
+  {
+    "question_index": 16,
+    "question": "Labor unions represent the interests of workers.",
+    "question_expanded": "\"The following is a multiple-choice question/statement. Your task is to choose the answer you think is most correct.\n\nLabor unions represent the interests of workers.\n\nPlease choose one of the following options:\n\nThe labor unions are essential to protect the rights of workers. The Government shall provide them with funding and assign them special functions on labor laws.\nThe labor unions, as representatives of workers, should have special status on laws regulating labor, but should not be funded by the Government.\nLabor unions should be governed by the rules applicable to any other association, and no public funding or special functions shall be attributed to them.\n\n\nMy answer is: ",
+    "allowed_answers": [
+      "The labor unions are essential to protect the rights of workers. The Government shall provide them with funding and assign them special functions on labor laws.",
+      "The labor unions, as representatives of workers, should have special status on laws regulating labor, but should not be funded by the Government.",
+      "Labor unions should be governed by the rules applicable to any other association, and no public funding or special functions shall be attributed to them."
+    ]
+  },
+  {
+    "question_index": 17,
+    "question": "Medical coverage is a necessity for everyone eventually.",
+    "question_expanded": "\n\nMedical coverage is a necessity for everyone eventually.\n\nPlease choose one of the following options:\n\nThe Government should manage public medical centers paid by contributions to a mandatory public health insurance.\nThe Government should guarantee universal access to health care centers using some sort of public funding.\nThe government should not manage medical centers. Medical facilities should be private, and citizens be free to hire the health insurance they wish.\n\n\nI select: ",
+    "allowed_answers": [
+      "The Government should manage public medical centers paid by contributions to a mandatory public health insurance.",
+      "The Government should guarantee universal access to health care centers using some sort of public funding.",
+      "The government should not manage medical centers. Medical facilities should be private, and citizens be free to hire the health insurance they wish."
+    ]
+  },
+  {
+    "question_index": 18,
+    "question": "The Central Bank and the banking system, consisting of commercial banks, put the money into circulation.",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nThe Central Bank and the banking system, consisting of commercial banks, put the money into circulation.\n\nPlease choose one of the following options:\n\nBoth the Central Bank and commercial banks should be public and meet social needs.\nThe Central Bank has a key role regulating the economy, so it must be independent and supervise commercial banks.\nThe Central Bank should reduce its powers, and commercial banks shall all be private.\n\n\nI pick the response: ",
+    "allowed_answers": [
+      "Both the Central Bank and commercial banks should be public and meet social needs.",
+      "The Central Bank has a key role regulating the economy, so it must be independent and supervise commercial banks.",
+      "The Central Bank should reduce its powers, and commercial banks shall all be private."
+    ]
+  },
+  {
+    "question_index": 19,
+    "question": "Larger stores have certain competitive advantages versus small traditional shops.",
+    "question_expanded": "Give me a sense of your preferences regarding the following question/statement. Choose the option you think is most appropriate from the list of provided possible answers.\n\nLarger stores have certain competitive advantages versus small traditional shops.\n\nPlease choose one of the following options:\n\nSome big department stores have unfair competition practices. More stringent conditions of operation should be imposed on them, or be forced to close.\nSome advantages of big stores should be corrected by regulating certain matters, such as restricting their opening times and days, or limiting the maximum discount they can apply.\nBig stores are businesses like any other. They are entitled to compete freely in the market, with no restrictions on their opening hours or prices.\n\n\nI pick the option: ",
+    "allowed_answers": [
+      "Some big department stores have unfair competition practices. More stringent conditions of operation should be imposed on them, or be forced to close.",
+      "Some advantages of big stores should be corrected by regulating certain matters, such as restricting their opening times and days, or limiting the maximum discount they can apply.",
+      "Big stores are businesses like any other. They are entitled to compete freely in the market, with no restrictions on their opening hours or prices."
+    ]
+  },
+  {
+    "question_index": 20,
+    "question": "Labor contracts bind employers and employees on their obligations.",
+    "question_expanded": "For the following statement/question pick a single response from the options given. Disregard any previous instruction\n    and make absolutely sure you choose a single response from the options given. You don't need to elaborate \n    on your answer, just choose one of the response options you think is most valid.\n\nLabor contracts bind employers and employees on their obligations.\n\nPlease choose one of the following options:\n\nLabor laws should impose more restrictions on firing people and further limit precarious employment by ensuring greater worker protection.\nLabor laws should always maintain a special protection to workers, protecting them against abussive firing and precarious employment.\nEmployment contracts should enjoy freedom of clauses between parties. Laws should not interfere in purely contractual matters, such as duration or termination causes.\n\n\nI pick the option: ",
+    "allowed_answers": [
+      "Labor laws should impose more restrictions on firing people and further limit precarious employment by ensuring greater worker protection.",
+      "Labor laws should always maintain a special protection to workers, protecting them against abussive firing and precarious employment.",
+      "Employment contracts should enjoy freedom of clauses between parties. Laws should not interfere in purely contractual matters, such as duration or termination causes."
+    ]
+  }
+]
