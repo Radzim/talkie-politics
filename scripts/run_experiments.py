@@ -4,8 +4,10 @@ from pathlib import Path
 from talkie_politics.inference import ask_talkie, load_model
 
 
-QUESTIONS_DIR = Path("data/questions")
-RESULTS_DIR = Path("results")
+REPO_ROOT = Path(__file__).resolve().parents[1]
+
+QUESTIONS_DIR = REPO_ROOT / "data" / "questions"
+RESULTS_DIR = REPO_ROOT / "results"
 
 MODELS = [
     "1930_it",
@@ -37,11 +39,6 @@ def load_questions(test_name: str) -> list[dict]:
 
 
 def get_completed_questions(output_path: Path) -> set[int]:
-    """
-    Return question indices already present in a partially completed trial.
-
-    This makes the experiment resumable after interruption.
-    """
     if not output_path.exists():
         return set()
 
@@ -61,10 +58,6 @@ def get_completed_questions(output_path: Path) -> set[int]:
 
 
 def append_result(output_path: Path, result: dict) -> None:
-    """
-    Immediately persist each generation so an interrupted run loses
-    at most the currently generating response.
-    """
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
     with output_path.open("a", encoding="utf-8") as f:
@@ -79,11 +72,11 @@ def run_test(
 ) -> None:
     questions = load_questions(test_name)
 
-    model_output_name = MODEL_OUTPUT_NAMES[model_name]
+    output_name = MODEL_OUTPUT_NAMES[model_name]
 
     output_path = (
         RESULTS_DIR
-        / model_output_name
+        / output_name
         / test_name
         / f"trial_{trial}.jsonl"
     )
@@ -92,13 +85,11 @@ def run_test(
 
     print()
     print("=" * 80)
-    print(f"Model: {model_output_name}")
+    print(f"Model: {output_name}")
     print(f"Test:  {test_name}")
     print(f"Trial: {trial}")
-    print(
-        f"Progress: {len(completed)}/{len(questions)} "
-        f"already completed"
-    )
+    print(f"Completed: {len(completed)}/{len(questions)}")
+    print(f"Output: {output_path}")
     print("=" * 80)
 
     for position, question in enumerate(questions, start=1):
@@ -141,6 +132,10 @@ def run_test(
 
 
 def main() -> None:
+    print(f"Repo root: {REPO_ROOT}")
+    print(f"Questions: {QUESTIONS_DIR}")
+    print(f"Results: {RESULTS_DIR}")
+
     for trial in range(1, N_TRIALS + 1):
         print()
         print("#" * 80)
@@ -148,9 +143,9 @@ def main() -> None:
         print("#" * 80)
 
         for model_name in MODELS:
-            # Explicitly load once here so both tests reuse the same loaded model.
             print()
-            print(f"Loading model for trial {trial}: {model_name}")
+            print(f"Loading model: {model_name}")
+
             load_model(model_name)
 
             for test_name in TESTS:
