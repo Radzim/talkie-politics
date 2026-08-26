@@ -1,4 +1,8 @@
+print("starting")
+
 from talkie_politics.inference import ask_talkie
+
+print("imported")
 
 response = ask_talkie(
     "1930_it",
@@ -6,4 +10,5 @@ response = ask_talkie(
     max_tokens=100,
 )
 
+print("generated")
 print(response)
