@@ -24,7 +24,7 @@ TESTS = [
     "eightValuesPoliticalTest",
 ]
 
-N_TRIALS = 10
+N_TRIALS = 1
 MAX_TOKENS = 100
 TEMPERATURE = 0.7
 
