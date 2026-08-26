@@ -2,15 +2,26 @@ import json
 from collections import Counter
 from pathlib import Path
 
+from talkie_politics.llm import ask_llm
+
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 QUESTIONS_DIR = REPO_ROOT / "data" / "questions"
 OUTPUT_DIR = REPO_ROOT / "data" / "questions_historical"
 
-MODELS = [
-    "judge_model_1",
-    "judge_model_2",
-    "judge_model_3",
+JUDGES = [
+    {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+    },
+    {
+        "provider": "cambridge",
+        "model": "Qwen/Qwen3.8-27B-FP8",
+    },
+    {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+    },
 ]
 
 MAX_RETRIES = 3
@@ -56,9 +67,12 @@ Return JSON only:
 
 def classify_question_once(
     question: str,
-    model: str,
+    judge: dict,
     max_retries: int = MAX_RETRIES,
 ) -> dict:
+    provider = judge["provider"]
+    model = judge["model"]
+
     prompt = f"""{SYSTEM_PROMPT}
 
 QUESTION:
@@ -69,14 +83,15 @@ QUESTION:
     last_raw = None
 
     for attempt in range(1, max_retries + 1):
-        raw = ask_llm(
-            model=model,
-            prompt=prompt,
-        )
-
-        last_raw = raw
-
         try:
+            raw = ask_llm(
+                provider=provider,
+                model=model,
+                prompt=prompt,
+            )
+
+            last_raw = raw
+
             result = json.loads(raw)
 
             status = result["status"]
@@ -93,6 +108,7 @@ QUESTION:
                 )
 
             return {
+                "provider": provider,
                 "model": model,
                 "status": status,
                 "reason": reason,
@@ -108,12 +124,22 @@ QUESTION:
             last_error = str(e)
 
             print(
-                f"{model}: invalid response "
+                f"{provider}/{model}: invalid response "
+                f"(attempt {attempt}/{max_retries}): {e}",
+                flush=True,
+            )
+
+        except Exception as e:
+            last_error = str(e)
+
+            print(
+                f"{provider}/{model}: API error "
                 f"(attempt {attempt}/{max_retries}): {e}",
                 flush=True,
             )
 
     return {
+        "provider": provider,
         "model": model,
         "status": "uncertain",
         "reason": (
@@ -128,14 +154,14 @@ QUESTION:
 
 def classify_question(
     question: str,
-    models: list[str] = MODELS,
+    judges: list[dict] = JUDGES,
 ) -> dict:
     judgements = [
         classify_question_once(
             question=question,
-            model=model,
+            judge=judge,
         )
-        for model in models
+        for judge in judges
     ]
 
     statuses = [
@@ -143,9 +169,15 @@ def classify_question(
         for judgement in judgements
     ]
 
-    counts = Counter(statuses)
+    all_parsed = all(
+        judgement["parse_success"]
+        for judgement in judgements
+    )
 
-    full_agreement = len(counts) == 1
+    full_agreement = (
+        all_parsed
+        and len(set(statuses)) == 1
+    )
 
     consensus_status = (
         statuses[0]
@@ -189,11 +221,17 @@ def classify_question_file(
         results.append(result)
 
         if classification["full_agreement"]:
-            display_status = (
-                classification["consensus_status"]
-            )
+            display_status = classification["consensus_status"]
         else:
-            display_status = "DISAGREEMENT"
+            judge_statuses = [
+                judgement["status"]
+                for judgement in classification["judgements"]
+            ]
+
+            display_status = (
+                "DISAGREEMENT: "
+                + " / ".join(judge_statuses)
+            )
 
         print(
             f"{input_path.stem} "
@@ -230,9 +268,7 @@ def main() -> None:
     )
 
     for input_path in input_files:
-        output_path = (
-            OUTPUT_DIR / input_path.name
-        )
+        output_path = OUTPUT_DIR / input_path.name
 
         print(
             f"\nClassifying {input_path.name}",

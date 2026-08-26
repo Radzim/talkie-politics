@@ -23,8 +23,15 @@ MODEL_OUTPUT_NAMES = {
 }
 
 TESTS = [
-    "politicalCompassTest",
-    "eightValuesPoliticalTest",
+    "politicalSpectrumQuiz",
+    "worldSmallestPoliticalQuiz",
+    "politicalCoordinatesTest",
+    "eysenckPoliticalTest",
+    "ideologiesTest",
+    "nolanTest",
+    "iSideWithUS",
+    "iSideWithUK",
+    "politicalTypologyQuiz",
 ]
 
 N_TRIALS = 10

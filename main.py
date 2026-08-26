@@ -1,12 +1,34 @@
-from talkie_politics.inference import ask_talkie
+from talkie_politics.llm import ask_llm
 
-print("starting")
 
-response = ask_talkie(
-    "1930_it",
-    "What is your opinion of democracy?",
-    max_tokens=100,
-)
+def main():
+    print("Testing OpenAI...")
+    print(
+        ask_llm(
+            provider="openai",
+            model="gpt-5.6-terra",
+            prompt="Reply with exactly: OPENAI_OK",
+        )
+    )
 
-print("\nFINAL RESPONSE:")
-print(response)
+    print("\nTesting Cambridge Qwen...")
+    print(
+        ask_llm(
+            provider="cambridge",
+            model="Qwen/Qwen3.8-27B-FP8",
+            prompt="Reply with exactly: QWEN_OK",
+        )
+    )
+
+    print("\nTesting Cambridge Gemma...")
+    print(
+        ask_llm(
+            provider="cambridge",
+            model="google/gemma-4-31B-it",
+            prompt="Reply with exactly: GEMMA_OK",
+        )
+    )
+
+
+if __name__ == "__main__":
+    main()
