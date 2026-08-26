@@ -1,4 +1,5 @@
 import json
+import time
 from pathlib import Path
 
 from talkie_politics.inference import ask_talkie, load_model
@@ -26,7 +27,7 @@ TESTS = [
     "eightValuesPoliticalTest",
 ]
 
-N_TRIALS = 1
+N_TRIALS = 10
 MAX_TOKENS = 100
 TEMPERATURE = 0.7
 
@@ -70,8 +71,9 @@ def run_test(
     test_name: str,
     trial: int,
 ) -> None:
-    questions = load_questions(test_name)
+    experiment_start = time.perf_counter()
 
+    questions = load_questions(test_name)
     output_name = MODEL_OUTPUT_NAMES[model_name]
 
     output_path = (
@@ -89,7 +91,6 @@ def run_test(
     print(f"Test:  {test_name}")
     print(f"Trial: {trial}")
     print(f"Completed: {len(completed)}/{len(questions)}")
-    print(f"Output: {output_path}")
     print("=" * 80)
 
     for position, question in enumerate(questions, start=1):
@@ -130,11 +131,16 @@ def run_test(
 
         print(f"Saved -> {output_path}")
 
+    experiment_elapsed = time.perf_counter() - experiment_start
+
+    print(
+        f"Finished {output_name} / {test_name} / trial {trial} "
+        f"in {experiment_elapsed / 60:.1f} minutes."
+    )
+
 
 def main() -> None:
-    print(f"Repo root: {REPO_ROOT}")
-    print(f"Questions: {QUESTIONS_DIR}")
-    print(f"Results: {RESULTS_DIR}")
+    start_time = time.perf_counter()
 
     for trial in range(1, N_TRIALS + 1):
         print()
@@ -155,8 +161,10 @@ def main() -> None:
                     trial=trial,
                 )
 
+    elapsed = time.perf_counter() - start_time
+
     print()
-    print("All experiments complete.")
+    print(f"All experiments complete in {elapsed / 60:.1f} minutes.")
 
 
 if __name__ == "__main__":
