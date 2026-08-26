@@ -2,6 +2,7 @@
 
 import json
 import threading
+import time
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from enum import Enum
@@ -35,10 +36,6 @@ JUDGES = [
 ]
 
 MAX_RETRIES = 3
-
-# Number of Talkie responses classified concurrently.
-# Each response calls all 3 judges, so this can mean up to
-# roughly MAX_WORKERS * 3 simultaneous API calls.
 MAX_WORKERS = 5
 
 
@@ -89,6 +86,31 @@ If answer is null, reason must be random_or_unrelated or unclear_or_contradictor
 """
 
 
+def clean_json_response(raw: str) -> str:
+    """
+    Remove common markdown code fences around JSON.
+
+    Example:
+        ```json
+        {"answer": null, "reason": "random_or_unrelated"}
+        ```
+
+    becomes:
+        {"answer": null, "reason": "random_or_unrelated"}
+    """
+    cleaned = raw.strip()
+
+    if cleaned.startswith("```json"):
+        cleaned = cleaned[len("```json"):].strip()
+    elif cleaned.startswith("```"):
+        cleaned = cleaned[len("```"):].strip()
+
+    if cleaned.endswith("```"):
+        cleaned = cleaned[:-3].strip()
+
+    return cleaned
+
+
 def classify_response_once(
     question: str,
     allowed_answers: list[str],
@@ -124,7 +146,20 @@ RAW RESPONSE:
             )
 
             last_raw = raw
-            result = json.loads(raw)
+            cleaned = clean_json_response(raw)
+
+            try:
+                result = json.loads(cleaned)
+            except json.JSONDecodeError as e:
+                print(
+                    f"\n{provider}/{model}: JSON parse error "
+                    f"(attempt {attempt}/{max_retries})\n"
+                    f"RAW RESPONSE: {raw!r}\n"
+                    f"CLEANED RESPONSE: {cleaned!r}\n"
+                    f"ERROR: {e}\n",
+                    flush=True,
+                )
+                raise
 
             answer = result["answer"]
             reason = result["reason"]
@@ -186,6 +221,16 @@ RAW RESPONSE:
                 flush=True,
             )
 
+        if attempt < max_retries:
+            delay = 2 ** (attempt - 1)
+
+            print(
+                f"{provider}/{model}: retrying in {delay}s...",
+                flush=True,
+            )
+
+            time.sleep(delay)
+
     return {
         "provider": provider,
         "model": model,
@@ -199,7 +244,7 @@ RAW RESPONSE:
 
 def answer_bucket(answer: str | None) -> str:
     """
-    Collapse answers into coarse stance buckets:
+    Collapse exact answers into three broad stance buckets:
 
     agree
     disagree
@@ -213,7 +258,7 @@ def answer_bucket(answer: str | None) -> str:
     if "neutral" in normalized or "unsure" in normalized:
         return "neutral_or_none"
 
-    # Check disagree before agree because "disagree" contains "agree".
+    # Check disagree first because "disagree" contains "agree".
     if "disagree" in normalized:
         return "disagree"
 
@@ -231,12 +276,12 @@ def choose_exact_answer(
     allowed_answers: list[str],
 ) -> str | None:
     """
-    All 3 judges already agree on the coarse stance.
+    Called only after the judges agree on the coarse stance.
 
-    Exact-answer rule:
-    - use majority exact answer if available
-    - if all differ inside agree/disagree, prefer the non-strong answer
-    - if all differ inside neutral_or_none, return None
+    Exact answer:
+    - use exact majority if available
+    - if no exact majority within agree/disagree, prefer non-strong answer
+    - if no exact majority within neutral_or_none, use None
     """
     answers = [
         judgement["answer"]
@@ -267,35 +312,76 @@ def combine_judgements(
     allowed_answers: list[str],
 ) -> dict:
     """
-    Automatic acceptance requires all 3 judges to agree on coarse stance:
+    Consensus rules:
 
-        agree / agree / agree
-        disagree / disagree / disagree
-        neutral_or_none / neutral_or_none / neutral_or_none
+    All 3 judges successful:
+        all 3 must agree on the coarse stance.
 
-    Exact-label disagreement inside the same stance is fine.
+    Exactly 1 failed judge:
+        normally manual review.
+        Exception: if the other 2 both returned exactly None,
+        automatically accept None.
 
-    Examples:
-        Strongly agree / Agree / Agree -> accepted
-        None / Neutral / None -> accepted
-        Agree / Agree / Disagree -> FLAG
+    2+ failed judges:
+        manual review.
+
+    Differences in:
+        Agree vs Strongly agree
+        Disagree vs Strongly disagree
+        Neutral vs None
+        clear_answer vs mostly_clear_answer
+
+    do not matter if all successful judges satisfy the rules above.
     """
-    if not all(
-        judgement["parse_success"]
+    successful = [
+        judgement
         for judgement in judgements
-    ):
+        if judgement["parse_success"]
+    ]
+
+    failed = [
+        judgement
+        for judgement in judgements
+        if not judgement["parse_success"]
+    ]
+
+    # Exactly one failed judge.
+    if len(failed) == 1:
+        if (
+            len(successful) == 2
+            and successful[0]["answer"] is None
+            and successful[1]["answer"] is None
+        ):
+            return {
+                "answer": None,
+                "stance": "neutral_or_none",
+                "needs_manual_review": False,
+                "review_reason": None,
+            }
+
         return {
             "answer": None,
             "stance": None,
             "needs_manual_review": True,
-            "review_reason": "one_or_more_judges_failed",
+            "review_reason": "one_judge_failed",
         }
 
+    # Two or more failed judges.
+    if len(failed) >= 2:
+        return {
+            "answer": None,
+            "stance": None,
+            "needs_manual_review": True,
+            "review_reason": "multiple_judges_failed",
+        }
+
+    # All three succeeded.
     buckets = [
         answer_bucket(judgement["answer"])
         for judgement in judgements
     ]
 
+    # All three must agree on coarse stance.
     if len(set(buckets)) != 1:
         return {
             "answer": None,
@@ -326,7 +412,7 @@ def classify_response(
     raw_response: str,
 ) -> dict:
     """
-    Run all 3 judges concurrently for a single Talkie response.
+    Run all 3 judges concurrently for one Talkie response.
     """
     judgements = []
 
@@ -349,7 +435,7 @@ def classify_response(
                 future.result()
             )
 
-    # Restore deterministic judge order.
+    # Restore fixed judge ordering.
     judgement_order = {
         (judge["provider"], judge["model"]): i
         for i, judge in enumerate(JUDGES)
@@ -394,9 +480,7 @@ def load_completed(output_path: Path) -> set[int]:
     return completed
 
 
-def classify_row(
-    row: dict,
-) -> dict:
+def classify_row(row: dict) -> dict:
     result = classify_response(
         question=row["question"],
         allowed_answers=row["allowed_answers"],
@@ -427,7 +511,10 @@ def print_result(
     )
 
     if row["needs_manual_review"]:
-        display = "MANUAL REVIEW"
+        display = (
+            f"MANUAL REVIEW "
+            f"[{row['review_reason']}]"
+        )
     else:
         display = (
             f"{row['answer']!r} "
@@ -518,7 +605,6 @@ def classify_file(
                 )
                 continue
 
-            # Only the main thread writes, but keep this explicit/safe.
             with write_lock:
                 f_out.write(
                     json.dumps(

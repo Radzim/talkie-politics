@@ -1,11 +1,7 @@
 import os
-
 from openai import OpenAI
 
-
-_openai_client = OpenAI(
-    api_key=os.environ["OPENAI_API_KEY"]
-)
+REQUEST_TIMEOUT_SECONDS = 45.0
 
 _uis_client = OpenAI(
     api_key=os.environ["UIS_API_KEY"],
@@ -13,37 +9,44 @@ _uis_client = OpenAI(
         "UIS_BASE_URL",
         "https://llm.hpc.cam.ac.uk/v1",
     ),
+    timeout=REQUEST_TIMEOUT_SECONDS,
+    max_retries=0,
+)
+
+_openai_client = OpenAI(
+    api_key=os.environ["OPENAI_API_KEY"],
+    timeout=REQUEST_TIMEOUT_SECONDS,
+    max_retries=0,
 )
 
 
 def ask_llm(
-    model: str,
-    prompt: str,
+    model,
+    prompt,
     *,
-    provider: str = "openai",
-    reasoning_effort: str = "low",
+    provider="openai",
+    reasoning_effort="low",
 ) -> str:
     if provider == "openai":
         return ask_openai(
-            model=model,
-            prompt=prompt,
+            model,
+            prompt,
             reasoning_effort=reasoning_effort,
         )
 
     if provider == "cambridge":
         return ask_cambridge(
-            model=model,
-            prompt=prompt,
+            model,
+            prompt,
         )
 
-    raise ValueError(f"Unknown provider: {provider!r}")
+    raise ValueError(f"Unknown provider: {provider}")
 
 
 def ask_openai(
-    model: str,
-    prompt: str,
-    *,
-    reasoning_effort: str = "low",
+    model,
+    prompt,
+    reasoning_effort="low",
 ) -> str:
     response = _openai_client.responses.create(
         model=model,
@@ -53,12 +56,19 @@ def ask_openai(
         },
     )
 
-    return response.output_text
+    text = response.output_text
+
+    if not text:
+        raise ValueError(
+            f"{model} returned no output text"
+        )
+
+    return text
 
 
 def ask_cambridge(
-    model: str,
-    prompt: str,
+    model,
+    prompt,
 ) -> str:
     response = _uis_client.chat.completions.create(
         model=model,
@@ -73,9 +83,9 @@ def ask_cambridge(
 
     content = response.choices[0].message.content
 
-    if content is None:
+    if not content:
         raise ValueError(
-            f"Cambridge model {model!r} returned no text."
+            f"{model} returned no content"
         )
 
     return content
