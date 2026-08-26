@@ -142,17 +142,26 @@ def run_test(
 def main() -> None:
     start_time = time.perf_counter()
 
-    for trial in range(1, N_TRIALS + 1):
+    for model_name in MODELS:
         print()
         print("#" * 80)
-        print(f"TRIAL {trial}/{N_TRIALS}")
+        print(f"LOADING MODEL: {MODEL_OUTPUT_NAMES[model_name]}")
         print("#" * 80)
 
-        for model_name in MODELS:
-            print()
-            print(f"Loading model: {model_name}")
+        load_start = time.perf_counter()
+        load_model(model_name)
+        load_elapsed = time.perf_counter() - load_start
 
-            load_model(model_name)
+        print(f"Model loaded in {load_elapsed:.1f} seconds.")
+
+        for trial in range(1, N_TRIALS + 1):
+            print()
+            print("#" * 80)
+            print(
+                f"{MODEL_OUTPUT_NAMES[model_name]} "
+                f"— TRIAL {trial}/{N_TRIALS}"
+            )
+            print("#" * 80)
 
             for test_name in TESTS:
                 run_test(
