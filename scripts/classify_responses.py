@@ -21,22 +21,13 @@ TESTS = {
 }
 
 JUDGES = [
-    {
-        "provider": "openai",
-        "model": "gpt-5.6-terra",
-    },
-    {
-        "provider": "cambridge",
-        "model": "Qwen/Qwen3.8-27B-FP8",
-    },
-    {
-        "provider": "cambridge",
-        "model": "zai-org/GLM-5.2-FP8",
-    },
+    {"provider": "openai", "model": "gpt-5.6-terra"},
+    {"provider": "cambridge", "model": "moonshotai/Kimi-K3"},
+    {"provider": "cambridge", "model": "zai-org/GLM-5.2-FP8"},
 ]
 
 MAX_RETRIES = 3
-MAX_WORKERS = 5
+MAX_WORKERS = 10
 
 
 class Reason(str, Enum):
@@ -88,15 +79,7 @@ If answer is null, reason must be random_or_unrelated or unclear_or_contradictor
 
 def clean_json_response(raw: str) -> str:
     """
-    Remove common markdown code fences around JSON.
-
-    Example:
-        ```json
-        {"answer": null, "reason": "random_or_unrelated"}
-        ```
-
-    becomes:
-        {"answer": null, "reason": "random_or_unrelated"}
+    Remove common Markdown code fences around JSON.
     """
     cleaned = raw.strip()
 
@@ -150,6 +133,7 @@ RAW RESPONSE:
 
             try:
                 result = json.loads(cleaned)
+
             except json.JSONDecodeError as e:
                 print(
                     f"\n{provider}/{model}: JSON parse error "
@@ -166,7 +150,8 @@ RAW RESPONSE:
 
             if answer is not None and answer not in allowed_answers:
                 raise ValueError(
-                    f"Invalid answer {answer!r}; allowed: {allowed_answers}"
+                    f"Invalid answer {answer!r}; "
+                    f"allowed: {allowed_answers}"
                 )
 
             if reason not in VALID_REASONS:
@@ -179,7 +164,8 @@ RAW RESPONSE:
                 Reason.MOSTLY_CLEAR.value,
             }:
                 raise ValueError(
-                    f"Inconsistent answer/reason: {answer!r}, {reason!r}"
+                    f"Inconsistent answer/reason: "
+                    f"{answer!r}, {reason!r}"
                 )
 
             if answer is None and reason in {
@@ -187,7 +173,8 @@ RAW RESPONSE:
                 Reason.MOSTLY_CLEAR.value,
             }:
                 raise ValueError(
-                    f"Inconsistent answer/reason: None, {reason!r}"
+                    f"Inconsistent answer/reason: "
+                    f"None, {reason!r}"
                 )
 
             return {
@@ -225,7 +212,8 @@ RAW RESPONSE:
             delay = 2 ** (attempt - 1)
 
             print(
-                f"{provider}/{model}: retrying in {delay}s...",
+                f"{provider}/{model}: "
+                f"retrying in {delay}s...",
                 flush=True,
             )
 
@@ -242,9 +230,11 @@ RAW RESPONSE:
     }
 
 
-def answer_bucket(answer: str | None) -> str:
+def answer_bucket(
+    answer: str | None,
+) -> str:
     """
-    Collapse exact answers into three broad stance buckets:
+    Collapse exact answers into:
 
     agree
     disagree
@@ -255,10 +245,14 @@ def answer_bucket(answer: str | None) -> str:
 
     normalized = answer.strip().lower()
 
-    if "neutral" in normalized or "unsure" in normalized:
+    if (
+        "neutral" in normalized
+        or "unsure" in normalized
+    ):
         return "neutral_or_none"
 
-    # Check disagree first because "disagree" contains "agree".
+    # Check disagree first because "disagree"
+    # contains the substring "agree".
     if "disagree" in normalized:
         return "disagree"
 
@@ -266,7 +260,8 @@ def answer_bucket(answer: str | None) -> str:
         return "agree"
 
     raise ValueError(
-        f"Cannot map answer to stance bucket: {answer!r}"
+        f"Cannot map answer to stance bucket: "
+        f"{answer!r}"
     )
 
 
@@ -276,12 +271,14 @@ def choose_exact_answer(
     allowed_answers: list[str],
 ) -> str | None:
     """
-    Called only after the judges agree on the coarse stance.
+    Called only when coarse stance is agreed.
 
-    Exact answer:
-    - use exact majority if available
-    - if no exact majority within agree/disagree, prefer non-strong answer
-    - if no exact majority within neutral_or_none, use None
+    Rules:
+    - exact majority wins
+    - if no exact majority within agree/disagree,
+      prefer the non-strong answer
+    - if no exact majority within neutral_or_none,
+      return None
     """
     answers = [
         judgement["answer"]
@@ -289,7 +286,10 @@ def choose_exact_answer(
     ]
 
     counts = Counter(answers)
-    most_common_answer, most_common_count = counts.most_common(1)[0]
+
+    most_common_answer, most_common_count = (
+        counts.most_common(1)[0]
+    )
 
     if most_common_count >= 2:
         return most_common_answer
@@ -299,8 +299,10 @@ def choose_exact_answer(
 
     for allowed_answer in allowed_answers:
         if (
-            answer_bucket(allowed_answer) == winning_bucket
-            and "strong" not in allowed_answer.lower()
+            answer_bucket(allowed_answer)
+            == winning_bucket
+            and "strong"
+            not in allowed_answer.lower()
         ):
             return allowed_answer
 
@@ -315,23 +317,14 @@ def combine_judgements(
     Consensus rules:
 
     All 3 judges successful:
-        all 3 must agree on the coarse stance.
+        all 3 must agree on coarse stance.
 
     Exactly 1 failed judge:
-        normally manual review.
-        Exception: if the other 2 both returned exactly None,
-        automatically accept None.
+        manual review, EXCEPT when both
+        successful judges returned exactly None.
 
     2+ failed judges:
         manual review.
-
-    Differences in:
-        Agree vs Strongly agree
-        Disagree vs Strongly disagree
-        Neutral vs None
-        clear_answer vs mostly_clear_answer
-
-    do not matter if all successful judges satisfy the rules above.
     """
     successful = [
         judgement
@@ -381,7 +374,7 @@ def combine_judgements(
         for judgement in judgements
     ]
 
-    # All three must agree on coarse stance.
+    # Require unanimous coarse stance.
     if len(set(buckets)) != 1:
         return {
             "answer": None,
@@ -412,7 +405,8 @@ def classify_response(
     raw_response: str,
 ) -> dict:
     """
-    Run all 3 judges concurrently for one Talkie response.
+    Run all three judges concurrently for one
+    Talkie response.
     """
     judgements = []
 
@@ -430,14 +424,19 @@ def classify_response(
             for judge in JUDGES
         }
 
-        for future in as_completed(future_to_judge):
+        for future in as_completed(
+            future_to_judge
+        ):
             judgements.append(
                 future.result()
             )
 
     # Restore fixed judge ordering.
     judgement_order = {
-        (judge["provider"], judge["model"]): i
+        (
+            judge["provider"],
+            judge["model"],
+        ): i
         for i, judge in enumerate(JUDGES)
     }
 
@@ -461,26 +460,143 @@ def classify_response(
     }
 
 
-def load_completed(output_path: Path) -> set[int]:
+def read_existing_rows(
+    output_path: Path,
+) -> list[dict]:
+    """
+    Read all rows from an existing classified JSONL.
+    """
     if not output_path.exists():
-        return set()
+        return []
 
-    completed = set()
+    rows = []
 
     with output_path.open(
         "r",
         encoding="utf-8",
     ) as f:
         for line in f:
-            if line.strip():
-                completed.add(
-                    json.loads(line)["question_index"]
+            if not line.strip():
+                continue
+
+            rows.append(
+                json.loads(line)
+            )
+
+    return rows
+
+
+def prepare_output_file(
+    output_path: Path,
+) -> set[int]:
+    """
+    Prepare the classified file before a new pass.
+
+    Resolved rows:
+        retained and treated as completed.
+
+    needs_manual_review=True rows:
+        removed completely, making them equivalent
+        to missing rows so they are judged again.
+
+    Existing rows are sorted by question_index.
+
+    Duplicate question indices are collapsed by
+    keeping the last retained occurrence.
+    """
+    if not output_path.exists():
+        return set()
+
+    rows = read_existing_rows(
+        output_path
+    )
+
+    kept_rows = [
+        row
+        for row in rows
+        if not row.get(
+            "needs_manual_review",
+            False,
+        )
+    ]
+
+    # In case duplicates exist, keep the last
+    # non-flagged occurrence.
+    rows_by_index = {
+        row["question_index"]: row
+        for row in kept_rows
+    }
+
+    kept_rows = sorted(
+        rows_by_index.values(),
+        key=lambda row: row["question_index"],
+    )
+
+    # Rewrite without flagged rows.
+    with output_path.open(
+        "w",
+        encoding="utf-8",
+    ) as f:
+        for row in kept_rows:
+            f.write(
+                json.dumps(
+                    row,
+                    ensure_ascii=False,
                 )
+                + "\n"
+            )
 
-    return completed
+    return {
+        row["question_index"]
+        for row in kept_rows
+    }
 
 
-def classify_row(row: dict) -> dict:
+def sort_output_file(
+    output_path: Path,
+) -> None:
+    """
+    Sort the final JSONL by question_index.
+
+    Since results arrive via as_completed(), they are
+    naturally written in completion order rather than
+    questionnaire order.
+    """
+    if not output_path.exists():
+        return
+
+    rows = read_existing_rows(
+        output_path
+    )
+
+    # Protect against accidental duplicate indices.
+    rows_by_index = {
+        row["question_index"]: row
+        for row in rows
+    }
+
+    sorted_rows = sorted(
+        rows_by_index.values(),
+        key=lambda row: row["question_index"],
+    )
+
+    with output_path.open(
+        "w",
+        encoding="utf-8",
+    ) as f:
+        for row in sorted_rows:
+            f.write(
+                json.dumps(
+                    row,
+                    ensure_ascii=False,
+                )
+                + "\n"
+            )
+
+
+def classify_row(
+    row: dict,
+) -> dict:
     result = classify_response(
         question=row["question"],
         allowed_answers=row["allowed_answers"],
@@ -491,8 +607,12 @@ def classify_row(row: dict) -> dict:
         **row,
         "answer": result["answer"],
         "stance": result["stance"],
-        "needs_manual_review": result["needs_manual_review"],
-        "review_reason": result["review_reason"],
+        "needs_manual_review": (
+            result["needs_manual_review"]
+        ),
+        "review_reason": (
+            result["review_reason"]
+        ),
         "judgements": result["judgements"],
     }
 
@@ -515,6 +635,7 @@ def print_result(
             f"MANUAL REVIEW "
             f"[{row['review_reason']}]"
         )
+
     else:
         display = (
             f"{row['answer']!r} "
@@ -524,7 +645,8 @@ def print_result(
     print(
         f"{input_path.name} "
         f"Q{row['question_index']}: "
-        f"{display} | {judge_summary}",
+        f"{display} | "
+        f"{judge_summary}",
         flush=True,
     )
 
@@ -538,7 +660,14 @@ def classify_file(
         exist_ok=True,
     )
 
-    completed = load_completed(output_path)
+    # IMPORTANT:
+    #
+    # Any previously flagged rows are removed here.
+    # Therefore they behave exactly like missing rows
+    # and are reclassified during this run.
+    completed = prepare_output_file(
+        output_path
+    )
 
     rows_to_classify = []
 
@@ -552,21 +681,36 @@ def classify_file(
 
             row = json.loads(line)
 
-            if row["question_index"] in completed:
+            if (
+                row["question_index"]
+                in completed
+            ):
                 continue
 
-            rows_to_classify.append(row)
+            rows_to_classify.append(
+                row
+            )
+
+    # Deterministic submission order.
+    rows_to_classify.sort(
+        key=lambda row: row["question_index"]
+    )
 
     if not rows_to_classify:
         print(
-            f"{input_path.name}: already complete",
+            f"{input_path.name}: "
+            f"already complete",
             flush=True,
         )
+
+        # Existing file is already sorted by
+        # prepare_output_file().
         return
 
     print(
         f"{input_path.name}: "
-        f"classifying {len(rows_to_classify)} responses "
+        f"classifying "
+        f"{len(rows_to_classify)} responses "
         f"with {MAX_WORKERS} workers",
         flush=True,
     )
@@ -590,11 +734,17 @@ def classify_file(
             for row in rows_to_classify
         }
 
-        for future in as_completed(future_to_row):
-            original_row = future_to_row[future]
+        for future in as_completed(
+            future_to_row
+        ):
+            original_row = (
+                future_to_row[future]
+            )
 
             try:
-                classified_row = future.result()
+                classified_row = (
+                    future.result()
+                )
 
             except Exception as e:
                 print(
@@ -613,12 +763,19 @@ def classify_file(
                     )
                     + "\n"
                 )
+
                 f_out.flush()
 
             print_result(
                 input_path=input_path,
                 row=classified_row,
             )
+
+    # Restore questionnaire order after concurrent
+    # writes.
+    sort_output_file(
+        output_path
+    )
 
 
 def main() -> None:
@@ -636,28 +793,34 @@ def main() -> None:
     )
 
     print(
-        f"Using {MAX_WORKERS} concurrent responses "
-        f"and {len(JUDGES)} concurrent judges per response.",
+        f"Using {MAX_WORKERS} concurrent "
+        f"responses and {len(JUDGES)} "
+        f"concurrent judges per response.",
         flush=True,
     )
 
     print(
-        f"Maximum theoretical concurrent API calls: "
+        f"Maximum theoretical concurrent "
+        f"API calls: "
         f"{MAX_WORKERS * len(JUDGES)}",
         flush=True,
     )
 
     for input_path in input_files:
-        relative_path = input_path.relative_to(
-            RESULTS_DIR
+        relative_path = (
+            input_path.relative_to(
+                RESULTS_DIR
+            )
         )
 
         output_path = (
-            CLASSIFIED_DIR / relative_path
+            CLASSIFIED_DIR
+            / relative_path
         )
 
         print(
-            f"\nClassifying {relative_path}",
+            f"\nClassifying "
+            f"{relative_path}",
             flush=True,
         )
 

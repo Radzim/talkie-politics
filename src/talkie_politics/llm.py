@@ -1,7 +1,9 @@
 import os
 from openai import OpenAI
+import random
+import time
 
-REQUEST_TIMEOUT_SECONDS = 45.0
+REQUEST_TIMEOUT_SECONDS = 180
 
 _uis_client = OpenAI(
     api_key=os.environ["UIS_API_KEY"],
@@ -27,6 +29,7 @@ def ask_llm(
     provider="openai",
     reasoning_effort="low",
 ) -> str:
+    time.sleep(random.uniform(0, 5))
     if provider == "openai":
         return ask_openai(
             model,
