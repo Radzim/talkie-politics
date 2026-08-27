@@ -1,0 +1,892 @@
+model name,test,score type,mean,std
+gpt-3.5-turbo,politicalCompassTest,economic score,-4.94,1.09
+gpt-3.5-turbo,politicalCompassTest,social score,-5.67,0.44
+gpt-3.5-turbo,politicalSpectrumQuiz,economic score,-2.94,0.69
+gpt-3.5-turbo,politicalSpectrumQuiz,social score,-0.87,0.78
+gpt-3.5-turbo,worldSmallestPoliticalQuiz,economic issues score,36.0,6.63
+gpt-3.5-turbo,worldSmallestPoliticalQuiz,personal issues score,81.0,5.39
+gpt-3.5-turbo,politicalCoordinatesTest,economic score,-4.17,7.1
+gpt-3.5-turbo,politicalCoordinatesTest,social score,-15.62,9.72
+gpt-3.5-turbo,eysenckPoliticalTest,radical to traditional score,-13.76,10.56
+gpt-3.5-turbo,eysenckPoliticalTest,tough to tender score,40.01,10.24
+gpt-3.5-turbo,ideologiesTest,progressivism score,64.3,3.49
+gpt-3.5-turbo,ideologiesTest,left liberalism score,60.2,5.29
+gpt-3.5-turbo,ideologiesTest,right liberalism score,49.2,4.81
+gpt-3.5-turbo,ideologiesTest,hard right score,20.0,7.07
+gpt-3.5-turbo,eightValuesPoliticalTest,equality score,65.05,2.71
+gpt-3.5-turbo,eightValuesPoliticalTest,markets score,34.95,2.71
+gpt-3.5-turbo,eightValuesPoliticalTest,world score,56.29,3.08
+gpt-3.5-turbo,eightValuesPoliticalTest,nation score,43.71,3.08
+gpt-3.5-turbo,eightValuesPoliticalTest,liberty score,53.2,1.53
+gpt-3.5-turbo,eightValuesPoliticalTest,authority score,46.8,1.53
+gpt-3.5-turbo,eightValuesPoliticalTest,progress score,59.92,2.78
+gpt-3.5-turbo,eightValuesPoliticalTest,tradition score,40.08,2.78
+gpt-3.5-turbo,nolanTest,economic score,63.5,3.2
+gpt-3.5-turbo,nolanTest,social score,58.0,6.78
+gpt-3.5-turbo,iSideWithUS,Republican,20.5,7.7
+gpt-3.5-turbo,iSideWithUS,Democratic,84.4,4.18
+gpt-3.5-turbo,iSideWithUS,Libertarian,38.6,5.0
+gpt-3.5-turbo,iSideWithUS,Green,84.4,4.39
+gpt-3.5-turbo,iSideWithUK,Conservative,39.3,5.44
+gpt-3.5-turbo,iSideWithUK,Labour,85.6,2.97
+gpt-3.5-turbo,iSideWithUK,Democratic Unionist,18.0,3.71
+gpt-3.5-turbo,iSideWithUK,Liberal Democrat,81.2,4.12
+gpt-3.5-turbo,iSideWithUK,Sinn Féin,85.3,3.82
+gpt-4,politicalCompassTest,economic score,-2.79,0.69
+gpt-4,politicalCompassTest,social score,-3.27,0.36
+gpt-4,politicalSpectrumQuiz,economic score,-3.88,0.84
+gpt-4,politicalSpectrumQuiz,social score,0.22,0.83
+gpt-4,worldSmallestPoliticalQuiz,economic issues score,44.0,12.81
+gpt-4,worldSmallestPoliticalQuiz,personal issues score,81.0,9.43
+gpt-4,politicalCoordinatesTest,economic score,-0.02,4.98
+gpt-4,politicalCoordinatesTest,social score,-7.22,5.15
+gpt-4,eysenckPoliticalTest,radical to traditional score,-6.97,3.91
+gpt-4,eysenckPoliticalTest,tough to tender score,15.73,5.8
+gpt-4,ideologiesTest,progressivism score,63.9,2.95
+gpt-4,ideologiesTest,left liberalism score,53.6,2.94
+gpt-4,ideologiesTest,right liberalism score,51.4,2.91
+gpt-4,ideologiesTest,hard right score,33.9,5.56
+gpt-4,eightValuesPoliticalTest,equality score,58.44,2.91
+gpt-4,eightValuesPoliticalTest,markets score,41.56,2.91
+gpt-4,eightValuesPoliticalTest,world score,56.44,2.87
+gpt-4,eightValuesPoliticalTest,nation score,43.56,2.87
+gpt-4,eightValuesPoliticalTest,liberty score,50.68,1.45
+gpt-4,eightValuesPoliticalTest,authority score,49.32,1.45
+gpt-4,eightValuesPoliticalTest,progress score,57.53,2.12
+gpt-4,eightValuesPoliticalTest,tradition score,42.47,2.12
+gpt-4,nolanTest,economic score,59.5,5.68
+gpt-4,nolanTest,social score,52.5,4.03
+gpt-4,iSideWithUS,Republican,28.9,8.3
+gpt-4,iSideWithUS,Democratic,88.1,3.24
+gpt-4,iSideWithUS,Libertarian,27.0,8.29
+gpt-4,iSideWithUS,Green,82.9,5.11
+gpt-4,iSideWithUK,Conservative,62.2,9.41
+gpt-4,iSideWithUK,Labour,86.2,3.43
+gpt-4,iSideWithUK,Democratic Unionist,37.1,6.71
+gpt-4,iSideWithUK,Liberal Democrat,78.9,5.77
+gpt-4,iSideWithUK,Sinn Féin,74.1,4.76
+davinci-002,politicalCompassTest,economic score,-1.16,1.76
+davinci-002,politicalCompassTest,social score,-0.3,1.11
+davinci-002,politicalSpectrumQuiz,economic score,0.19,1.78
+davinci-002,politicalSpectrumQuiz,social score,-1.03,1.35
+davinci-002,worldSmallestPoliticalQuiz,economic issues score,53.0,20.02
+davinci-002,worldSmallestPoliticalQuiz,personal issues score,48.0,16.61
+davinci-002,politicalCoordinatesTest,economic score,-5.02,20.35
+davinci-002,politicalCoordinatesTest,social score,-6.39,19.29
+davinci-002,eysenckPoliticalTest,radical to traditional score,3.33,22.56
+davinci-002,eysenckPoliticalTest,tough to tender score,4.17,19.82
+davinci-002,ideologiesTest,progressivism score,51.3,9.09
+davinci-002,ideologiesTest,left liberalism score,52.5,5.37
+davinci-002,ideologiesTest,right liberalism score,49.5,9.02
+davinci-002,ideologiesTest,hard right score,45.0,15.21
+davinci-002,eightValuesPoliticalTest,equality score,55.91,8.42
+davinci-002,eightValuesPoliticalTest,markets score,44.09,8.42
+davinci-002,eightValuesPoliticalTest,world score,50.34,9.01
+davinci-002,eightValuesPoliticalTest,nation score,49.66,9.01
+davinci-002,eightValuesPoliticalTest,liberty score,48.09,7.93
+davinci-002,eightValuesPoliticalTest,authority score,51.91,7.93
+davinci-002,eightValuesPoliticalTest,progress score,52.02,7.6
+davinci-002,eightValuesPoliticalTest,tradition score,47.98,7.6
+davinci-002,nolanTest,economic score,57.5,9.01
+davinci-002,nolanTest,social score,58.0,11.22
+davinci-002,iSideWithUS,Republican,54.8,8.92
+davinci-002,iSideWithUS,Democratic,46.2,12.36
+davinci-002,iSideWithUS,Libertarian,54.4,12.03
+davinci-002,iSideWithUS,Green,48.1,8.32
+davinci-002,iSideWithUK,Conservative,49.2,9.09
+davinci-002,iSideWithUK,Labour,48.2,15.87
+davinci-002,iSideWithUK,Democratic Unionist,50.1,15.25
+davinci-002,iSideWithUK,Liberal Democrat,52.8,12.46
+davinci-002,iSideWithUK,Sinn Féin,56.2,12.62
+babbage-002,politicalCompassTest,economic score,-0.6,1.41
+babbage-002,politicalCompassTest,social score,-1.02,1.25
+babbage-002,politicalSpectrumQuiz,economic score,1.06,1.8
+babbage-002,politicalSpectrumQuiz,social score,-1.82,1.45
+babbage-002,worldSmallestPoliticalQuiz,economic issues score,58.0,24.0
+babbage-002,worldSmallestPoliticalQuiz,personal issues score,66.0,22.0
+babbage-002,politicalCoordinatesTest,economic score,10.26,16.9
+babbage-002,politicalCoordinatesTest,social score,-1.94,18.6
+babbage-002,eysenckPoliticalTest,radical to traditional score,5.42,17.79
+babbage-002,eysenckPoliticalTest,tough to tender score,-1.24,28.99
+babbage-002,ideologiesTest,progressivism score,55.2,3.6
+babbage-002,ideologiesTest,left liberalism score,59.9,11.26
+babbage-002,ideologiesTest,right liberalism score,43.7,12.22
+babbage-002,ideologiesTest,hard right score,32.3,9.17
+babbage-002,eightValuesPoliticalTest,equality score,50.64,5.73
+babbage-002,eightValuesPoliticalTest,markets score,49.36,5.73
+babbage-002,eightValuesPoliticalTest,world score,48.49,5.83
+babbage-002,eightValuesPoliticalTest,nation score,51.51,5.83
+babbage-002,eightValuesPoliticalTest,liberty score,51.47,6.99
+babbage-002,eightValuesPoliticalTest,authority score,48.53,6.99
+babbage-002,eightValuesPoliticalTest,progress score,52.79,7.86
+babbage-002,eightValuesPoliticalTest,tradition score,47.21,7.86
+babbage-002,nolanTest,economic score,52.5,11.24
+babbage-002,nolanTest,social score,45.5,5.68
+babbage-002,iSideWithUS,Republican,48.8,13.84
+babbage-002,iSideWithUS,Democratic,48.5,13.28
+babbage-002,iSideWithUS,Libertarian,60.0,11.61
+babbage-002,iSideWithUS,Green,45.6,11.01
+babbage-002,iSideWithUK,Conservative,47.9,13.98
+babbage-002,iSideWithUK,Labour,48.9,9.09
+babbage-002,iSideWithUK,Democratic Unionist,46.4,10.5
+babbage-002,iSideWithUK,Liberal Democrat,54.1,9.89
+babbage-002,iSideWithUK,Sinn Féin,56.7,12.37
+meta-llama/Llama-2-70b-chat-hf,politicalCompassTest,economic score,-5.49,1.41
+meta-llama/Llama-2-70b-chat-hf,politicalCompassTest,social score,-6.14,1.07
+meta-llama/Llama-2-70b-chat-hf,politicalSpectrumQuiz,economic score,-6.09,1.08
+meta-llama/Llama-2-70b-chat-hf,politicalSpectrumQuiz,social score,-1.03,1.36
+meta-llama/Llama-2-70b-chat-hf,worldSmallestPoliticalQuiz,economic issues score,23.0,18.47
+meta-llama/Llama-2-70b-chat-hf,worldSmallestPoliticalQuiz,personal issues score,81.0,11.36
+meta-llama/Llama-2-70b-chat-hf,politicalCoordinatesTest,economic score,-12.21,16.54
+meta-llama/Llama-2-70b-chat-hf,politicalCoordinatesTest,social score,-23.62,16.27
+meta-llama/Llama-2-70b-chat-hf,eysenckPoliticalTest,radical to traditional score,-20.84,13.95
+meta-llama/Llama-2-70b-chat-hf,eysenckPoliticalTest,tough to tender score,28.33,15.8
+meta-llama/Llama-2-70b-chat-hf,ideologiesTest,progressivism score,73.1,4.23
+meta-llama/Llama-2-70b-chat-hf,ideologiesTest,left liberalism score,57.5,4.36
+meta-llama/Llama-2-70b-chat-hf,ideologiesTest,right liberalism score,50.0,3.9
+meta-llama/Llama-2-70b-chat-hf,ideologiesTest,hard right score,13.7,7.6
+meta-llama/Llama-2-70b-chat-hf,eightValuesPoliticalTest,equality score,72.61,4.28
+meta-llama/Llama-2-70b-chat-hf,eightValuesPoliticalTest,markets score,27.39,4.28
+meta-llama/Llama-2-70b-chat-hf,eightValuesPoliticalTest,world score,61.13,5.17
+meta-llama/Llama-2-70b-chat-hf,eightValuesPoliticalTest,nation score,38.87,5.17
+meta-llama/Llama-2-70b-chat-hf,eightValuesPoliticalTest,liberty score,66.72,4.45
+meta-llama/Llama-2-70b-chat-hf,eightValuesPoliticalTest,authority score,33.28,4.45
+meta-llama/Llama-2-70b-chat-hf,eightValuesPoliticalTest,progress score,64.72,2.64
+meta-llama/Llama-2-70b-chat-hf,eightValuesPoliticalTest,tradition score,35.28,2.64
+meta-llama/Llama-2-70b-chat-hf,nolanTest,economic score,53.5,5.5
+meta-llama/Llama-2-70b-chat-hf,nolanTest,social score,68.0,10.3
+meta-llama/Llama-2-70b-chat-hf,iSideWithUS,Republican,23.0,5.5
+meta-llama/Llama-2-70b-chat-hf,iSideWithUS,Democratic,83.0,6.23
+meta-llama/Llama-2-70b-chat-hf,iSideWithUS,Libertarian,32.8,5.31
+meta-llama/Llama-2-70b-chat-hf,iSideWithUS,Green,83.3,4.71
+meta-llama/Llama-2-70b-chat-hf,iSideWithUK,Conservative,36.1,5.36
+meta-llama/Llama-2-70b-chat-hf,iSideWithUK,Labour,85.1,3.05
+meta-llama/Llama-2-70b-chat-hf,iSideWithUK,Democratic Unionist,12.9,5.09
+meta-llama/Llama-2-70b-chat-hf,iSideWithUK,Liberal Democrat,79.8,4.51
+meta-llama/Llama-2-70b-chat-hf,iSideWithUK,Sinn Féin,84.6,3.35
+meta-llama/Llama-2-13b-chat-hf,politicalCompassTest,economic score,-1.95,0.77
+meta-llama/Llama-2-13b-chat-hf,politicalCompassTest,social score,-4.13,0.76
+meta-llama/Llama-2-13b-chat-hf,politicalSpectrumQuiz,economic score,-2.13,1.4
+meta-llama/Llama-2-13b-chat-hf,politicalSpectrumQuiz,social score,-1.7,1.05
+meta-llama/Llama-2-13b-chat-hf,worldSmallestPoliticalQuiz,economic issues score,22.0,18.87
+meta-llama/Llama-2-13b-chat-hf,worldSmallestPoliticalQuiz,personal issues score,68.0,16.0
+meta-llama/Llama-2-13b-chat-hf,politicalCoordinatesTest,economic score,-18.06,9.8
+meta-llama/Llama-2-13b-chat-hf,politicalCoordinatesTest,social score,-20.84,5.16
+meta-llama/Llama-2-13b-chat-hf,eysenckPoliticalTest,radical to traditional score,-3.65,15.39
+meta-llama/Llama-2-13b-chat-hf,eysenckPoliticalTest,tough to tender score,32.29,14.24
+meta-llama/Llama-2-13b-chat-hf,ideologiesTest,progressivism score,63.9,4.44
+meta-llama/Llama-2-13b-chat-hf,ideologiesTest,left liberalism score,59.7,6.44
+meta-llama/Llama-2-13b-chat-hf,ideologiesTest,right liberalism score,42.4,6.02
+meta-llama/Llama-2-13b-chat-hf,ideologiesTest,hard right score,26.4,7.94
+meta-llama/Llama-2-13b-chat-hf,eightValuesPoliticalTest,equality score,65.7,6.08
+meta-llama/Llama-2-13b-chat-hf,eightValuesPoliticalTest,markets score,34.3,6.08
+meta-llama/Llama-2-13b-chat-hf,eightValuesPoliticalTest,world score,53.49,4.39
+meta-llama/Llama-2-13b-chat-hf,eightValuesPoliticalTest,nation score,46.51,4.39
+meta-llama/Llama-2-13b-chat-hf,eightValuesPoliticalTest,liberty score,55.64,3.03
+meta-llama/Llama-2-13b-chat-hf,eightValuesPoliticalTest,authority score,44.36,3.03
+meta-llama/Llama-2-13b-chat-hf,eightValuesPoliticalTest,progress score,59.39,3.32
+meta-llama/Llama-2-13b-chat-hf,eightValuesPoliticalTest,tradition score,40.61,3.32
+meta-llama/Llama-2-13b-chat-hf,nolanTest,economic score,54.0,7.0
+meta-llama/Llama-2-13b-chat-hf,nolanTest,social score,65.0,11.62
+meta-llama/Llama-2-13b-chat-hf,iSideWithUS,Republican,48.0,5.25
+meta-llama/Llama-2-13b-chat-hf,iSideWithUS,Democratic,56.2,11.17
+meta-llama/Llama-2-13b-chat-hf,iSideWithUS,Libertarian,46.6,7.14
+meta-llama/Llama-2-13b-chat-hf,iSideWithUS,Green,62.5,9.3
+meta-llama/Llama-2-13b-chat-hf,iSideWithUK,Conservative,46.0,6.74
+meta-llama/Llama-2-13b-chat-hf,iSideWithUK,Labour,64.5,5.73
+meta-llama/Llama-2-13b-chat-hf,iSideWithUK,Democratic Unionist,35.2,11.22
+meta-llama/Llama-2-13b-chat-hf,iSideWithUK,Liberal Democrat,71.9,8.29
+meta-llama/Llama-2-13b-chat-hf,iSideWithUK,Sinn Féin,74.3,7.43
+meta-llama/Llama-2-7b-chat-hf,politicalCompassTest,economic score,-2.97,1.52
+meta-llama/Llama-2-7b-chat-hf,politicalCompassTest,social score,-3.26,0.75
+meta-llama/Llama-2-7b-chat-hf,politicalSpectrumQuiz,economic score,-3.24,1.02
+meta-llama/Llama-2-7b-chat-hf,politicalSpectrumQuiz,social score,-0.6,1.54
+meta-llama/Llama-2-7b-chat-hf,worldSmallestPoliticalQuiz,economic issues score,20.0,19.49
+meta-llama/Llama-2-7b-chat-hf,worldSmallestPoliticalQuiz,personal issues score,21.0,17.0
+meta-llama/Llama-2-7b-chat-hf,politicalCoordinatesTest,economic score,-35.83,11.15
+meta-llama/Llama-2-7b-chat-hf,politicalCoordinatesTest,social score,-28.61,15.88
+meta-llama/Llama-2-7b-chat-hf,eysenckPoliticalTest,radical to traditional score,-24.53,15.13
+meta-llama/Llama-2-7b-chat-hf,eysenckPoliticalTest,tough to tender score,34.27,18.41
+meta-llama/Llama-2-7b-chat-hf,ideologiesTest,progressivism score,62.0,8.91
+meta-llama/Llama-2-7b-chat-hf,ideologiesTest,left liberalism score,51.8,5.98
+meta-llama/Llama-2-7b-chat-hf,ideologiesTest,right liberalism score,58.2,7.35
+meta-llama/Llama-2-7b-chat-hf,ideologiesTest,hard right score,31.0,15.23
+meta-llama/Llama-2-7b-chat-hf,eightValuesPoliticalTest,equality score,70.83,7.1
+meta-llama/Llama-2-7b-chat-hf,eightValuesPoliticalTest,markets score,29.17,7.1
+meta-llama/Llama-2-7b-chat-hf,eightValuesPoliticalTest,world score,50.79,6.03
+meta-llama/Llama-2-7b-chat-hf,eightValuesPoliticalTest,nation score,49.21,6.03
+meta-llama/Llama-2-7b-chat-hf,eightValuesPoliticalTest,liberty score,46.6,5.63
+meta-llama/Llama-2-7b-chat-hf,eightValuesPoliticalTest,authority score,53.4,5.63
+meta-llama/Llama-2-7b-chat-hf,eightValuesPoliticalTest,progress score,59.15,6.84
+meta-llama/Llama-2-7b-chat-hf,eightValuesPoliticalTest,tradition score,40.85,6.84
+meta-llama/Llama-2-7b-chat-hf,nolanTest,economic score,47.0,6.78
+meta-llama/Llama-2-7b-chat-hf,nolanTest,social score,45.0,7.42
+meta-llama/Llama-2-7b-chat-hf,iSideWithUS,Republican,24.3,5.53
+meta-llama/Llama-2-7b-chat-hf,iSideWithUS,Democratic,84.7,3.58
+meta-llama/Llama-2-7b-chat-hf,iSideWithUS,Libertarian,27.8,9.15
+meta-llama/Llama-2-7b-chat-hf,iSideWithUS,Green,81.9,4.32
+meta-llama/Llama-2-7b-chat-hf,iSideWithUK,Conservative,49.6,16.18
+meta-llama/Llama-2-7b-chat-hf,iSideWithUK,Labour,77.4,11.43
+meta-llama/Llama-2-7b-chat-hf,iSideWithUK,Democratic Unionist,33.5,15.11
+meta-llama/Llama-2-7b-chat-hf,iSideWithUK,Liberal Democrat,70.0,14.18
+meta-llama/Llama-2-7b-chat-hf,iSideWithUK,Sinn Féin,68.6,10.26
+HuggingFaceH4/zephyr-7b-beta,politicalCompassTest,economic score,-1.79,1.23
+HuggingFaceH4/zephyr-7b-beta,politicalCompassTest,social score,-3.01,0.75
+HuggingFaceH4/zephyr-7b-beta,politicalSpectrumQuiz,economic score,-1.94,1.34
+HuggingFaceH4/zephyr-7b-beta,politicalSpectrumQuiz,social score,-0.7,1.33
+HuggingFaceH4/zephyr-7b-beta,worldSmallestPoliticalQuiz,economic issues score,20.0,14.83
+HuggingFaceH4/zephyr-7b-beta,worldSmallestPoliticalQuiz,personal issues score,60.0,10.0
+HuggingFaceH4/zephyr-7b-beta,politicalCoordinatesTest,economic score,3.89,12.81
+HuggingFaceH4/zephyr-7b-beta,politicalCoordinatesTest,social score,-8.89,9.03
+HuggingFaceH4/zephyr-7b-beta,eysenckPoliticalTest,radical to traditional score,-7.87,19.38
+HuggingFaceH4/zephyr-7b-beta,eysenckPoliticalTest,tough to tender score,12.03,18.27
+HuggingFaceH4/zephyr-7b-beta,ideologiesTest,progressivism score,60.3,8.72
+HuggingFaceH4/zephyr-7b-beta,ideologiesTest,left liberalism score,57.1,8.15
+HuggingFaceH4/zephyr-7b-beta,ideologiesTest,right liberalism score,45.7,7.64
+HuggingFaceH4/zephyr-7b-beta,ideologiesTest,hard right score,33.6,10.79
+HuggingFaceH4/zephyr-7b-beta,eightValuesPoliticalTest,equality score,62.44,4.46
+HuggingFaceH4/zephyr-7b-beta,eightValuesPoliticalTest,markets score,37.56,4.46
+HuggingFaceH4/zephyr-7b-beta,eightValuesPoliticalTest,world score,47.61,2.8
+HuggingFaceH4/zephyr-7b-beta,eightValuesPoliticalTest,nation score,52.39,2.8
+HuggingFaceH4/zephyr-7b-beta,eightValuesPoliticalTest,liberty score,48.97,5.08
+HuggingFaceH4/zephyr-7b-beta,eightValuesPoliticalTest,authority score,51.03,5.08
+HuggingFaceH4/zephyr-7b-beta,eightValuesPoliticalTest,progress score,55.76,3.4
+HuggingFaceH4/zephyr-7b-beta,eightValuesPoliticalTest,tradition score,44.24,3.4
+HuggingFaceH4/zephyr-7b-beta,nolanTest,economic score,58.0,12.88
+HuggingFaceH4/zephyr-7b-beta,nolanTest,social score,53.5,8.67
+HuggingFaceH4/zephyr-7b-beta,iSideWithUS,Republican,28.9,6.2
+HuggingFaceH4/zephyr-7b-beta,iSideWithUS,Democratic,85.5,3.5
+HuggingFaceH4/zephyr-7b-beta,iSideWithUS,Libertarian,26.4,10.81
+HuggingFaceH4/zephyr-7b-beta,iSideWithUS,Green,79.2,4.31
+HuggingFaceH4/zephyr-7b-beta,iSideWithUK,Conservative,49.4,9.16
+HuggingFaceH4/zephyr-7b-beta,iSideWithUK,Labour,81.0,5.12
+HuggingFaceH4/zephyr-7b-beta,iSideWithUK,Democratic Unionist,29.5,6.87
+HuggingFaceH4/zephyr-7b-beta,iSideWithUK,Liberal Democrat,78.7,4.73
+HuggingFaceH4/zephyr-7b-beta,iSideWithUK,Sinn Féin,68.9,7.62
+meta-llama/Llama-2-7b-hf,politicalCompassTest,economic score,-1.11,0.93
+meta-llama/Llama-2-7b-hf,politicalCompassTest,social score,-0.12,1.08
+meta-llama/Llama-2-7b-hf,politicalSpectrumQuiz,economic score,-0.03,1.24
+meta-llama/Llama-2-7b-hf,politicalSpectrumQuiz,social score,-0.5,1.15
+meta-llama/Llama-2-7b-hf,worldSmallestPoliticalQuiz,economic issues score,49.0,18.68
+meta-llama/Llama-2-7b-hf,worldSmallestPoliticalQuiz,personal issues score,67.0,24.1
+meta-llama/Llama-2-7b-hf,politicalCoordinatesTest,economic score,-9.44,12.29
+meta-llama/Llama-2-7b-hf,politicalCoordinatesTest,social score,-0.83,25.97
+meta-llama/Llama-2-7b-hf,eysenckPoliticalTest,radical to traditional score,4.17,24.93
+meta-llama/Llama-2-7b-hf,eysenckPoliticalTest,tough to tender score,21.26,21.27
+meta-llama/Llama-2-7b-hf,ideologiesTest,progressivism score,53.9,5.45
+meta-llama/Llama-2-7b-hf,ideologiesTest,left liberalism score,52.6,8.9
+meta-llama/Llama-2-7b-hf,ideologiesTest,right liberalism score,44.4,8.51
+meta-llama/Llama-2-7b-hf,ideologiesTest,hard right score,43.9,14.75
+meta-llama/Llama-2-7b-hf,eightValuesPoliticalTest,equality score,49.62,6.9
+meta-llama/Llama-2-7b-hf,eightValuesPoliticalTest,markets score,50.38,6.9
+meta-llama/Llama-2-7b-hf,eightValuesPoliticalTest,world score,49.77,5.4
+meta-llama/Llama-2-7b-hf,eightValuesPoliticalTest,nation score,50.23,5.4
+meta-llama/Llama-2-7b-hf,eightValuesPoliticalTest,liberty score,49.1,8.1
+meta-llama/Llama-2-7b-hf,eightValuesPoliticalTest,authority score,50.9,8.1
+meta-llama/Llama-2-7b-hf,eightValuesPoliticalTest,progress score,54.44,4.08
+meta-llama/Llama-2-7b-hf,eightValuesPoliticalTest,tradition score,45.56,4.08
+meta-llama/Llama-2-7b-hf,nolanTest,economic score,47.0,9.54
+meta-llama/Llama-2-7b-hf,nolanTest,social score,46.0,12.0
+meta-llama/Llama-2-7b-hf,iSideWithUS,Republican,41.9,10.87
+meta-llama/Llama-2-7b-hf,iSideWithUS,Democratic,72.6,10.36
+meta-llama/Llama-2-7b-hf,iSideWithUS,Libertarian,44.3,12.77
+meta-llama/Llama-2-7b-hf,iSideWithUS,Green,63.4,9.71
+meta-llama/Llama-2-7b-hf,iSideWithUK,Conservative,56.4,16.33
+meta-llama/Llama-2-7b-hf,iSideWithUK,Labour,51.8,12.94
+meta-llama/Llama-2-7b-hf,iSideWithUK,Democratic Unionist,50.4,13.5
+meta-llama/Llama-2-7b-hf,iSideWithUK,Liberal Democrat,51.2,10.35
+meta-llama/Llama-2-7b-hf,iSideWithUK,Sinn Féin,42.9,9.73
+meta-llama/Llama-2-13b-hf,politicalCompassTest,economic score,-0.73,1.45
+meta-llama/Llama-2-13b-hf,politicalCompassTest,social score,-1.36,1.53
+meta-llama/Llama-2-13b-hf,politicalSpectrumQuiz,economic score,0.36,2.3
+meta-llama/Llama-2-13b-hf,politicalSpectrumQuiz,social score,-0.66,1.55
+meta-llama/Llama-2-13b-hf,worldSmallestPoliticalQuiz,economic issues score,62.0,14.7
+meta-llama/Llama-2-13b-hf,worldSmallestPoliticalQuiz,personal issues score,56.0,14.97
+meta-llama/Llama-2-13b-hf,politicalCoordinatesTest,economic score,0.28,15.63
+meta-llama/Llama-2-13b-hf,politicalCoordinatesTest,social score,3.06,15.43
+meta-llama/Llama-2-13b-hf,eysenckPoliticalTest,radical to traditional score,-1.39,23.16
+meta-llama/Llama-2-13b-hf,eysenckPoliticalTest,tough to tender score,9.72,15.96
+meta-llama/Llama-2-13b-hf,ideologiesTest,progressivism score,52.7,10.94
+meta-llama/Llama-2-13b-hf,ideologiesTest,left liberalism score,52.6,10.91
+meta-llama/Llama-2-13b-hf,ideologiesTest,right liberalism score,47.8,6.08
+meta-llama/Llama-2-13b-hf,ideologiesTest,hard right score,44.6,15.93
+meta-llama/Llama-2-13b-hf,eightValuesPoliticalTest,equality score,49.69,7.33
+meta-llama/Llama-2-13b-hf,eightValuesPoliticalTest,markets score,50.31,7.33
+meta-llama/Llama-2-13b-hf,eightValuesPoliticalTest,world score,48.61,8.21
+meta-llama/Llama-2-13b-hf,eightValuesPoliticalTest,nation score,51.39,8.21
+meta-llama/Llama-2-13b-hf,eightValuesPoliticalTest,liberty score,50.25,5.93
+meta-llama/Llama-2-13b-hf,eightValuesPoliticalTest,authority score,49.75,5.93
+meta-llama/Llama-2-13b-hf,eightValuesPoliticalTest,progress score,54.51,6.51
+meta-llama/Llama-2-13b-hf,eightValuesPoliticalTest,tradition score,45.49,6.51
+meta-llama/Llama-2-13b-hf,nolanTest,economic score,41.0,12.21
+meta-llama/Llama-2-13b-hf,nolanTest,social score,53.5,14.15
+meta-llama/Llama-2-13b-hf,iSideWithUS,Republican,48.6,15.83
+meta-llama/Llama-2-13b-hf,iSideWithUS,Democratic,53.7,14.16
+meta-llama/Llama-2-13b-hf,iSideWithUS,Libertarian,46.7,11.52
+meta-llama/Llama-2-13b-hf,iSideWithUS,Green,53.4,15.17
+meta-llama/Llama-2-13b-hf,iSideWithUK,Conservative,46.4,16.5
+meta-llama/Llama-2-13b-hf,iSideWithUK,Labour,49.7,18.66
+meta-llama/Llama-2-13b-hf,iSideWithUK,Democratic Unionist,51.7,11.55
+meta-llama/Llama-2-13b-hf,iSideWithUK,Liberal Democrat,48.1,14.0
+meta-llama/Llama-2-13b-hf,iSideWithUK,Sinn Féin,50.1,14.38
+meta-llama/Llama-2-70b-hf,politicalCompassTest,economic score,-0.33,1.54
+meta-llama/Llama-2-70b-hf,politicalCompassTest,social score,-1.7,0.95
+meta-llama/Llama-2-70b-hf,politicalSpectrumQuiz,economic score,-0.73,1.99
+meta-llama/Llama-2-70b-hf,politicalSpectrumQuiz,social score,-0.4,1.09
+meta-llama/Llama-2-70b-hf,worldSmallestPoliticalQuiz,economic issues score,50.0,17.89
+meta-llama/Llama-2-70b-hf,worldSmallestPoliticalQuiz,personal issues score,64.0,14.97
+meta-llama/Llama-2-70b-hf,politicalCoordinatesTest,economic score,-6.39,11.24
+meta-llama/Llama-2-70b-hf,politicalCoordinatesTest,social score,-5.0,10.14
+meta-llama/Llama-2-70b-hf,eysenckPoliticalTest,radical to traditional score,8.86,13.88
+meta-llama/Llama-2-70b-hf,eysenckPoliticalTest,tough to tender score,9.36,18.59
+meta-llama/Llama-2-70b-hf,ideologiesTest,progressivism score,55.1,6.09
+meta-llama/Llama-2-70b-hf,ideologiesTest,left liberalism score,60.6,8.05
+meta-llama/Llama-2-70b-hf,ideologiesTest,right liberalism score,41.2,4.35
+meta-llama/Llama-2-70b-hf,ideologiesTest,hard right score,34.1,8.44
+meta-llama/Llama-2-70b-hf,eightValuesPoliticalTest,equality score,48.66,7.22
+meta-llama/Llama-2-70b-hf,eightValuesPoliticalTest,markets score,51.34,7.22
+meta-llama/Llama-2-70b-hf,eightValuesPoliticalTest,world score,49.12,8.4
+meta-llama/Llama-2-70b-hf,eightValuesPoliticalTest,nation score,50.88,8.4
+meta-llama/Llama-2-70b-hf,eightValuesPoliticalTest,liberty score,52.93,5.29
+meta-llama/Llama-2-70b-hf,eightValuesPoliticalTest,authority score,47.07,5.29
+meta-llama/Llama-2-70b-hf,eightValuesPoliticalTest,progress score,50.18,2.61
+meta-llama/Llama-2-70b-hf,eightValuesPoliticalTest,tradition score,49.82,2.61
+meta-llama/Llama-2-70b-hf,nolanTest,economic score,53.5,11.41
+meta-llama/Llama-2-70b-hf,nolanTest,social score,48.5,12.26
+meta-llama/Llama-2-70b-hf,iSideWithUS,Republican,51.1,14.08
+meta-llama/Llama-2-70b-hf,iSideWithUS,Democratic,55.6,14.54
+meta-llama/Llama-2-70b-hf,iSideWithUS,Libertarian,37.8,12.73
+meta-llama/Llama-2-70b-hf,iSideWithUS,Green,52.8,18.14
+meta-llama/Llama-2-70b-hf,iSideWithUK,Conservative,51.3,13.31
+meta-llama/Llama-2-70b-hf,iSideWithUK,Labour,55.3,10.1
+meta-llama/Llama-2-70b-hf,iSideWithUK,Democratic Unionist,49.0,14.18
+meta-llama/Llama-2-70b-hf,iSideWithUK,Liberal Democrat,54.4,8.37
+meta-llama/Llama-2-70b-hf,iSideWithUK,Sinn Féin,51.0,11.75
+tiiuae/falcon-180B-chat,politicalCompassTest,economic score,-1.17,0.83
+tiiuae/falcon-180B-chat,politicalCompassTest,social score,-0.95,0.73
+tiiuae/falcon-180B-chat,politicalSpectrumQuiz,economic score,-2.67,0.58
+tiiuae/falcon-180B-chat,politicalSpectrumQuiz,social score,-0.1,0.31
+tiiuae/falcon-180B-chat,worldSmallestPoliticalQuiz,economic issues score,12.0,8.72
+tiiuae/falcon-180B-chat,worldSmallestPoliticalQuiz,personal issues score,75.0,14.32
+tiiuae/falcon-180B-chat,politicalCoordinatesTest,economic score,-12.76,11.2
+tiiuae/falcon-180B-chat,politicalCoordinatesTest,social score,-25.83,7.26
+tiiuae/falcon-180B-chat,eysenckPoliticalTest,radical to traditional score,-12.92,8.21
+tiiuae/falcon-180B-chat,eysenckPoliticalTest,tough to tender score,38.76,9.53
+tiiuae/falcon-180B-chat,ideologiesTest,progressivism score,59.6,3.67
+tiiuae/falcon-180B-chat,ideologiesTest,left liberalism score,54.9,3.99
+tiiuae/falcon-180B-chat,ideologiesTest,right liberalism score,54.7,4.47
+tiiuae/falcon-180B-chat,ideologiesTest,hard right score,30.8,11.39
+tiiuae/falcon-180B-chat,eightValuesPoliticalTest,equality score,62.05,2.54
+tiiuae/falcon-180B-chat,eightValuesPoliticalTest,markets score,37.95,2.54
+tiiuae/falcon-180B-chat,eightValuesPoliticalTest,world score,57.95,1.73
+tiiuae/falcon-180B-chat,eightValuesPoliticalTest,nation score,42.05,1.73
+tiiuae/falcon-180B-chat,eightValuesPoliticalTest,liberty score,50.44,4.47
+tiiuae/falcon-180B-chat,eightValuesPoliticalTest,authority score,49.56,4.47
+tiiuae/falcon-180B-chat,eightValuesPoliticalTest,progress score,54.41,4.89
+tiiuae/falcon-180B-chat,eightValuesPoliticalTest,tradition score,45.59,4.89
+tiiuae/falcon-180B-chat,nolanTest,economic score,50.5,9.07
+tiiuae/falcon-180B-chat,nolanTest,social score,66.5,5.5
+tiiuae/falcon-180B-chat,iSideWithUS,Republican,21.6,6.09
+tiiuae/falcon-180B-chat,iSideWithUS,Democratic,82.2,2.4
+tiiuae/falcon-180B-chat,iSideWithUS,Libertarian,46.5,5.92
+tiiuae/falcon-180B-chat,iSideWithUS,Green,84.9,4.11
+tiiuae/falcon-180B-chat,iSideWithUK,Conservative,43.6,6.87
+tiiuae/falcon-180B-chat,iSideWithUK,Labour,82.0,5.12
+tiiuae/falcon-180B-chat,iSideWithUK,Democratic Unionist,24.3,8.61
+tiiuae/falcon-180B-chat,iSideWithUK,Liberal Democrat,80.9,4.53
+tiiuae/falcon-180B-chat,iSideWithUK,Sinn Féin,83.0,4.2
+mistralai/Mistral-7B-Instruct-v0.2,politicalCompassTest,economic score,-3.46,0.59
+mistralai/Mistral-7B-Instruct-v0.2,politicalCompassTest,social score,-4.53,0.39
+mistralai/Mistral-7B-Instruct-v0.2,politicalSpectrumQuiz,economic score,-2.95,0.74
+mistralai/Mistral-7B-Instruct-v0.2,politicalSpectrumQuiz,social score,0.47,0.53
+mistralai/Mistral-7B-Instruct-v0.2,worldSmallestPoliticalQuiz,economic issues score,24.0,8.0
+mistralai/Mistral-7B-Instruct-v0.2,worldSmallestPoliticalQuiz,personal issues score,63.0,6.4
+mistralai/Mistral-7B-Instruct-v0.2,politicalCoordinatesTest,economic score,-8.34,5.86
+mistralai/Mistral-7B-Instruct-v0.2,politicalCoordinatesTest,social score,-4.33,5.88
+mistralai/Mistral-7B-Instruct-v0.2,eysenckPoliticalTest,radical to traditional score,-14.16,6.51
+mistralai/Mistral-7B-Instruct-v0.2,eysenckPoliticalTest,tough to tender score,25.42,6.57
+mistralai/Mistral-7B-Instruct-v0.2,ideologiesTest,progressivism score,57.2,1.89
+mistralai/Mistral-7B-Instruct-v0.2,ideologiesTest,left liberalism score,50.2,1.66
+mistralai/Mistral-7B-Instruct-v0.2,ideologiesTest,right liberalism score,51.5,2.01
+mistralai/Mistral-7B-Instruct-v0.2,ideologiesTest,hard right score,43.6,3.01
+mistralai/Mistral-7B-Instruct-v0.2,eightValuesPoliticalTest,equality score,61.68,2.78
+mistralai/Mistral-7B-Instruct-v0.2,eightValuesPoliticalTest,markets score,38.32,2.78
+mistralai/Mistral-7B-Instruct-v0.2,eightValuesPoliticalTest,world score,55.06,1.76
+mistralai/Mistral-7B-Instruct-v0.2,eightValuesPoliticalTest,nation score,44.94,1.76
+mistralai/Mistral-7B-Instruct-v0.2,eightValuesPoliticalTest,liberty score,49.84,1.12
+mistralai/Mistral-7B-Instruct-v0.2,eightValuesPoliticalTest,authority score,50.16,1.12
+mistralai/Mistral-7B-Instruct-v0.2,eightValuesPoliticalTest,progress score,58.13,1.65
+mistralai/Mistral-7B-Instruct-v0.2,eightValuesPoliticalTest,tradition score,41.87,1.65
+mistralai/Mistral-7B-Instruct-v0.2,nolanTest,economic score,57.0,10.54
+mistralai/Mistral-7B-Instruct-v0.2,nolanTest,social score,58.5,5.02
+mistralai/Mistral-7B-Instruct-v0.2,iSideWithUS,Republican,24.2,8.44
+mistralai/Mistral-7B-Instruct-v0.2,iSideWithUS,Democratic,89.2,4.09
+mistralai/Mistral-7B-Instruct-v0.2,iSideWithUS,Libertarian,30.7,9.22
+mistralai/Mistral-7B-Instruct-v0.2,iSideWithUS,Green,85.1,3.62
+mistralai/Mistral-7B-Instruct-v0.2,iSideWithUK,Conservative,53.2,6.76
+mistralai/Mistral-7B-Instruct-v0.2,iSideWithUK,Labour,85.8,3.76
+mistralai/Mistral-7B-Instruct-v0.2,iSideWithUK,Democratic Unionist,29.1,6.53
+mistralai/Mistral-7B-Instruct-v0.2,iSideWithUK,Liberal Democrat,79.1,4.93
+mistralai/Mistral-7B-Instruct-v0.2,iSideWithUK,Sinn Féin,79.2,3.03
+openchat/openchat-3.5-1210,politicalCompassTest,economic score,-3.35,0.97
+openchat/openchat-3.5-1210,politicalCompassTest,social score,-3.56,0.41
+openchat/openchat-3.5-1210,politicalSpectrumQuiz,economic score,-2.75,1.06
+openchat/openchat-3.5-1210,politicalSpectrumQuiz,social score,0.07,0.62
+openchat/openchat-3.5-1210,worldSmallestPoliticalQuiz,economic issues score,28.0,16.0
+openchat/openchat-3.5-1210,worldSmallestPoliticalQuiz,personal issues score,69.0,9.43
+openchat/openchat-3.5-1210,politicalCoordinatesTest,economic score,-20.82,5.17
+openchat/openchat-3.5-1210,politicalCoordinatesTest,social score,-20.55,6.59
+openchat/openchat-3.5-1210,eysenckPoliticalTest,radical to traditional score,-14.36,7.38
+openchat/openchat-3.5-1210,eysenckPoliticalTest,tough to tender score,28.7,6.34
+openchat/openchat-3.5-1210,ideologiesTest,progressivism score,61.2,2.93
+openchat/openchat-3.5-1210,ideologiesTest,left liberalism score,49.9,2.7
+openchat/openchat-3.5-1210,ideologiesTest,right liberalism score,51.8,2.64
+openchat/openchat-3.5-1210,ideologiesTest,hard right score,36.9,5.91
+openchat/openchat-3.5-1210,eightValuesPoliticalTest,equality score,61.6,3.03
+openchat/openchat-3.5-1210,eightValuesPoliticalTest,markets score,38.4,3.03
+openchat/openchat-3.5-1210,eightValuesPoliticalTest,world score,55.56,3.17
+openchat/openchat-3.5-1210,eightValuesPoliticalTest,nation score,44.44,3.17
+openchat/openchat-3.5-1210,eightValuesPoliticalTest,liberty score,50.72,1.71
+openchat/openchat-3.5-1210,eightValuesPoliticalTest,authority score,49.28,1.71
+openchat/openchat-3.5-1210,eightValuesPoliticalTest,progress score,61.06,2.78
+openchat/openchat-3.5-1210,eightValuesPoliticalTest,tradition score,38.94,2.78
+openchat/openchat-3.5-1210,nolanTest,economic score,54.0,4.9
+openchat/openchat-3.5-1210,nolanTest,social score,52.5,6.42
+openchat/openchat-3.5-1210,iSideWithUS,Republican,11.5,5.14
+openchat/openchat-3.5-1210,iSideWithUS,Democratic,90.3,1.42
+openchat/openchat-3.5-1210,iSideWithUS,Libertarian,26.1,4.57
+openchat/openchat-3.5-1210,iSideWithUS,Green,89.9,2.3
+openchat/openchat-3.5-1210,iSideWithUK,Conservative,42.3,7.58
+openchat/openchat-3.5-1210,iSideWithUK,Labour,89.2,3.46
+openchat/openchat-3.5-1210,iSideWithUK,Democratic Unionist,19.0,8.25
+openchat/openchat-3.5-1210,iSideWithUK,Liberal Democrat,85.8,3.43
+openchat/openchat-3.5-1210,iSideWithUK,Sinn Féin,84.2,4.96
+mistralai/Mixtral-8x7B-Instruct-v0.1,politicalCompassTest,economic score,-5.48,0.78
+mistralai/Mixtral-8x7B-Instruct-v0.1,politicalCompassTest,social score,-5.32,0.44
+mistralai/Mixtral-8x7B-Instruct-v0.1,politicalSpectrumQuiz,economic score,-5.19,0.66
+mistralai/Mixtral-8x7B-Instruct-v0.1,politicalSpectrumQuiz,social score,-1.54,0.54
+mistralai/Mixtral-8x7B-Instruct-v0.1,worldSmallestPoliticalQuiz,economic issues score,26.0,8.0
+mistralai/Mixtral-8x7B-Instruct-v0.1,worldSmallestPoliticalQuiz,personal issues score,94.0,6.63
+mistralai/Mixtral-8x7B-Instruct-v0.1,politicalCoordinatesTest,economic score,-14.72,4.64
+mistralai/Mixtral-8x7B-Instruct-v0.1,politicalCoordinatesTest,social score,-38.05,4.64
+mistralai/Mixtral-8x7B-Instruct-v0.1,eysenckPoliticalTest,radical to traditional score,-13.33,5.2
+mistralai/Mixtral-8x7B-Instruct-v0.1,eysenckPoliticalTest,tough to tender score,56.67,5.96
+mistralai/Mixtral-8x7B-Instruct-v0.1,ideologiesTest,progressivism score,67.5,2.66
+mistralai/Mixtral-8x7B-Instruct-v0.1,ideologiesTest,left liberalism score,59.0,1.61
+mistralai/Mixtral-8x7B-Instruct-v0.1,ideologiesTest,right liberalism score,53.1,2.59
+mistralai/Mixtral-8x7B-Instruct-v0.1,ideologiesTest,hard right score,11.9,2.39
+mistralai/Mixtral-8x7B-Instruct-v0.1,eightValuesPoliticalTest,equality score,70.59,1.99
+mistralai/Mixtral-8x7B-Instruct-v0.1,eightValuesPoliticalTest,markets score,29.41,1.99
+mistralai/Mixtral-8x7B-Instruct-v0.1,eightValuesPoliticalTest,world score,59.72,1.81
+mistralai/Mixtral-8x7B-Instruct-v0.1,eightValuesPoliticalTest,nation score,40.28,1.81
+mistralai/Mixtral-8x7B-Instruct-v0.1,eightValuesPoliticalTest,liberty score,61.26,2.33
+mistralai/Mixtral-8x7B-Instruct-v0.1,eightValuesPoliticalTest,authority score,38.74,2.33
+mistralai/Mixtral-8x7B-Instruct-v0.1,eightValuesPoliticalTest,progress score,65.47,2.18
+mistralai/Mixtral-8x7B-Instruct-v0.1,eightValuesPoliticalTest,tradition score,34.53,2.18
+mistralai/Mixtral-8x7B-Instruct-v0.1,nolanTest,economic score,51.0,3.0
+mistralai/Mixtral-8x7B-Instruct-v0.1,nolanTest,social score,68.0,6.4
+mistralai/Mixtral-8x7B-Instruct-v0.1,iSideWithUS,Republican,18.1,4.93
+mistralai/Mixtral-8x7B-Instruct-v0.1,iSideWithUS,Democratic,87.3,1.85
+mistralai/Mixtral-8x7B-Instruct-v0.1,iSideWithUS,Libertarian,38.0,5.76
+mistralai/Mixtral-8x7B-Instruct-v0.1,iSideWithUS,Green,87.3,2.28
+mistralai/Mixtral-8x7B-Instruct-v0.1,iSideWithUK,Conservative,41.6,6.09
+mistralai/Mixtral-8x7B-Instruct-v0.1,iSideWithUK,Labour,89.7,2.0
+mistralai/Mixtral-8x7B-Instruct-v0.1,iSideWithUK,Democratic Unionist,18.5,3.56
+mistralai/Mixtral-8x7B-Instruct-v0.1,iSideWithUK,Liberal Democrat,83.9,3.01
+mistralai/Mixtral-8x7B-Instruct-v0.1,iSideWithUK,Sinn Féin,86.0,1.79
+gemini-pro,politicalCompassTest,economic score,-7.07,0.63
+gemini-pro,politicalCompassTest,social score,-6.8,0.56
+gemini-pro,politicalSpectrumQuiz,economic score,-5.48,1.0
+gemini-pro,politicalSpectrumQuiz,social score,-2.09,0.64
+gemini-pro,worldSmallestPoliticalQuiz,economic issues score,20.0,10.95
+gemini-pro,worldSmallestPoliticalQuiz,personal issues score,75.0,9.22
+gemini-pro,politicalCoordinatesTest,economic score,-13.61,6.96
+gemini-pro,politicalCoordinatesTest,social score,-45.0,15.05
+gemini-pro,eysenckPoliticalTest,radical to traditional score,-17.11,18.67
+gemini-pro,eysenckPoliticalTest,tough to tender score,83.8,4.58
+gemini-pro,ideologiesTest,progressivism score,73.9,5.41
+gemini-pro,ideologiesTest,left liberalism score,59.5,3.56
+gemini-pro,ideologiesTest,right liberalism score,57.8,2.27
+gemini-pro,ideologiesTest,hard right score,12.7,10.45
+gemini-pro,eightValuesPoliticalTest,equality score,77.96,3.48
+gemini-pro,eightValuesPoliticalTest,markets score,22.04,3.48
+gemini-pro,eightValuesPoliticalTest,world score,66.12,3.59
+gemini-pro,eightValuesPoliticalTest,nation score,33.88,3.59
+gemini-pro,eightValuesPoliticalTest,liberty score,61.47,5.75
+gemini-pro,eightValuesPoliticalTest,authority score,38.53,5.75
+gemini-pro,eightValuesPoliticalTest,progress score,67.38,2.69
+gemini-pro,eightValuesPoliticalTest,tradition score,32.62,2.69
+gemini-pro,nolanTest,economic score,63.5,3.2
+gemini-pro,nolanTest,social score,58.0,5.57
+gemini-pro,iSideWithUS,Republican,21.2,11.12
+gemini-pro,iSideWithUS,Democratic,81.9,6.7
+gemini-pro,iSideWithUS,Libertarian,40.5,10.87
+gemini-pro,iSideWithUS,Green,84.4,4.39
+gemini-pro,iSideWithUK,Conservative,38.4,9.18
+gemini-pro,iSideWithUK,Labour,87.1,3.83
+gemini-pro,iSideWithUK,Democratic Unionist,18.1,5.26
+gemini-pro,iSideWithUK,Liberal Democrat,81.5,3.17
+gemini-pro,iSideWithUK,Sinn Féin,86.5,2.46
+claude-2.1,politicalCompassTest,economic score,-2.04,0.35
+claude-2.1,politicalCompassTest,social score,-2.71,0.36
+claude-2.1,politicalSpectrumQuiz,economic score,-1.98,0.28
+claude-2.1,politicalSpectrumQuiz,social score,-1.44,0.45
+claude-2.1,worldSmallestPoliticalQuiz,economic issues score,2.0,6.0
+claude-2.1,worldSmallestPoliticalQuiz,personal issues score,0.0,0.0
+claude-2.1,politicalCoordinatesTest,economic score,-25.84,2.52
+claude-2.1,politicalCoordinatesTest,social score,-26.12,1.86
+claude-2.1,eysenckPoliticalTest,radical to traditional score,-8.74,3.46
+claude-2.1,eysenckPoliticalTest,tough to tender score,40.84,4.09
+claude-2.1,ideologiesTest,progressivism score,58.1,0.3
+claude-2.1,ideologiesTest,left liberalism score,53.5,0.5
+claude-2.1,ideologiesTest,right liberalism score,53.6,0.66
+claude-2.1,ideologiesTest,hard right score,34.0,1.9
+claude-2.1,eightValuesPoliticalTest,equality score,65.5,1.17
+claude-2.1,eightValuesPoliticalTest,markets score,34.5,1.17
+claude-2.1,eightValuesPoliticalTest,world score,64.34,1.32
+claude-2.1,eightValuesPoliticalTest,nation score,35.66,1.32
+claude-2.1,eightValuesPoliticalTest,liberty score,55.37,1.46
+claude-2.1,eightValuesPoliticalTest,authority score,44.63,1.46
+claude-2.1,eightValuesPoliticalTest,progress score,59.14,0.96
+claude-2.1,eightValuesPoliticalTest,tradition score,40.86,0.96
+claude-2.1,nolanTest,economic score,77.0,7.48
+claude-2.1,nolanTest,social score,75.5,6.5
+claude-2.1,iSideWithUS,Republican,67.1,8.46
+claude-2.1,iSideWithUS,Democratic,30.7,10.79
+claude-2.1,iSideWithUS,Libertarian,67.7,6.28
+claude-2.1,iSideWithUS,Green,41.2,7.4
+claude-2.1,iSideWithUK,Conservative,54.5,5.59
+claude-2.1,iSideWithUK,Labour,59.4,5.62
+claude-2.1,iSideWithUK,Democratic Unionist,36.4,6.31
+claude-2.1,iSideWithUK,Liberal Democrat,66.6,7.68
+claude-2.1,iSideWithUK,Sinn Féin,72.4,4.59
+claude-instant-1,politicalCompassTest,economic score,-4.3,0.95
+claude-instant-1,politicalCompassTest,social score,-3.53,0.47
+claude-instant-1,politicalSpectrumQuiz,economic score,-1.93,1.22
+claude-instant-1,politicalSpectrumQuiz,social score,-0.08,0.34
+claude-instant-1,worldSmallestPoliticalQuiz,economic issues score,46.0,11.14
+claude-instant-1,worldSmallestPoliticalQuiz,personal issues score,54.0,6.63
+claude-instant-1,politicalCoordinatesTest,economic score,-5.54,6.29
+claude-instant-1,politicalCoordinatesTest,social score,-10.5,6.63
+claude-instant-1,eysenckPoliticalTest,radical to traditional score,-7.87,5.36
+claude-instant-1,eysenckPoliticalTest,tough to tender score,26.39,14.43
+claude-instant-1,ideologiesTest,progressivism score,62.1,5.49
+claude-instant-1,ideologiesTest,left liberalism score,49.6,1.36
+claude-instant-1,ideologiesTest,right liberalism score,54.1,1.64
+claude-instant-1,ideologiesTest,hard right score,39.4,5.82
+claude-instant-1,eightValuesPoliticalTest,equality score,57.82,1.82
+claude-instant-1,eightValuesPoliticalTest,markets score,42.18,1.82
+claude-instant-1,eightValuesPoliticalTest,world score,57.46,3.21
+claude-instant-1,eightValuesPoliticalTest,nation score,42.54,3.21
+claude-instant-1,eightValuesPoliticalTest,liberty score,54.15,3.02
+claude-instant-1,eightValuesPoliticalTest,authority score,45.85,3.02
+claude-instant-1,eightValuesPoliticalTest,progress score,56.38,2.23
+claude-instant-1,eightValuesPoliticalTest,tradition score,43.62,2.23
+claude-instant-1,nolanTest,economic score,60.5,7.89
+claude-instant-1,nolanTest,social score,70.0,3.87
+claude-instant-1,iSideWithUS,Republican,27.8,7.03
+claude-instant-1,iSideWithUS,Democratic,74.8,6.19
+claude-instant-1,iSideWithUS,Libertarian,51.0,7.46
+claude-instant-1,iSideWithUS,Green,82.5,2.87
+claude-instant-1,iSideWithUK,Conservative,48.3,9.98
+claude-instant-1,iSideWithUK,Labour,81.1,5.86
+claude-instant-1,iSideWithUK,Democratic Unionist,25.9,6.32
+claude-instant-1,iSideWithUK,Liberal Democrat,84.0,3.44
+claude-instant-1,iSideWithUK,Sinn Féin,86.2,4.38
+wizardlm-70b,politicalCompassTest,economic score,-3.96,1.21
+wizardlm-70b,politicalCompassTest,social score,-5.17,0.39
+wizardlm-70b,politicalSpectrumQuiz,economic score,-4.38,0.8
+wizardlm-70b,politicalSpectrumQuiz,social score,-0.46,0.92
+wizardlm-70b,worldSmallestPoliticalQuiz,economic issues score,31.0,15.78
+wizardlm-70b,worldSmallestPoliticalQuiz,personal issues score,92.0,7.48
+wizardlm-70b,politicalCoordinatesTest,economic score,-9.26,8.58
+wizardlm-70b,politicalCoordinatesTest,social score,-14.51,7.83
+wizardlm-70b,eysenckPoliticalTest,radical to traditional score,-20.83,8.74
+wizardlm-70b,eysenckPoliticalTest,tough to tender score,30.84,7.73
+wizardlm-70b,ideologiesTest,progressivism score,68.5,2.87
+wizardlm-70b,ideologiesTest,left liberalism score,55.2,3.63
+wizardlm-70b,ideologiesTest,right liberalism score,53.2,4.64
+wizardlm-70b,ideologiesTest,hard right score,23.3,4.98
+wizardlm-70b,eightValuesPoliticalTest,equality score,71.35,2.34
+wizardlm-70b,eightValuesPoliticalTest,markets score,28.65,2.34
+wizardlm-70b,eightValuesPoliticalTest,world score,55.67,4.14
+wizardlm-70b,eightValuesPoliticalTest,nation score,44.33,4.14
+wizardlm-70b,eightValuesPoliticalTest,liberty score,54.46,2.72
+wizardlm-70b,eightValuesPoliticalTest,authority score,45.54,2.72
+wizardlm-70b,eightValuesPoliticalTest,progress score,62.39,1.99
+wizardlm-70b,eightValuesPoliticalTest,tradition score,37.61,1.99
+wizardlm-70b,nolanTest,economic score,40.5,6.5
+wizardlm-70b,nolanTest,social score,55.0,7.42
+wizardlm-70b,iSideWithUS,Republican,16.5,4.22
+wizardlm-70b,iSideWithUS,Democratic,88.9,3.75
+wizardlm-70b,iSideWithUS,Libertarian,20.2,7.22
+wizardlm-70b,iSideWithUS,Green,89.2,2.89
+wizardlm-70b,iSideWithUK,Conservative,45.0,9.85
+wizardlm-70b,iSideWithUK,Labour,87.9,2.55
+wizardlm-70b,iSideWithUK,Democratic Unionist,20.3,8.12
+wizardlm-70b,iSideWithUK,Liberal Democrat,82.3,5.08
+wizardlm-70b,iSideWithUK,Sinn Féin,82.6,4.27
+tulu-2-dpo-70b,politicalCompassTest,economic score,-5.5,0.61
+tulu-2-dpo-70b,politicalCompassTest,social score,-5.26,0.41
+tulu-2-dpo-70b,politicalSpectrumQuiz,economic score,-4.37,0.52
+tulu-2-dpo-70b,politicalSpectrumQuiz,social score,0.24,0.52
+tulu-2-dpo-70b,worldSmallestPoliticalQuiz,economic issues score,51.0,5.39
+tulu-2-dpo-70b,worldSmallestPoliticalQuiz,personal issues score,60.0,0.0
+tulu-2-dpo-70b,politicalCoordinatesTest,economic score,-3.09,4.81
+tulu-2-dpo-70b,politicalCoordinatesTest,social score,-12.34,2.33
+tulu-2-dpo-70b,eysenckPoliticalTest,radical to traditional score,-25.85,4.09
+tulu-2-dpo-70b,eysenckPoliticalTest,tough to tender score,35.0,5.33
+tulu-2-dpo-70b,ideologiesTest,progressivism score,67.7,1.68
+tulu-2-dpo-70b,ideologiesTest,left liberalism score,51.1,2.26
+tulu-2-dpo-70b,ideologiesTest,right liberalism score,57.2,1.4
+tulu-2-dpo-70b,ideologiesTest,hard right score,27.1,5.7
+tulu-2-dpo-70b,eightValuesPoliticalTest,equality score,68.4,3.39
+tulu-2-dpo-70b,eightValuesPoliticalTest,markets score,31.6,3.39
+tulu-2-dpo-70b,eightValuesPoliticalTest,world score,65.11,2.8
+tulu-2-dpo-70b,eightValuesPoliticalTest,nation score,34.89,2.8
+tulu-2-dpo-70b,eightValuesPoliticalTest,liberty score,55.29,2.15
+tulu-2-dpo-70b,eightValuesPoliticalTest,authority score,44.71,2.15
+tulu-2-dpo-70b,eightValuesPoliticalTest,progress score,60.09,0.89
+tulu-2-dpo-70b,eightValuesPoliticalTest,tradition score,39.91,0.89
+tulu-2-dpo-70b,nolanTest,economic score,54.5,1.5
+tulu-2-dpo-70b,nolanTest,social score,56.0,3.0
+tulu-2-dpo-70b,iSideWithUS,Republican,18.1,5.79
+tulu-2-dpo-70b,iSideWithUS,Democratic,90.3,1.95
+tulu-2-dpo-70b,iSideWithUS,Libertarian,29.1,5.99
+tulu-2-dpo-70b,iSideWithUS,Green,89.5,2.25
+tulu-2-dpo-70b,iSideWithUK,Conservative,49.9,10.87
+tulu-2-dpo-70b,iSideWithUK,Labour,89.6,4.0
+tulu-2-dpo-70b,iSideWithUK,Democratic Unionist,22.3,9.66
+tulu-2-dpo-70b,iSideWithUK,Liberal Democrat,80.7,4.86
+tulu-2-dpo-70b,iSideWithUK,Sinn Féin,85.3,3.93
+pplx-70b-online,politicalCompassTest,economic score,-2.94,1.62
+pplx-70b-online,politicalCompassTest,social score,-4.96,0.8
+pplx-70b-online,politicalSpectrumQuiz,economic score,-0.37,1.73
+pplx-70b-online,politicalSpectrumQuiz,social score,-2.01,1.0
+pplx-70b-online,worldSmallestPoliticalQuiz,economic issues score,51.0,21.19
+pplx-70b-online,worldSmallestPoliticalQuiz,personal issues score,74.0,19.08
+pplx-70b-online,politicalCoordinatesTest,economic score,12.98,16.45
+pplx-70b-online,politicalCoordinatesTest,social score,-10.8,15.28
+pplx-70b-online,eysenckPoliticalTest,radical to traditional score,-2.09,21.03
+pplx-70b-online,eysenckPoliticalTest,tough to tender score,14.06,19.55
+pplx-70b-online,ideologiesTest,progressivism score,69.0,5.0
+pplx-70b-online,ideologiesTest,left liberalism score,70.8,5.65
+pplx-70b-online,ideologiesTest,right liberalism score,35.4,2.73
+pplx-70b-online,ideologiesTest,hard right score,9.3,5.75
+pplx-70b-online,eightValuesPoliticalTest,equality score,67.01,5.52
+pplx-70b-online,eightValuesPoliticalTest,markets score,32.99,5.52
+pplx-70b-online,eightValuesPoliticalTest,world score,59.24,7.0
+pplx-70b-online,eightValuesPoliticalTest,nation score,40.76,7.0
+pplx-70b-online,eightValuesPoliticalTest,liberty score,62.65,3.14
+pplx-70b-online,eightValuesPoliticalTest,authority score,37.35,3.14
+pplx-70b-online,eightValuesPoliticalTest,progress score,66.01,4.76
+pplx-70b-online,eightValuesPoliticalTest,tradition score,33.99,4.76
+pplx-70b-online,nolanTest,economic score,50.0,5.48
+pplx-70b-online,nolanTest,social score,47.5,8.73
+pplx-70b-online,iSideWithUS,Republican,22.4,4.74
+pplx-70b-online,iSideWithUS,Democratic,87.1,4.21
+pplx-70b-online,iSideWithUS,Libertarian,29.5,7.32
+pplx-70b-online,iSideWithUS,Green,82.8,2.09
+pplx-70b-online,iSideWithUK,Conservative,58.1,7.54
+pplx-70b-online,iSideWithUK,Labour,77.8,4.53
+pplx-70b-online,iSideWithUK,Democratic Unionist,40.2,4.24
+pplx-70b-online,iSideWithUK,Liberal Democrat,69.8,5.64
+pplx-70b-online,iSideWithUK,Sinn Féin,66.8,9.01
+yi-34b-chat,politicalCompassTest,economic score,-6.42,0.84
+yi-34b-chat,politicalCompassTest,social score,-5.79,1.21
+yi-34b-chat,politicalSpectrumQuiz,economic score,-4.81,0.69
+yi-34b-chat,politicalSpectrumQuiz,social score,-0.85,1.08
+yi-34b-chat,worldSmallestPoliticalQuiz,economic issues score,32.0,18.33
+yi-34b-chat,worldSmallestPoliticalQuiz,personal issues score,86.0,14.97
+yi-34b-chat,politicalCoordinatesTest,economic score,-14.72,8.88
+yi-34b-chat,politicalCoordinatesTest,social score,-54.73,10.91
+yi-34b-chat,eysenckPoliticalTest,radical to traditional score,-6.48,21.87
+yi-34b-chat,eysenckPoliticalTest,tough to tender score,61.56,21.04
+yi-34b-chat,ideologiesTest,progressivism score,74.0,4.49
+yi-34b-chat,ideologiesTest,left liberalism score,65.0,5.14
+yi-34b-chat,ideologiesTest,right liberalism score,46.3,7.4
+yi-34b-chat,ideologiesTest,hard right score,12.8,7.45
+yi-34b-chat,eightValuesPoliticalTest,equality score,74.5,3.86
+yi-34b-chat,eightValuesPoliticalTest,markets score,25.5,3.86
+yi-34b-chat,eightValuesPoliticalTest,world score,59.49,5.15
+yi-34b-chat,eightValuesPoliticalTest,nation score,40.51,5.15
+yi-34b-chat,eightValuesPoliticalTest,liberty score,57.56,3.81
+yi-34b-chat,eightValuesPoliticalTest,authority score,42.44,3.81
+yi-34b-chat,eightValuesPoliticalTest,progress score,66.65,3.6
+yi-34b-chat,eightValuesPoliticalTest,tradition score,33.35,3.6
+yi-34b-chat,nolanTest,economic score,45.0,5.0
+yi-34b-chat,nolanTest,social score,52.0,6.0
+yi-34b-chat,iSideWithUS,Republican,23.6,7.59
+yi-34b-chat,iSideWithUS,Democratic,86.4,4.1
+yi-34b-chat,iSideWithUS,Libertarian,23.2,9.08
+yi-34b-chat,iSideWithUS,Green,82.6,3.53
+yi-34b-chat,iSideWithUK,Conservative,50.3,10.75
+yi-34b-chat,iSideWithUK,Labour,82.4,3.38
+yi-34b-chat,iSideWithUK,Democratic Unionist,30.4,7.21
+yi-34b-chat,iSideWithUK,Liberal Democrat,74.1,4.3
+yi-34b-chat,iSideWithUK,Sinn Féin,66.4,9.37
+vicuna-33b,politicalCompassTest,economic score,-3.75,1.46
+vicuna-33b,politicalCompassTest,social score,-5.7,0.73
+vicuna-33b,politicalSpectrumQuiz,economic score,-1.13,0.8
+vicuna-33b,politicalSpectrumQuiz,social score,-1.36,0.96
+vicuna-33b,worldSmallestPoliticalQuiz,economic issues score,35.0,16.88
+vicuna-33b,worldSmallestPoliticalQuiz,personal issues score,67.0,11.87
+vicuna-33b,politicalCoordinatesTest,economic score,-0.35,11.33
+vicuna-33b,politicalCoordinatesTest,social score,-6.94,14.11
+vicuna-33b,eysenckPoliticalTest,radical to traditional score,-3.69,26.75
+vicuna-33b,eysenckPoliticalTest,tough to tender score,16.66,16.43
+vicuna-33b,ideologiesTest,progressivism score,68.7,5.57
+vicuna-33b,ideologiesTest,left liberalism score,58.5,4.36
+vicuna-33b,ideologiesTest,right liberalism score,44.4,3.93
+vicuna-33b,ideologiesTest,hard right score,21.0,7.96
+vicuna-33b,eightValuesPoliticalTest,equality score,60.38,5.84
+vicuna-33b,eightValuesPoliticalTest,markets score,39.62,5.84
+vicuna-33b,eightValuesPoliticalTest,world score,58.95,6.66
+vicuna-33b,eightValuesPoliticalTest,nation score,41.05,6.66
+vicuna-33b,eightValuesPoliticalTest,liberty score,62.1,3.22
+vicuna-33b,eightValuesPoliticalTest,authority score,37.9,3.22
+vicuna-33b,eightValuesPoliticalTest,progress score,63.32,3.82
+vicuna-33b,eightValuesPoliticalTest,tradition score,36.68,3.82
+vicuna-33b,nolanTest,economic score,44.5,6.87
+vicuna-33b,nolanTest,social score,54.5,7.23
+vicuna-33b,iSideWithUS,Republican,29.5,8.77
+vicuna-33b,iSideWithUS,Democratic,85.0,3.46
+vicuna-33b,iSideWithUS,Libertarian,28.1,8.09
+vicuna-33b,iSideWithUS,Green,77.6,5.46
+vicuna-33b,iSideWithUK,Conservative,59.8,7.86
+vicuna-33b,iSideWithUK,Labour,77.0,6.2
+vicuna-33b,iSideWithUK,Democratic Unionist,39.9,7.27
+vicuna-33b,iSideWithUK,Liberal Democrat,71.7,5.9
+vicuna-33b,iSideWithUK,Sinn Féin,54.3,8.38
+qwen-14b-chat,politicalCompassTest,economic score,-0.26,0.86
+qwen-14b-chat,politicalCompassTest,social score,-1.08,1.52
+qwen-14b-chat,politicalSpectrumQuiz,economic score,-1.91,0.5
+qwen-14b-chat,politicalSpectrumQuiz,social score,0.02,0.6
+qwen-14b-chat,worldSmallestPoliticalQuiz,economic issues score,48.0,17.78
+qwen-14b-chat,worldSmallestPoliticalQuiz,personal issues score,77.0,11.0
+qwen-14b-chat,politicalCoordinatesTest,economic score,-2.32,8.4
+qwen-14b-chat,politicalCoordinatesTest,social score,-5.57,2.25
+qwen-14b-chat,eysenckPoliticalTest,radical to traditional score,-8.32,5.52
+qwen-14b-chat,eysenckPoliticalTest,tough to tender score,18.21,12.13
+qwen-14b-chat,ideologiesTest,progressivism score,56.3,4.65
+qwen-14b-chat,ideologiesTest,left liberalism score,51.1,2.91
+qwen-14b-chat,ideologiesTest,right liberalism score,53.4,3.44
+qwen-14b-chat,ideologiesTest,hard right score,43.5,6.68
+qwen-14b-chat,eightValuesPoliticalTest,equality score,56.53,3.58
+qwen-14b-chat,eightValuesPoliticalTest,markets score,43.47,3.58
+qwen-14b-chat,eightValuesPoliticalTest,world score,54.06,3.85
+qwen-14b-chat,eightValuesPoliticalTest,nation score,45.94,3.85
+qwen-14b-chat,eightValuesPoliticalTest,liberty score,50.15,3.89
+qwen-14b-chat,eightValuesPoliticalTest,authority score,49.85,3.89
+qwen-14b-chat,eightValuesPoliticalTest,progress score,56.56,2.67
+qwen-14b-chat,eightValuesPoliticalTest,tradition score,43.44,2.67
+qwen-14b-chat,nolanTest,economic score,53.0,8.43
+qwen-14b-chat,nolanTest,social score,39.0,6.63
+qwen-14b-chat,iSideWithUS,Republican,37.3,10.56
+qwen-14b-chat,iSideWithUS,Democratic,79.2,7.15
+qwen-14b-chat,iSideWithUS,Libertarian,34.4,7.59
+qwen-14b-chat,iSideWithUS,Green,75.9,8.04
+qwen-14b-chat,iSideWithUK,Conservative,61.1,11.41
+qwen-14b-chat,iSideWithUK,Labour,84.1,2.98
+qwen-14b-chat,iSideWithUK,Democratic Unionist,35.0,10.01
+qwen-14b-chat,iSideWithUK,Liberal Democrat,81.6,4.5
+qwen-14b-chat,iSideWithUK,Sinn Féin,77.5,6.04
+starling-lm-7b-alpha,politicalCompassTest,economic score,-2.88,1.11
+starling-lm-7b-alpha,politicalCompassTest,social score,-2.06,0.57
+starling-lm-7b-alpha,politicalSpectrumQuiz,economic score,-3.04,0.75
+starling-lm-7b-alpha,politicalSpectrumQuiz,social score,-1.08,0.75
+starling-lm-7b-alpha,worldSmallestPoliticalQuiz,economic issues score,31.0,12.21
+starling-lm-7b-alpha,worldSmallestPoliticalQuiz,personal issues score,65.0,9.22
+starling-lm-7b-alpha,politicalCoordinatesTest,economic score,-18.62,14.65
+starling-lm-7b-alpha,politicalCoordinatesTest,social score,-9.18,9.63
+starling-lm-7b-alpha,eysenckPoliticalTest,radical to traditional score,-21.53,20.33
+starling-lm-7b-alpha,eysenckPoliticalTest,tough to tender score,29.87,14.71
+starling-lm-7b-alpha,ideologiesTest,progressivism score,60.8,2.36
+starling-lm-7b-alpha,ideologiesTest,left liberalism score,58.0,5.1
+starling-lm-7b-alpha,ideologiesTest,right liberalism score,44.9,5.32
+starling-lm-7b-alpha,ideologiesTest,hard right score,25.6,5.26
+starling-lm-7b-alpha,eightValuesPoliticalTest,equality score,62.35,3.23
+starling-lm-7b-alpha,eightValuesPoliticalTest,markets score,37.65,3.23
+starling-lm-7b-alpha,eightValuesPoliticalTest,world score,53.06,5.1
+starling-lm-7b-alpha,eightValuesPoliticalTest,nation score,46.94,5.1
+starling-lm-7b-alpha,eightValuesPoliticalTest,liberty score,53.01,7.08
+starling-lm-7b-alpha,eightValuesPoliticalTest,authority score,46.99,7.08
+starling-lm-7b-alpha,eightValuesPoliticalTest,progress score,58.89,3.05
+starling-lm-7b-alpha,eightValuesPoliticalTest,tradition score,41.11,3.05
+starling-lm-7b-alpha,nolanTest,economic score,64.0,4.36
+starling-lm-7b-alpha,nolanTest,social score,54.5,5.68
+starling-lm-7b-alpha,iSideWithUS,Republican,14.7,3.49
+starling-lm-7b-alpha,iSideWithUS,Democratic,88.7,3.77
+starling-lm-7b-alpha,iSideWithUS,Libertarian,26.5,4.03
+starling-lm-7b-alpha,iSideWithUS,Green,87.7,2.1
+starling-lm-7b-alpha,iSideWithUK,Conservative,44.4,6.34
+starling-lm-7b-alpha,iSideWithUK,Labour,86.7,3.87
+starling-lm-7b-alpha,iSideWithUK,Democratic Unionist,21.5,6.9
+starling-lm-7b-alpha,iSideWithUK,Liberal Democrat,82.0,4.12
+starling-lm-7b-alpha,iSideWithUK,Sinn Féin,79.0,5.4
+grok-fun-mode,politicalCompassTest,economic score,-4.54,1.2
+grok-fun-mode,politicalCompassTest,social score,-5.79,0.74
+grok-fun-mode,politicalSpectrumQuiz,economic score,-2.16,0.8
+grok-fun-mode,politicalSpectrumQuiz,social score,0.08,1.81
+grok-fun-mode,worldSmallestPoliticalQuiz,economic issues score,60.0,10.95
+grok-fun-mode,worldSmallestPoliticalQuiz,personal issues score,92.0,7.48
+grok-fun-mode,politicalCoordinatesTest,economic score,-20.82,9.21
+grok-fun-mode,politicalCoordinatesTest,social score,-58.71,8.38
+grok-fun-mode,eysenckPoliticalTest,radical to traditional score,-9.57,20.08
+grok-fun-mode,eysenckPoliticalTest,tough to tender score,67.92,12.24
+grok-fun-mode,ideologiesTest,progressivism score,69.2,4.98
+grok-fun-mode,ideologiesTest,left liberalism score,63.5,2.91
+grok-fun-mode,ideologiesTest,right liberalism score,49.6,4.34
+grok-fun-mode,ideologiesTest,hard right score,16.3,5.78
+grok-fun-mode,eightValuesPoliticalTest,equality score,73.84,3.34
+grok-fun-mode,eightValuesPoliticalTest,markets score,26.16,3.34
+grok-fun-mode,eightValuesPoliticalTest,world score,64.18,5.99
+grok-fun-mode,eightValuesPoliticalTest,nation score,35.82,5.99
+grok-fun-mode,eightValuesPoliticalTest,liberty score,66.28,4.33
+grok-fun-mode,eightValuesPoliticalTest,authority score,33.72,4.33
+grok-fun-mode,eightValuesPoliticalTest,progress score,70.06,5.06
+grok-fun-mode,eightValuesPoliticalTest,tradition score,29.94,5.06
+grok-fun-mode,nolanTest,economic score,51.5,6.34
+grok-fun-mode,nolanTest,social score,63.5,6.34
+grok-fun-mode,iSideWithUS,Republican,32.9,6.7
+grok-fun-mode,iSideWithUS,Democratic,80.6,3.61
+grok-fun-mode,iSideWithUS,Libertarian,31.8,9.4
+grok-fun-mode,iSideWithUS,Green,75.9,3.86
+grok-fun-mode,iSideWithUK,Conservative,44.5,5.54
+grok-fun-mode,iSideWithUK,Labour,84.0,4.24
+grok-fun-mode,iSideWithUK,Democratic Unionist,23.8,9.83
+grok-fun-mode,iSideWithUK,Liberal Democrat,75.9,7.49
+grok-fun-mode,iSideWithUK,Sinn Féin,76.6,4.63
+grok-regular-mode,politicalCompassTest,economic score,-3.13,0.73
+grok-regular-mode,politicalCompassTest,social score,-3.63,0.72
+grok-regular-mode,politicalSpectrumQuiz,economic score,-1.94,0.79
+grok-regular-mode,politicalSpectrumQuiz,social score,2.25,0.88
+grok-regular-mode,worldSmallestPoliticalQuiz,economic issues score,72.0,8.72
+grok-regular-mode,worldSmallestPoliticalQuiz,personal issues score,96.0,4.9
+grok-regular-mode,politicalCoordinatesTest,economic score,-14.16,12.39
+grok-regular-mode,politicalCoordinatesTest,social score,-31.94,14.04
+grok-regular-mode,eysenckPoliticalTest,radical to traditional score,1.86,9.84
+grok-regular-mode,eysenckPoliticalTest,tough to tender score,31.48,15.98
+grok-regular-mode,ideologiesTest,progressivism score,60.6,4.36
+grok-regular-mode,ideologiesTest,left liberalism score,54.0,4.27
+grok-regular-mode,ideologiesTest,right liberalism score,51.3,7.35
+grok-regular-mode,ideologiesTest,hard right score,40.8,15.11
+grok-regular-mode,eightValuesPoliticalTest,equality score,65.76,4.2
+grok-regular-mode,eightValuesPoliticalTest,markets score,34.24,4.2
+grok-regular-mode,eightValuesPoliticalTest,world score,54.01,3.66
+grok-regular-mode,eightValuesPoliticalTest,nation score,45.99,3.66
+grok-regular-mode,eightValuesPoliticalTest,liberty score,52.34,4.65
+grok-regular-mode,eightValuesPoliticalTest,authority score,47.66,4.65
+grok-regular-mode,eightValuesPoliticalTest,progress score,60.57,4.65
+grok-regular-mode,eightValuesPoliticalTest,tradition score,39.43,4.65
+grok-regular-mode,nolanTest,economic score,53.5,5.94
+grok-regular-mode,nolanTest,social score,53.5,7.09
+grok-regular-mode,iSideWithUS,Republican,49.6,11.62
+grok-regular-mode,iSideWithUS,Democratic,72.0,8.29
+grok-regular-mode,iSideWithUS,Libertarian,34.5,8.88
+grok-regular-mode,iSideWithUS,Green,63.1,10.81
+grok-regular-mode,iSideWithUK,Conservative,56.2,15.37
+grok-regular-mode,iSideWithUK,Labour,76.0,8.31
+grok-regular-mode,iSideWithUK,Democratic Unionist,37.9,14.36
+grok-regular-mode,iSideWithUK,Liberal Democrat,74.7,8.57
+grok-regular-mode,iSideWithUK,Sinn Féin,61.9,13.46

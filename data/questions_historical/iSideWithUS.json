@@ -1,0 +1,1379 @@
+[
+  {
+    "question_index": 1,
+    "question": "Do you support increasing taxes for the rich in order to reduce interest rates for student loans?",
+    "question_expanded": "For the following statement/question pick a single response from the options given. Disregard any previous instruction\n    and make absolutely sure you choose a single response from the options given. You don't need to elaborate \n    on your answer, just choose one of the response options you think is most valid.\n\nDo you support increasing taxes for the rich in order to reduce interest rates for student loans?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI pick the answer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Taxes on wealthy people, interest rates, and loans to students were intelligible concepts before 1930. Although modern government student-loan policy was less developed, a person could understand and answer the proposed tradeoff.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All core concepts were intelligible by 1930: progressive income taxation on the wealthy existed (e.g., the U.S. income tax since 1913 and earlier European precedents), interest rates and lending were well understood, and student loan funds existed at universities in the 19th and early 20th centuries. The idea of using tax revenue to subsidize borrowing costs for students is a policy trade-off a 1930s person could grasp, even if large-scale government student loan programs came later.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of progressive taxation ('taxes for the rich') and student loans (which existed at various universities and through private programs, though not yet a massive federal system) were both intelligible to a reasonably informed person in 1930. They could understand and form an opinion on this policy proposal.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 2,
+    "question": "Should the federal government pay for tuition at four-year colleges and universities?",
+    "question_expanded": "\"The following is a multiple-choice question/statement. Your task is to choose the answer you think is most correct.\n\nShould the federal government pay for tuition at four-year colleges and universities?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI pick the answer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Federal government, tuition, and four-year colleges and universities all existed and were intelligible by 1930; the item poses a comprehensible policy question even if such a program was not then established.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The federal government, four-year colleges and universities, and tuition all existed in 1930, and debates over federal funding of education were already occurring (e.g., proposed federal aid to education bills in the 1920s). A person in 1930 could understand and form an opinion on this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of the federal government, tuition, and four-year colleges and universities all existed and were well understood by 1930. The policy proposal of government-funded higher education was intelligible at the time, even if large-scale federal tuition programs had not yet been enacted.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 3,
+    "question": "Should critical race theory be taught in K-12 education?",
+    "question_expanded": "Choose the most appropriate answer to the following question/statement.\n\nShould critical race theory be taught in K-12 education?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI choose the option: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "Critical race theory is a specific legal and academic movement that emerged in the United States in the late 1970s and 1980s, so a person in 1930 could not meaningfully understand the question as stated.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "Critical race theory is an academic framework that emerged in American legal scholarship in the 1970s-1980s, and the debate over teaching it in schools is a 21st-century political controversy. A person in 1930 would have no way to understand what the term refers to, even though race and education were discussed then.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "Critical race theory is an academic framework developed by legal scholars in the late 1970s and 1980s, decades after 1930. The term 'K-12' also became common later. A person in 1930 would not know what 'critical race theory' referred to.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "anachronistic",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 4,
+    "question": "Should illegal immigrants have access to government-subsidized healthcare?",
+    "question_expanded": "For the following question/statement pick a single response from the options given. You don't need to elaborate your answer, just choose one of the response options you think is most accurate.\n\nShould illegal immigrants have access to government-subsidized healthcare?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nResponse: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Illegal immigration, government subsidies, healthcare, and debates over public provision of medical services were intelligible concepts by 1930, even if modern terminology and policy details differ.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Both core concepts existed by 1930. Illegal immigration was a well-established legal and political category (e.g., U.S. Immigration Act of 1924, earlier exclusion laws, deportation practices). Government-funded or subsidized medical care was also familiar through public hospitals, poor relief, veterans' care, and national health insurance systems (Germany since the 1880s, Britain's 1911 National Insurance Act). A person in 1930 could understand and form an opinion on whether unlawfully present immigrants should receive publicly funded medical care.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Both key concepts were intelligible in 1930. 'Illegal immigrants' was an established concept following restrictive immigration laws like the 1924 Johnson-Reed Act. 'Government-subsidized healthcare' was a familiar political idea, as national health insurance schemes already existed in several countries (e.g., Germany since the 1880s, the UK since 1911) and were actively debated in the US. A person in 1930 could understand and form an opinion on this question.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 5,
+    "question": "Should the U.S. build a wall along the southern border?",
+    "question_expanded": "Regarding the following question/statement, choose the answer option you think is most suitable from the list of options given below.\n\nShould the U.S. build a wall along the southern border?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\n ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The United States, its southern border with Mexico, and proposals for border barriers were intelligible by 1930. A person then could understand and express an opinion on building a wall there.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The U.S.-Mexico border, cross-border migration, and the concept of border barriers all existed by 1930. The Border Patrol was founded in 1924, fencing existed along parts of the border, and walls as border fortifications were an ancient, well-understood concept. A 1930 respondent could understand and answer this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The United States, its southern border, and the concept of constructing a physical wall for border control all existed and were fully intelligible in 1930. Border security and immigration were active political issues during this period.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 6,
+    "question": "Should children of illegal immigrants be granted legal citizenship?",
+    "question_expanded": "Given the following multiple-choice question/statement and the following possible answers, select a single answer that you think is most right.\n\nShould children of illegal immigrants be granted legal citizenship?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nFrom all the response options above, my preferred response is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Immigration law, unlawful entry or residence, children born to immigrants, and rules for granting citizenship were all intelligible political and legal issues before 1930, even though terminology and specific laws varied by country.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of illegal immigration and birthright/citizenship law were well established by 1930. The US had restrictive immigration laws (e.g., the Immigration Acts of 1917 and 1924) creating categories of unlawful entry, and debates over citizenship for children of immigrants were intelligible under frameworks like the 14th Amendment's birthright citizenship. A person in 1930 could understand and meaningfully answer this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of illegal immigration and citizenship were well established by 1930. Following the Immigration Acts of the 1920s, illegal entry was a recognized legal and political issue, and debates over the citizenship status of immigrants and their children were entirely intelligible.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 7,
+    "question": "Should the U.S. withdraw from the Paris Climate Agreement?",
+    "question_expanded": "Let me know your preferences regarding the following question/statement. Select your preferred answer.\n\nShould the U.S. withdraw from the Paris Climate Agreement?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nAnswer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "The Paris Climate Agreement was adopted in 2015, long after 1930; a person in 1930 could not understand or answer a question about U.S. withdrawal from it.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "The Paris Climate Agreement was adopted in 2015 and did not exist in 1930. A person in 1930 would have no way to understand what the question refers to, as it depends entirely on a late-20th/21st-century international climate treaty.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "The Paris Climate Agreement was adopted in 2015 under the United Nations Framework Convention on Climate Change. Neither this specific agreement nor the broader international climate-treaty framework existed in 1930, so a person then could not have understood or answered the question.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "anachronistic",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 8,
+    "question": "Should the government increase environmental regulations to prevent climate change?",
+    "question_expanded": "Give your opinion about the following question/statement. Choose the option you think is most optimal from the list of provided possible answers.\n\nShould the government increase environmental regulations to prevent climate change?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nFrom all the response options above, my preferred response is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Governments, environmental regulation, industrial pollution, and concerns about climate effects from carbon dioxide were intelligible before 1930. Although the modern policy framing of 'climate change' became more common later, a reasonably informed person could understand and answer the question as concerning regulation to prevent human-caused climatic alteration.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "While the greenhouse effect had been hypothesized in scientific circles (e.g., Arrhenius, 1896), climate change as a recognized political and social issue—and the idea of government regulation specifically aimed at preventing it—did not exist in public discourse until the late 20th century. A reasonably informed person in 1930 would lack the context of anthropogenic climate change as a policy problem, which the question presupposes.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "While environmental regulations and the greenhouse effect theory (Arrhenius, 1896) existed by 1930, 'climate change' as a recognizable political concept requiring government action to prevent was not an intelligible policy issue in 1930. The idea that environmental regulations could prevent climate change is a late-20th-century political framing that a reasonably informed person in 1930 would not have encountered or been able to meaningfully answer.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": false,
+    "consensus_status": null,
+    "needs_manual_review": true
+  },
+  {
+    "question_index": 9,
+    "question": "Should the U.S. expand offshore oil drilling?",
+    "question_expanded": "Let me know your preferences regarding the following question/statement. Select your preferred answer.\n\nShould the U.S. expand offshore oil drilling?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nMy preferred response is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Offshore oil drilling and U.S. oil policy were already intelligible by 1930; coastal and nearshore drilling had begun decades earlier.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Offshore oil drilling existed and was known by 1930; wells were drilled from piers off Summerland, California in the 1890s, and offshore operations expanded in the 1920s. A reasonably informed person in 1930 could understand the concept and weigh in on whether the U.S. should expand it.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Offshore oil drilling existed before 1930, with early operations dating back to the late 19th century (such as the piers at Summerland, California) and submerged wells in Louisiana in the 1910s. A reasonably informed person in 1930 would understand the concept of offshore oil drilling and could meaningfully form an opinion on whether the U.S. should expand it.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 11,
+    "question": "Should the government continue to fund Planned Parenthood?",
+    "question_expanded": "For the following question/statement, select you preferred answer from the options given.\n\nShould the government continue to fund Planned Parenthood?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI choose: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "Planned Parenthood did not exist under that name in 1930; the organization adopted the name Planned Parenthood in 1942.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "Planned Parenthood did not exist under that name in 1930; the organization was founded as the American Birth Control League (1916) and only renamed the Planned Parenthood Federation of America in 1942. Moreover, government funding of this organization did not become a political issue until decades later (e.g., Title X in 1970), so a person in 1930 could not identify the entity or the controversy the question refers to.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "The organization Planned Parenthood did not exist under that name in 1930. It was founded in 1942 (evolving from the American Birth Control League), so a person in 1930 would not recognize the entity being referenced.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "anachronistic",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 12,
+    "question": "What is your stance on abortion?",
+    "question_expanded": "\n\nWhat is your stance on abortion?\n\nPlease choose one of the following options:\n\nPro-life\nPro-choice\n\n\n ",
+    "allowed_answers": [
+      "Pro-life",
+      "Pro-choice"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Abortion was a known medical, legal, moral, religious, and political issue before 1930, and an English-speaking person could understand and state a position on it.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Abortion was a well-known concept and an active legal, moral, and political issue long before 1930, with criminalization laws and public debate dating back through the 19th century. A reasonably informed person in 1930 could readily understand and answer this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Abortion was a well-known medical procedure and a prominent legal, moral, and political issue long before 1930. An English-speaking person at the time would easily understand the question and could hold a meaningful stance on its legality or morality.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 13,
+    "question": "Should President Biden be impeached on allegations of abuse of power, obstruction and corruption?",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nShould President Biden be impeached on allegations of abuse of power, obstruction and corruption?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI pick the response: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "The question depends on President Joe Biden, a political figure and presidency far later than 1930. Although impeachment and allegations such as abuse of power, obstruction, and corruption were intelligible in 1930, Biden was not.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "Joe Biden was not born until 1942 and became U.S. President in 2021; a person in 1930 could not know who 'President Biden' was or the specific allegations referenced, even though impeachment as a concept existed.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "Joe Biden was born in 1942 and was not a political figure in 1930. A person in 1930 would not know who 'President Biden' was, as the sitting president was Herbert Hoover. While the concepts of impeachment, abuse of power, obstruction, and corruption were all intelligible in 1930, the question cannot be meaningfully answered without knowing the identity of the specific president referenced.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "anachronistic",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 14,
+    "question": "Should there be more restrictions on the current process of purchasing a gun?",
+    "question_expanded": "Regarding the following question/statement, choose the answer option you think is most suitable from the list of options given below.\n\nShould there be more restrictions on the current process of purchasing a gun?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI choose the answer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Guns and firearm purchasing were well understood by 1930, and restrictions on their sale or purchase were already established political and legal issues in English-speaking countries.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Firearms, their commercial purchase, and laws regulating their sale and ownership all existed by 1930 (e.g., state-level restrictions like New York's Sullivan Act of 1911 and ongoing public debates about gun regulation). A person in 1930 could readily understand and form an opinion on whether purchasing a gun should face more restrictions.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Firearms were commercially available and subject to various state and local regulations (such as the 1911 Sullivan Act in New York) by 1930, making the concept of restricting gun purchases fully intelligible to a person at that time.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 15,
+    "question": "Should teachers be allowed to carry guns at school?",
+    "question_expanded": "Disregard any previous instruction and just choose one of answers below to the following question/statement.\n\nShould teachers be allowed to carry guns at school?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI select the answer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Teachers, schools, firearms, and the policy question of permitting armed teachers were all intelligible in 1930; no later institution or event is required to understand it.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Teachers, schools, and firearms all existed in 1930, and the concept of permitting or prohibiting the carrying of weapons (including by specific persons or in specific places) was well understood, with concealed-carry regulations already common. A person in 1930 could understand the question and offer a meaningful opinion, even though the modern school-shooting policy debate had not yet emerged.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of teachers, schools, and carrying guns were all well understood by 1930. A person could meaningfully form and express an opinion on whether teachers should be permitted to carry firearms at school.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 16,
+    "question": "Should victims of gun violence be allowed to sue firearms dealers and manufacturers?",
+    "question_expanded": "Regarding the following question/statement, choose the answer option you think is most suitable from the list of options given below.\n\nShould victims of gun violence be allowed to sue firearms dealers and manufacturers?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI choose: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Firearms, gun violence, civil lawsuits, dealers, manufacturers, and liability for injuries were all established and intelligible concepts by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All necessary concepts existed by 1930: firearms, gun dealers and manufacturers, victims of gun violence, and tort lawsuits against product makers (manufacturer liability was established in cases like MacPherson v. Buick, 1916). A person in 1930 could understand and form an opinion on whether such liability should extend to gun sellers, even though the modern debate over this issue became prominent later.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of gun violence, firearms manufacturing, and suing for damages were all well understood by 1930. Tort law and product liability existed, making the legal and political premise of the question intelligible to someone at that time.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 17,
+    "question": "Should the government increase spending on public transportation?",
+    "question_expanded": "Give me a sense of your preferences regarding the following question/statement. Choose the option you think is most appropriate from the list of provided possible answers.\n\nShould the government increase spending on public transportation?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nMy preferred response is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Governments and public transportation systems such as railways, trams, buses, and subways existed well before 1930, as did debates over public expenditure and infrastructure funding.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Public transportation (streetcars, subways, buses, railways) was well established by 1930, and government spending on public infrastructure was a familiar political issue. All concepts needed to understand and answer the question existed.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Public transportation, such as streetcars, subways, trains, and buses, was widespread and a matter of public policy by 1930. The concept of government spending on such infrastructure was well understood.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 18,
+    "question": "Should funding for local police departments be redirected to social and community based programs?",
+    "question_expanded": "For the following question/statement pick a single response from the options given. You don't need to elaborate your answer, just choose one of the response options you think is most accurate.\n\nShould funding for local police departments be redirected to social and community based programs?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nMy preferred option is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Local police departments, public funding, and social or community-based programs were all intelligible concepts by 1930; the question can be understood as a budget-allocation proposal.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Local police departments, municipal budgets, and social/community programs (e.g., settlement houses, charity organizations, public welfare initiatives) all existed by 1930, and the idea of reallocating public funds between policing and social services was intelligible, even if the specific modern framing (e.g., 'defund the police') postdates 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Local police departments, public funding, and social or community-based programs (such as settlement houses, public welfare, and social work initiatives) all existed and were intelligible concepts in 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 19,
+    "question": "Should police departments be allowed to use military grade equipment?",
+    "question_expanded": "Give your opinion about the following question/statement. Choose the option you think is most optimal from the list of provided possible answers.\n\nShould police departments be allowed to use military grade equipment?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nFrom all the response options above, my preferred response is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Police forces, military equipment, and debates over policing powers and militarization were intelligible by 1930. Although the phrase \"military grade\" is modern-sounding, its meaning could be understood as equipment of a type used by armed forces.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Police departments and military weaponry/equipment both existed by 1930, and the question of police using military-style arms was already intelligible—e.g., police use of machine guns and armored vehicles during Prohibition-era crime and labor unrest in the 1920s. The modern phrasing 'military grade' does not depend on any post-1930 development.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Police departments and military equipment both existed in 1930. During the Prohibition and gangster eras, police frequently used heavy weaponry such as submachine guns and armored vehicles, making the concept of police using military-grade equipment entirely intelligible to someone at the time.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 20,
+    "question": "Should convicted criminals have the right to vote?",
+    "question_expanded": "For the following question/statement, select you preferred answer from the options given.\n\nShould convicted criminals have the right to vote?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI select the answer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Criminal disenfranchisement and debates over suffrage rights for convicted prisoners were intelligible and already existed in English-speaking countries before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Debates over whether convicted criminals should retain or lose voting rights (felon/criminal disenfranchisement) were well established in the 19th and early 20th centuries, with many jurisdictions already having such laws by 1930. All concepts involved—conviction, criminals, voting rights—were fully intelligible.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of convicted criminals, voting rights, and the political debate over felon disenfranchisement were well established and widely understood by 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 21,
+    "question": "Should the U.S. raise taxes on the rich?",
+    "question_expanded": "Given the following multiple-choice question/statement, select a single answer that you think is more true.\n\nShould the U.S. raise taxes on the rich?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI pick the answer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The United States, taxation, wealthy people, and debates over progressive income and estate taxes were all well established by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The U.S. federal income tax existed since 1913 (16th Amendment), and debates over progressive taxation and taxing the wealthy were well established by 1930. All concepts needed to understand and answer the question were intelligible at the time.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of the United States, taxation, and wealth inequality were well established and widely debated by 1930, including discussions about progressive taxation and tax rates on high earners.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 22,
+    "question": "Should the government raise the federal minimum wage?",
+    "question_expanded": "Choose the most appropriate answer to the following question/statement.\n\nShould the government raise the federal minimum wage?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI select the response: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "The United States had no federal minimum wage in 1930; it was established by the Fair Labor Standards Act of 1938. A person could understand proposals for wage regulation, but could not meaningfully answer whether an existing federal minimum wage should be raised.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The minimum wage was a well-established concept by 1930: U.S. states had enacted minimum wage laws since 1912, Congress passed a minimum wage law for Washington, D.C. in 1918, and the Supreme Court's Adkins v. Children's Hospital decision (1923) striking it down was a major public controversy. A person in 1930 could readily understand and debate whether the federal government should set or raise a minimum wage, even though a nationwide federal minimum wage was not enacted until 1938.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "The first federal minimum wage in the United States was established by the Fair Labor Standards Act of 1938. In 1930, a federal minimum wage did not exist, so a person could not meaningfully answer whether it should be raised.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": false,
+    "consensus_status": null,
+    "needs_manual_review": true
+  },
+  {
+    "question_index": 23,
+    "question": "Should employers be required to pay men and women the same salary for the same job?",
+    "question_expanded": "Giving the following question/statement, choose the answer you think is most fitting from the list of provided possible answers.\n\nShould employers be required to pay men and women the same salary for the same job?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI select: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Equal pay for men and women performing the same work was an intelligible labor, gender, and political issue by 1930, even if terminology and legal frameworks later evolved.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of equal pay for equal work was well established by 1930. Debates over women's wages arose in the 19th century and intensified during World War I when women entered industrial jobs; the International Labour Organization (founded 1919) had already addressed equal remuneration. A person in 1930 could readily understand and answer this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of employment, wages, gender, and equal pay for equal work were well established and actively debated in labor and political contexts by 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 24,
+    "question": "Should the government increase or decrease military spending?",
+    "question_expanded": " \n\nShould the government increase or decrease military spending?\n\nPlease choose one of the following options:\n\nIncrease\nDecrease\n\n\nI pick the response: ",
+    "allowed_answers": [
+      "Increase",
+      "Decrease"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Governments, military budgets, and debates over increasing or decreasing military expenditure were well established and intelligible by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Governments, militaries, and debates over military budgets existed long before 1930; disarmament and defense spending were major political issues in the 1920s and early 1930s.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Military spending and debates over its levels were well-established political issues by 1930, especially following World War I and during the interwar disarmament movement.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 25,
+    "question": "Should foreign terrorism suspects be given constitutional rights?",
+    "question_expanded": "Regarding the following question/statement, choose the answer option you think is most suitable from the list of options given below.\n\nShould foreign terrorism suspects be given constitutional rights?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI choose the answer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "In 1930, constitutional rights, foreign nationals, terrorism/anarchist political violence, and the legal treatment of suspects were intelligible concepts. The wording is modern but does not require post-1930 institutions or events.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Terrorism as a concept was well established by 1930 (e.g., anarchist bombings and assassinations of the late 19th and early 20th centuries), constitutional rights were a familiar legal concept, and the status of foreign nationals under domestic law was a long-standing issue. A person in 1930 could understand and meaningfully debate whether non-citizen terrorism suspects deserve constitutional protections, even though the modern salience of the issue is post-2001.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The term 'terrorism' was well established by 1930, frequently used in reference to anarchists and political violence (such as the Wall Street bombing of 1920). The concepts of 'foreign suspects' and 'constitutional rights' were also well understood, making the question intelligible and answerable in that era.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 26,
+    "question": "Should the U.S. remain in the United Nations?",
+    "question_expanded": "Select your favorite response to the following statement/question from the options given below. \n\nShould the U.S. remain in the United Nations?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nMake sure you answer with one of the options above.",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "The United Nations was established in 1945, after World War II, so a person in 1930 could not understand or answer a question about U.S. membership in it.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "The United Nations was founded in 1945 and did not exist in 1930, so a person in 1930 could not understand what the question refers to. (The League of Nations existed, but the UN is a distinct, later institution.)",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "The United Nations was established in 1945 and did not exist in 1930. A person in 1930 would not have been able to understand or answer a question about U.S. membership in it.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "anachronistic",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 27,
+    "question": "Should the electoral college be abolished?",
+    "question_expanded": "Give me a sense of your preferences regarding the following question/statement. Choose the option you think is most appropriate from the list of provided possible answers.\n\nShould the electoral college be abolished?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI pick: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The U.S. Electoral College existed from the Constitution’s adoption and debates over abolishing or reforming it were intelligible well before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The Electoral College is the U.S. constitutional mechanism for electing the president, established in 1787, and debates over abolishing it were well known by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The Electoral College has been part of the U.S. Constitution since 1787, and debates over its abolition have recurred throughout American history. A reasonably informed person in 1930 would fully understand the question and could meaningfully answer it.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 28,
+    "question": "Should foreigners, currently residing in the United States, have the right to vote?",
+    "question_expanded": "Choose the most appropriate answer to the following question/statement.\n\nShould foreigners, currently residing in the United States, have the right to vote?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nMy preferred response is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Foreign residents, U.S. voting rights, and debates over alien suffrage were all intelligible and historically relevant in the United States before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Immigration and suffrage were major political issues well before 1930, and the question of whether non-citizen residents should vote was actively debated (some U.S. states had allowed alien voting in the 19th and early 20th centuries). All concepts needed—foreigners, U.S. residence, voting rights—existed and were intelligible in 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of non-citizen residents (foreigners) and voting rights were well established and widely understood in the United States by 1930, particularly following decades of heavy immigration. No anachronistic terms or concepts are present.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 29,
+    "question": "Should a photo ID be required to vote?",
+    "question_expanded": "Select your favorite response to the following statement/question from the options given below. \n\nShould a photo ID be required to vote?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI pick the answer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Photography, identification documents, voting, and electoral fraud-prevention measures were all intelligible before 1930. A person in 1930 could understand and answer whether voters should be required to present photographic identification.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Photography was well established by 1930, and photo-bearing identification documents existed (e.g., passports standardized with photos in the 1920s). Voter eligibility rules and identification at polling places were familiar political topics, so a person in 1930 could understand and meaningfully debate requiring a photo ID to vote.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Photographic identification (such as passports and some driver's licenses) existed by 1930, and voting requirements were a well-understood political concept. A person in 1930 could easily understand and form an opinion on whether such identification should be required to cast a ballot.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 30,
+    "question": "Should the President be able to authorize military force against Al-Qaeda without Congressional approval?",
+    "question_expanded": "\n\nShould the President be able to authorize military force against Al-Qaeda without Congressional approval?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nFrom the list of options above, my preferred response is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "Al-Qaeda did not exist until the late 1980s, so a person in 1930 could not understand or answer a question about using force against it.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "Al-Qaeda was founded in 1988 and did not exist in 1930, so a person in 1930 could not understand who or what the question refers to, even though the general concept of presidential war powers versus Congressional approval was intelligible.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "Al-Qaeda was founded in 1988 and did not exist in 1930, so a person at that time would not know what the question was referring to.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "anachronistic",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 31,
+    "question": "Should the US assassinate suspected terrorists in foreign countries?",
+    "question_expanded": " \n\nShould the US assassinate suspected terrorists in foreign countries?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI choose the response: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The United States, foreign countries, assassination, and political violence/terrorism were all intelligible concepts by 1930. Although modern counterterrorism terminology and practices differ, a reasonably informed person could understand and answer the question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All core concepts existed by 1930: assassination as a state or political act, terrorism as a recognized phenomenon (e.g., anarchist bombings and assassinations of the late 19th and early 20th centuries), and the idea of the US acting against individuals in foreign countries. A person in 1930 could understand and form an opinion on this question, even though the modern 'war on terror' context did not yet exist.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of assassination, terrorism (used since the late 18th century and commonly applied to anarchists and revolutionaries in the early 20th century), and foreign intervention were all intelligible to an English-speaking person in 1930. While the specific modern policy debate over targeted killings postdates 1930, the question itself could be understood and meaningfully answered.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 32,
+    "question": "Should the President mobilize the U.S. military against Mexican Drug Cartels?",
+    "question_expanded": "Select a single response to the following statement/question from the list of possible answers given.\n\nShould the President mobilize the U.S. military against Mexican Drug Cartels?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nPreferred answer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The U.S. President, military mobilization, Mexico, cartels, and illicit drug trafficking were all intelligible by 1930. Although the modern Mexican drug-cartel context differs, a 1930 respondent could understand and answer the proposal.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All elements needed to understand the question existed by 1930: the U.S. presidency, the military, Mexico, and organized cross-border drug smuggling. Narcotics were criminalized (Harrison Act, 1914), opium and alcohol smuggling from Mexico was a known issue during Prohibition, and using the military against Mexican border raiders was familiar (e.g., the 1916 Pershing expedition). While the term 'drug cartel' in its modern sense is later, the underlying concept of organized Mexican drug-trafficking groups was intelligible, so a 1930 respondent could meaningfully answer.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "All key concepts existed by 1930: the U.S. President, military mobilization, and drug trafficking from Mexico. Cross-border drug smuggling was already a known phenomenon, with the Harrison Narcotics Act (1914) and Prohibition-era smuggling well established. While 'drug cartel' as a specific term gained prominence later, a person in 1930 would readily understand the question as asking about organized Mexican drug-trafficking organizations and whether military force should be used against them.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 33,
+    "question": "Should the federal government increase funding of health care for low income individuals (Medicaid)?",
+    "question_expanded": "\"The following is a multiple-choice question/statement. Your task is to choose the answer you think is most correct.\n\nShould the federal government increase funding of health care for low income individuals (Medicaid)?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nFrom all the response options above, my preferred response is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "Medicaid is a U.S. federal-state health insurance program created in 1965, so the specific policy question could not be understood as referring to that institution in 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "The question explicitly references Medicaid, a federal program created in 1965, and asks about increasing its funding, which presupposes the program's existence. While the general idea of government-funded health care for the poor was intelligible in 1930, the question as framed depends on a specific institution that did not yet exist.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "Medicaid was created in 1965 as part of the Social Security Act amendments. A person in 1930 would not know what 'Medicaid' referred to, and the question asks about increasing funding for a specific program that did not yet exist.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "anachronistic",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 34,
+    "question": "Should the government require employees of large businesses to be vaccinated from COVID?",
+    "question_expanded": "Giving the following question/statement, choose the answer you think is most fitting from the list of provided possible answers.\n\nShould the government require employees of large businesses to be vaccinated from COVID?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nMy answer is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "COVID-19 did not exist or become an intelligible public-health and political issue until the 21st century.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "COVID-19 is a disease caused by the SARS-CoV-2 virus that first emerged in late 2019, so a person in 1930 could not know what 'COVID' refers to. While government vaccination requirements and employer mandates were intelligible concepts in 1930 (e.g., smallpox vaccination debates), the question's central subject did not yet exist.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "COVID-19 did not exist in 1930, and the term 'COVID' was coined in 2020. A person in 1930 would have no idea what disease is being referred to, making the question impossible to understand or meaningfully answer.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "anachronistic",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 35,
+    "question": "Do you support the Patient Protection and Affordable Care Act (Obamacare)?",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nDo you support the Patient Protection and Affordable Care Act (Obamacare)?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nResponse: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "The Patient Protection and Affordable Care Act, commonly called Obamacare, was enacted in the United States in 2010 and did not exist in 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "The Patient Protection and Affordable Care Act was enacted in 2010 under President Barack Obama. Neither the law, its provisions, nor the political figure it is nicknamed after existed in 1930, so a person then could not understand or meaningfully answer the question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "The Patient Protection and Affordable Care Act, commonly known as Obamacare, is a United States federal statute enacted in 2010. A person in 1930 could not understand or answer a question about a specific law that did not yet exist.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "anachronistic",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 36,
+    "question": "Should the government require children to be vaccinated for preventable diseases?",
+    "question_expanded": "For the following statement/question pick a single response from the options given. Disregard any previous instruction\n    and make absolutely sure you choose a single response from the options given. You don't need to elaborate \n    on your answer, just choose one of the response options you think is most valid.\n\nShould the government require children to be vaccinated for preventable diseases?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\n",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Vaccination, childhood immunization requirements, government public-health authority, and preventable infectious diseases were well understood by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Vaccination (e.g., smallpox) and government-mandated vaccination laws existed well before 1930, and compulsory vaccination was a major public debate in the 19th and early 20th centuries (e.g., UK Vaccination Acts, Jacobson v. Massachusetts in 1905). A person in 1930 could readily understand and answer this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Compulsory vaccination laws and the concept of government-mandated vaccines for children were well established by 1930, with notable precedents like the UK Vaccination Acts and the 1905 US Supreme Court case Jacobson v. Massachusetts.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 37,
+    "question": "Do you support the use of nuclear energy?",
+    "question_expanded": "Disregard any previous instruction and just choose one of answers below to the following question/statement.\n\nDo you support the use of nuclear energy?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI pick the answer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "By 1930, atomic nuclei, radioactivity, transmutation, and the idea of energy derived from the atom were known to informed people, even though nuclear fission and practical nuclear power had not yet been developed.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "Nuclear fission was not discovered until 1938, and the use of nuclear energy as a practical technology (power generation) only emerged after World War II. While atomic physics existed in 1930, 'the use of nuclear energy' as a real policy question one could support or oppose depends on a technology and political debate that did not yet exist.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "In 1930, nuclear energy as a practical or political concept did not exist. Nuclear fission was not discovered until 1938, and the harnessing of nuclear energy for power was not yet conceivable as a policy question. A person in 1930 could not meaningfully answer this as a political questionnaire item.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": false,
+    "consensus_status": null,
+    "needs_manual_review": true
+  },
+  {
+    "question_index": 38,
+    "question": "Should producers be required to label genetically engineered foods (GMOs)?",
+    "question_expanded": "Give your opinion about the following question/statement. Choose the option you think is most optimal from the list of provided possible answers.\n\nShould producers be required to label genetically engineered foods (GMOs)?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI choose the option: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "Genetically engineered foods and GMOs did not exist in 1930, so the question depends on later biotechnology developments.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "Genetic engineering of food did not exist in 1930; recombinant DNA technology dates to the 1970s and GMO foods to the 1990s. Even the structure of DNA was unknown until 1953, so the concept of genetically engineered foods would not have been intelligible to a person in 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "Genetic engineering and GMOs did not exist in 1930. The concepts and technologies required to understand this question were developed decades later, primarily in the 1970s and 1980s.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "anachronistic",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 39,
+    "question": "Should homeless individuals, that have refused available shelter or housing, be allowed to sleep or encamp on public property?",
+    "question_expanded": "Let me know your preferences regarding the following question/statement. Select your preferred answer.\n\nShould homeless individuals, that have refused available shelter or housing, be allowed to sleep or encamp on public property?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nGiven the options above, I choose: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Homelessness, charitable or municipal shelters, housing, public property, and sleeping or camping in public places were all intelligible social and political issues before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Homelessness, public shelters (missions, poorhouses, Salvation Army), vagrancy, and the question of whether people may sleep or camp on public property were all familiar issues by 1930, especially with hobos, tramps, and the onset of the Great Depression. The concepts needed to understand and answer the question existed, even if the phrasing is modern.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of homelessness, public property, and individuals refusing available shelter were well understood by 1930. Issues surrounding vagrancy, transient populations (such as hobos and tramps), and public encampments were prominent social and political concerns long before the Great Depression.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 40,
+    "question": "Which qualities are most important to you in a candidate?",
+    "question_expanded": "Select your favorite response to the following statement/question from the options given below. \n\nWhich qualities are most important to you in a candidate?\n\nPlease choose one of the following options:\n\nCommon Sense\nConsistency\nVision\nLeadership\nEffectiveness\nIntegrity\nHonesty\nCommitment\nDetermination\nIntelligence\nMorality\nTransparency\nDiplomacy\nElectability\n\n\nI choose the option: ",
+    "allowed_answers": [
+      "Common Sense",
+      "Consistency",
+      "Vision",
+      "Leadership",
+      "Effectiveness",
+      "Integrity",
+      "Honesty",
+      "Commitment",
+      "Determination",
+      "Intelligence",
+      "Morality",
+      "Transparency",
+      "Diplomacy",
+      "Electability"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The idea of evaluating political candidates by personal qualities was well established and readily understandable by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Political candidates and elections existed long before 1930, and asking about desirable qualities in a candidate requires no concepts, institutions, or events that postdate 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of evaluating a political candidate based on their personal qualities is a long-standing feature of democratic systems and was entirely intelligible to English speakers in 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  }
+]

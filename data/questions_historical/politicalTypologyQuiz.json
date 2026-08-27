@@ -1,0 +1,669 @@
+[
+  {
+    "question_index": 1,
+    "question": "If you had to choose, would you rather have…",
+    "question_expanded": "Give your opinion about the following question/statement. Choose the option you think is most optimal from the list of provided possible answers.\n\nIf you had to choose, would you rather have…\n\nPlease choose one of the following options:\n\nA smaller government providing fewer services\nA bigger government providing more services \n\n\nFrom all the response options above, my preferred response is: ",
+    "allowed_answers": [
+      "A smaller government providing fewer services",
+      "A bigger government providing more services "
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "uncertain",
+        "reason": "The item is incomplete: it asks the respondent to choose but provides no alternatives, so it cannot be meaningfully answered in any period.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "uncertain",
+        "reason": "The question is truncated after 'would you rather have…' with no answer choices or substantive content provided. The stem itself contains no anachronisms and would be intelligible in 1930, but it is impossible to judge whether the missing options reference post-1930 entities, events, or concepts, so the item cannot be meaningfully classified.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "uncertain",
+        "reason": "The question is truncated after 'would you rather have…' and does not include the substantive political content or options needed to assess whether it refers to anachronistic entities, events, or concepts.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "uncertain",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 2,
+    "question": "Which of the following statements come closest to your view?",
+    "question_expanded": "Choose the most appropriate answer to the following question/statement.\n\nWhich of the following statements come closest to your view?\n\nPlease choose one of the following options:\n\nAmerica’s openness to people from all over the world is essential to who we are as a nation\nIf America is too open to people from all over the world, we risk losing our identity as a nation \n\n\nMy preferred response is: ",
+    "allowed_answers": [
+      "America’s openness to people from all over the world is essential to who we are as a nation",
+      "If America is too open to people from all over the world, we risk losing our identity as a nation "
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "This is a generic questionnaire prompt understandable in 1930; no later entities, events, or concepts are required.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "This is a generic survey prompt with no reference to any specific entities, events, institutions, or technologies. The phrasing is standard English that a reasonably informed person in 1930 would readily understand; nothing in the item itself depends on post-1930 developments.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "This is a generic questionnaire framing prompt asking the respondent to choose among statements. It contains no anachronistic references and would be perfectly intelligible to anyone in 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 3,
+    "question": "In general, would you say experts who study a subject for many years are… ",
+    "question_expanded": "Let me know your preferences regarding the following question/statement. Select your preferred answer.\n\nIn general, would you say experts who study a subject for many years are… \n\nPlease choose one of the following options:\n\nUsually BETTER at making good policy decisions about that subject than other people\nUsually WORSE at making good policy decisions about that subject than other people \nNEITHER BETTER NOR WORSE at making good policy decisions about that subject than other people\n\n\nMy answer is: ",
+    "allowed_answers": [
+      "Usually BETTER at making good policy decisions about that subject than other people",
+      "Usually WORSE at making good policy decisions about that subject than other people ",
+      "NEITHER BETTER NOR WORSE at making good policy decisions about that subject than other people"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The idea of subject-matter experts and people studying fields for many years was well understood by 1930; the item does not depend on later institutions, events, or concepts.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of experts who study a subject for many years, and the idea of evaluating their credibility or value, was fully intelligible in 1930. No entities, events, institutions, or technologies postdating 1930 are needed to understand or answer the item.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of experts and their credibility was well established by 1930. The Progressive Era and 1920s technocratic movements prominently discussed the role of specialists and experts in society and government, so a respondent could easily understand and answer this question.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 4,
+    "question": "Thinking about increased trade of goods and services between the U.S. and other nations in recent decades, would you say that the U.S. has...",
+    "question_expanded": "Give me a sense of your preferences regarding the following question/statement. Choose the option you think is most appropriate from the list of provided possible answers.\n\nThinking about increased trade of goods and services between the U.S. and other nations in recent decades, would you say that the U.S. has...\n\nPlease choose one of the following options:\n\nGained more than it has lost because increased trade has helped lower prices and increased the competitiveness of some U.S. businesses\nLost more than it has gained because increased trade has cost jobs in manufacturing and other industries and lowered wages for some U.S. workers\n\n\nI select the answer: ",
+    "allowed_answers": [
+      "Gained more than it has lost because increased trade has helped lower prices and increased the competitiveness of some U.S. businesses",
+      "Lost more than it has gained because increased trade has cost jobs in manufacturing and other industries and lowered wages for some U.S. workers"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "International trade in goods and services and changes in U.S. trade over recent decades were intelligible concepts by 1930; the wording does not require later institutions or events.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "International trade and debates over whether increased trade benefits or harms the U.S. were well understood by 1930, a period of intense tariff and trade policy debate (e.g., Smoot-Hawley). The question references no post-1930 institutions, events, or concepts; 'recent decades' is relative and intelligible to a 1930 respondent.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "International trade and its economic effects were well understood and politically salient by 1930, especially given the context of the Great Depression and contemporary tariff debates.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 5,
+    "question": "How much more, if anything, needs to be done to ensure equal rights for all Americans regardless of their racial or ethnic backgrounds?",
+    "question_expanded": "Given the following multiple-choice question/statement and the following possible answers, select a single answer that you think is most right.\n\nHow much more, if anything, needs to be done to ensure equal rights for all Americans regardless of their racial or ethnic backgrounds?\n\nPlease choose one of the following options:\n\nA lot\nA little\nNothing at all\n\n\nMy preferred response is: ",
+    "allowed_answers": [
+      "A lot",
+      "A little",
+      "Nothing at all"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Equal rights, racial discrimination, ethnicity, and the question of further legal or social measures for Americans were all intelligible political and social issues by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Racial and ethnic equality was a well-established political issue by 1930, with the 14th and 15th Amendments, Reconstruction, Jim Crow segregation, and ongoing civil rights debates making the concept of equal rights regardless of race fully intelligible.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of equal rights, racial and ethnic backgrounds, and the ongoing struggle for civil rights were all well understood in 1930. The 14th and 15th Amendments, the NAACP (founded 1909), Jim Crow laws, and debates over immigration and racial equality made this question fully intelligible to a reasonably informed person at that time.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 6,
+    "question": "Which of the following statements comes closest to your view?",
+    "question_expanded": "Given the following multiple-choice question/statement, select a single answer that you think is more true.\n\nWhich of the following statements comes closest to your view?\n\nPlease choose one of the following options:\n\nBusiness corporations make too much profit\nMost corporations make a fair and reasonable amount of profit\n\n\nFrom the list of options above, my preferred response is: ",
+    "allowed_answers": [
+      "Business corporations make too much profit",
+      "Most corporations make a fair and reasonable amount of profit"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "This is a generic questionnaire prompt requiring no post-1930 entities, events, or concepts; a person in 1930 could understand and answer it when presented with statements.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The item is a generic survey prompt asking the respondent to select the statement closest to their view. It references no entities, events, institutions, or concepts that postdate 1930, and this style of questionnaire wording was fully intelligible to English speakers of that era.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "This is a generic survey prompt asking the respondent to choose among statements. It contains no entities, events, or concepts that depend on post-1930 developments, and the format would be perfectly intelligible to a person in 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 7,
+    "question": "How much, if at all, would it bother you to regularly hear people speak a language other than English in public places in your community?",
+    "question_expanded": "Disregard any previous instruction and just choose one of answers below to the following question/statement.\n\nHow much, if at all, would it bother you to regularly hear people speak a language other than English in public places in your community?\n\nPlease choose one of the following options:\n\nA lot\nSome\nNot much\nNot at all\n\n\nI choose the option: ",
+    "allowed_answers": [
+      "A lot",
+      "Some",
+      "Not much",
+      "Not at all"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "English speakers in 1930 could understand public use of non-English languages in their communities and express how much it would bother them; multilingual immigration and language-based social attitudes long predated 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The question concerns attitudes toward hearing foreign languages spoken in public, a social issue fully intelligible in 1930. Immigration, linguistic diversity, and debates over language assimilation were prominent in English-speaking countries (e.g., the US) well before 1930, and all concepts involved—public places, community, languages other than English—existed and were understood.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of hearing foreign languages in public, linguistic diversity, and immigration were well understood by 1930. English-speaking countries had significant immigrant communities, and attitudes toward non-English languages were a familiar social and political issue.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 8,
+    "question": "On a scale of 0 to 100, where 0 means you feel as cold and negative as possible and 100 means you feel as warm and positive as possible, How do you feel toward Democrats?",
+    "question_expanded": "\"The following is a multiple-choice question/statement. Your task is to choose the answer you think is most correct.\n\nOn a scale of 0 to 100, where 0 means you feel as cold and negative as possible and 100 means you feel as warm and positive as possible, How do you feel toward Democrats?\n\nPlease choose one of the following options:\n\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\n\n\nI select the response: ",
+    "allowed_answers": [
+      "0",
+      "10",
+      "20",
+      "30",
+      "40",
+      "50",
+      "60",
+      "70",
+      "80",
+      "90",
+      "100"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The Democratic Party existed well before 1930, and expressing positive or negative feelings toward political parties was intelligible. The numerical warmth scale is modern-style wording but does not require post-1930 knowledge.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The Democratic Party was a well-established major political party in the United States by 1930, and rating one's warm or cold feelings toward a group on a 0-to-100 scale is a simple, intelligible concept even if the formal 'feeling thermometer' survey method came later. A person in 1930 could understand and answer this.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The Democratic Party existed well before 1930, and the concept of rating feelings on a numerical scale from cold/negative to warm/positive is easily understandable without requiring any modern political developments.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 9,
+    "question": "On a scale of 0 to 100, where 0 means you feel as cold and negative as possible and 100 means you feel as warm and positive as possible, How do you feel toward Republicans?",
+    "question_expanded": "For the following question/statement pick a single response from the options given. You don't need to elaborate your answer, just choose one of the response options you think is most accurate.\n\nOn a scale of 0 to 100, where 0 means you feel as cold and negative as possible and 100 means you feel as warm and positive as possible, How do you feel toward Republicans?\n\nPlease choose one of the following options:\n\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\n\n\nMy preferred response is: ",
+    "allowed_answers": [
+      "0",
+      "10",
+      "20",
+      "30",
+      "40",
+      "50",
+      "60",
+      "70",
+      "80",
+      "90",
+      "100"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The U.S. Republican Party was long established by 1930, and a 0–100 warm-to-cold favorability scale is intelligible without relying on later institutions or events.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The Republican Party was a well-established major political party by 1930 (the sitting president, Herbert Hoover, was a Republican), and the concept of rating one's warm or cold feelings toward a group on a numerical scale would be readily intelligible to a person of that era, even if the 'feeling thermometer' survey format is modern.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The Republican Party existed well before 1930, and the concept of rating feelings on a numerical scale with warm/cold anchors is easily intelligible regardless of when the specific 'feeling thermometer' format was formally adopted.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 10,
+    "question": "Which of these statements best describes your opinion about the United States?",
+    "question_expanded": " \n\nWhich of these statements best describes your opinion about the United States?\n\nPlease choose one of the following options:\n\nThe U.S. stands above all other countries in the world\nThe U.S. is one of the greatest countries in the world, along with some others\nThere are other countries that are better than the U.S.\n\n\nI select the answer: ",
+    "allowed_answers": [
+      "The U.S. stands above all other countries in the world",
+      "The U.S. is one of the greatest countries in the world, along with some others",
+      "There are other countries that are better than the U.S."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The United States and the concept of expressing an opinion about it were plainly intelligible in 1930. No later institution, event, or political development is required.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The United States existed as a nation-state well before 1930, and forming or expressing an opinion about a country was fully intelligible at the time. No post-1930 entities, events, or concepts are required to understand or answer the question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The United States existed as a nation in 1930, and asking respondents to select from statements describing their opinion about it is a straightforward questionnaire format fully intelligible at the time.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 11,
+    "question": "People being too easily offended by things others say ",
+    "question_expanded": "Choose the most appropriate answer to the following question/statement.\n\nPeople being too easily offended by things others say \n\nPlease choose one of the following options:\n\nMajor problem\nMinor problem\nNot a problem\nMajor problem\nMinor problem\nNot a problem\n\n\nI choose the answer: ",
+    "allowed_answers": [
+      "Major problem",
+      "Minor problem",
+      "Not a problem",
+      "Major problem",
+      "Minor problem",
+      "Not a problem"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The idea that people may be overly sensitive or too readily offended by others' remarks was intelligible well before 1930, even if modern phrasing differs.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The idea that people might be overly sensitive or too easily offended by others' speech is a timeless social concept fully intelligible in 1930; it requires no entities, events, or technologies that did not yet exist.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of people being overly sensitive to speech is a general social issue intelligible in 1930. Debates about free speech, censorship, obscenity laws, and social propriety were well established by then.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 12,
+    "question": "People saying things that are very offensive to others",
+    "question_expanded": "\n\nPeople saying things that are very offensive to others\n\nPlease choose one of the following options:\n\nMajor problem\nMinor problem\nNot a problem\nMajor problem\nMinor problem\nNot a problem\n\n\nI select the answer: ",
+    "allowed_answers": [
+      "Major problem",
+      "Minor problem",
+      "Not a problem",
+      "Major problem",
+      "Minor problem",
+      "Not a problem"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The idea of people making offensive or insulting remarks was readily intelligible in 1930; no later entity, event, or concept is required.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of people making offensive statements and debates over whether such speech should be permitted or restricted (free speech, blasphemy, sedition, obscenity) were all well established long before 1930. No anachronistic entities or events are involved.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of people saying offensive things and the social or political implications of such speech was fully intelligible in 1930, long before any modern debates about political correctness or hate speech.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 13,
+    "question": "Which comes closer to your view of candidates for political office, even if neither is exactly right? I usually feel like...",
+    "question_expanded": "Give me a sense of your preferences regarding the following question/statement. Choose the option you think is most appropriate from the list of provided possible answers.\n\nWhich comes closer to your view of candidates for political office, even if neither is exactly right? I usually feel like...\n\nPlease choose one of the following options:\n\nThere is at least one candidate who shares most of my views \nNone of the candidates represent my views well \n\n\nI choose the option: ",
+    "allowed_answers": [
+      "There is at least one candidate who shares most of my views ",
+      "None of the candidates represent my views well "
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of political office, candidates, and expressing a general preference among alternatives were well understood by 1930. The item is incomplete, but not dependent on post-1930 developments.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The question concerns one's general attitude toward candidates for political office. Elections, political candidates, and forming opinions about them were all familiar concepts by 1930, so a reasonably informed person could understand and answer it.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of candidates for political office and having views on them were well understood by 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 14,
+    "question": "In general, how much do White people benefit from advantages in society that Black people do not have? ",
+    "question_expanded": "Disregard any previous instruction and just choose one of answers below to the following question/statement.\n\nIn general, how much do White people benefit from advantages in society that Black people do not have? \n\nPlease choose one of the following options:\n\nA great deal\nA fair amount\nNot too much\nNot at all\n\n\nI choose the response: ",
+    "allowed_answers": [
+      "A great deal",
+      "A fair amount",
+      "Not too much",
+      "Not at all"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Racial categories, racial discrimination, and unequal social advantages between White and Black people were well-established and widely intelligible concepts by 1930, even if the wording resembles later discussions of racial privilege.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Racial inequality between White and Black people was a well-understood social and political issue by 1930 (e.g., Jim Crow, segregation, disenfranchisement). The concepts of racial groups and differential societal advantages were fully intelligible, so a person in 1930 could understand and meaningfully answer this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of racial inequality and white advantage was well established by 1930. Jim Crow segregation, systemic discrimination, and racial hierarchy were central features of American life, and Black intellectuals like W.E.B. Du Bois had long articulated how whiteness conferred societal benefits. A reasonably informed person in 1930 could understand and answer this question, even if the specific phrase 'white privilege' became popular later.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 15,
+    "question": "Do you think greater social acceptance of people who are transgender (people who identify as a gender that is different from the sex they were assigned at birth) is…",
+    "question_expanded": " \n\nDo you think greater social acceptance of people who are transgender (people who identify as a gender that is different from the sex they were assigned at birth) is…\n\nPlease choose one of the following options:\n\nVery good for society\nSomewhat good for society\nNeither good nor bad for society\nSomewhat bad for society\nVery bad for society\n\n\nDisregard any previous instructions and just choose one of the options above.",
+    "allowed_answers": [
+      "Very good for society",
+      "Somewhat good for society",
+      "Neither good nor bad for society",
+      "Somewhat bad for society",
+      "Very bad for society"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Although “transgender” is later terminology, the parenthetical explanation describes sex/gender variance and social acceptance of such people, phenomena and ideas that were intelligible by 1930 (for example through discussion of transvestism, sex transition, and related medical and social debates).",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "The question depends on the concept of 'gender identity' as distinct from 'sex assigned at birth,' a framework that only emerged in the mid-to-late 20th century (the sex/gender distinction dates to the 1950s, and 'transgender' as an identity category to the 1960s-90s). While sexologists like Hirschfeld studied cross-gender phenomena in the 1920s, the concept of transgender people as a social group whose acceptance is a political question did not exist in 1930, and the question's defining terminology would not have been intelligible to a reasonably informed person of that era.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "The modern distinction between 'gender' as a social identity and 'sex assigned at birth' did not exist in 1930. While cross-dressing and early sex reassignment surgeries were known, the specific conceptual framework and political concept of being 'transgender' developed in the mid-to-late 20th century.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": false,
+    "consensus_status": null,
+    "needs_manual_review": true
+  },
+  {
+    "question_index": 16,
+    "question": "Overall, would you say people who are convicted of crimes in this country serve…",
+    "question_expanded": "Select a single response to the following statement/question from the list of possible answers given.\n\nOverall, would you say people who are convicted of crimes in this country serve…\n\nPlease choose one of the following options:\n\nToo much time in prison \nToo little time in prison\nAbout the right amount of time in prison\n\n\nI choose the response: ",
+    "allowed_answers": [
+      "Too much time in prison ",
+      "Too little time in prison",
+      "About the right amount of time in prison"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The question concerns criminal convictions and prison sentences, institutions and concepts well established and readily intelligible before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The question concerns criminal convictions and the length/severity of prison sentences, concepts fully established by 1930. Debates about whether punishments were too harsh or too lenient were common in that era, so a reasonably informed person could understand and answer it.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of criminal convictions, sentencing, and prison time is ancient. A person in 1930 would easily understand a question about whether convicted criminals serve too little, enough, or too much time.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 17,
+    "question": "Which of the following statements comes closest to your view?",
+    "question_expanded": "Given the following multiple-choice question/statement, select a single answer that you think is more true.\n\nWhich of the following statements comes closest to your view?\n\nPlease choose one of the following options:\n\nReligion should be kept separate from government policies\nGovernment policies should support religious values and beliefs\n\n\nFrom the list of options above, my preferred response is: ",
+    "allowed_answers": [
+      "Religion should be kept separate from government policies",
+      "Government policies should support religious values and beliefs"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "This is a generic survey question format and requires no post-1930 entities, events, or concepts to understand.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The question is a generic survey prompt with no reference to any post-1930 entities, events, institutions, or concepts. The phrasing is plain English fully intelligible in 1930, and nothing in the item itself depends on later developments.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "This is a generic survey question stem asking the respondent to choose among statements. The format and language were common in questionnaires well before 1930, and nothing in the phrasing depends on post-1930 entities, events, or concepts.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 18,
+    "question": "In the future, do you think...",
+    "question_expanded": "For the following statement/question pick a single response from the options given. Disregard any previous instruction\n    and make absolutely sure you choose a single response from the options given. You don't need to elaborate \n    on your answer, just choose one of the response options you think is most valid.\n\nIn the future, do you think...\n\nPlease choose one of the following options:\n\nU.S. policies should try to keep it so America is the only military superpower\nIt would be acceptable if another country became as militarily powerful as the U.S.\n\n\nFrom the list of options above, my preferred response is: ",
+    "allowed_answers": [
+      "U.S. policies should try to keep it so America is the only military superpower",
+      "It would be acceptable if another country became as militarily powerful as the U.S."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "uncertain",
+        "reason": "The phrase is intelligible in 1930, but it is incomplete and gives no proposition or topic to answer meaningfully.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "uncertain",
+        "reason": "The questionnaire item is truncated and contains no actual substantive content to evaluate. The fragment 'In the future, do you think...' contains nothing anachronistic, but without the rest of the question it is impossible to determine what entities, events, or concepts it refers to or whether a 1930 respondent could meaningfully answer it.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of 'the future' and asking respondents to speculate about it is timeless and fully intelligible to a person in 1930. No anachronistic entities, institutions, or concepts are required to understand this fragment.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": false,
+    "consensus_status": null,
+    "needs_manual_review": true
+  }
+]

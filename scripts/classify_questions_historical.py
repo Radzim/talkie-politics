@@ -1,5 +1,5 @@
+import csv
 import json
-from collections import Counter
 from pathlib import Path
 
 from talkie_politics.llm import ask_llm
@@ -8,6 +8,7 @@ from talkie_politics.llm import ask_llm
 REPO_ROOT = Path(__file__).resolve().parents[1]
 QUESTIONS_DIR = REPO_ROOT / "data" / "questions"
 OUTPUT_DIR = REPO_ROOT / "data" / "questions_historical"
+CSV_PATH = REPO_ROOT / "analysis" / "questions_historical_review.csv"
 
 JUDGES = [
     {
@@ -16,13 +17,19 @@ JUDGES = [
     },
     {
         "provider": "cambridge",
-        "model": "Qwen/Qwen3.8-27B-FP8",
+        "model": "moonshotai/Kimi-K3",
     },
     {
         "provider": "cambridge",
         "model": "zai-org/GLM-5.2-FP8",
     },
 ]
+
+JUDGE_COLUMNS = {
+    "gpt-5.6-terra": "GPT-5.6-terra",
+    "moonshotai/Kimi-K3": "Kimi-K3",
+    "zai-org/GLM-5.2-FP8": "GLM-5.2-FP8",
+}
 
 MAX_RETRIES = 3
 
@@ -65,6 +72,20 @@ Return JSON only:
 """
 
 
+def clean_json_response(raw: str) -> str:
+    cleaned = raw.strip()
+
+    if cleaned.startswith("```json"):
+        cleaned = cleaned[len("```json"):].strip()
+    elif cleaned.startswith("```"):
+        cleaned = cleaned[len("```"):].strip()
+
+    if cleaned.endswith("```"):
+        cleaned = cleaned[:-3].strip()
+
+    return cleaned
+
+
 def classify_question_once(
     question: str,
     judge: dict,
@@ -91,8 +112,8 @@ QUESTION:
             )
 
             last_raw = raw
-
-            result = json.loads(raw)
+            cleaned = clean_json_response(raw)
+            result = json.loads(cleaned)
 
             status = result["status"]
             reason = result["reason"]
@@ -196,7 +217,7 @@ def classify_question(
 def classify_question_file(
     input_path: Path,
     output_path: Path,
-) -> None:
+) -> list[dict]:
     with input_path.open(
         "r",
         encoding="utf-8",
@@ -221,11 +242,15 @@ def classify_question_file(
         results.append(result)
 
         if classification["full_agreement"]:
-            display_status = classification["consensus_status"]
+            display_status = classification[
+                "consensus_status"
+            ]
         else:
             judge_statuses = [
                 judgement["status"]
-                for judgement in classification["judgements"]
+                for judgement in classification[
+                    "judgements"
+                ]
             ]
 
             display_status = (
@@ -239,6 +264,10 @@ def classify_question_file(
             f"{display_status}",
             flush=True,
         )
+
+    results.sort(
+        key=lambda row: row["question_index"]
+    )
 
     output_path.parent.mkdir(
         parents=True,
@@ -256,6 +285,117 @@ def classify_question_file(
             ensure_ascii=False,
         )
 
+    return results
+
+
+def build_csv_row(
+    test_name: str,
+    row: dict,
+) -> dict:
+    judgements = {
+        judgement["model"]: judgement
+        for judgement in row["judgements"]
+    }
+
+    output = {
+        "test": test_name,
+        "question_index": row["question_index"],
+        "question": row["question"],
+    }
+
+    for model_name, column_name in JUDGE_COLUMNS.items():
+        judgement = judgements.get(model_name)
+
+        if judgement is None:
+            output[column_name] = ""
+        elif not judgement.get("parse_success", False):
+            output[column_name] = "FAILED"
+        else:
+            output[column_name] = judgement["status"]
+
+    flagged = bool(
+        row["needs_manual_review"]
+    )
+
+    output["flagged_for_human_verification"] = (
+        1 if flagged else 0
+    )
+
+    output["final_status"] = (
+        ""
+        if flagged
+        else row["consensus_status"]
+    )
+
+    return output
+
+
+def write_review_csv(
+    all_results: list[tuple[str, list[dict]]],
+) -> None:
+    CSV_PATH.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    rows = []
+
+    for test_name, results in all_results:
+        for row in results:
+            rows.append(
+                build_csv_row(
+                    test_name=test_name,
+                    row=row,
+                )
+            )
+
+    rows.sort(
+        key=lambda row: (
+            row["test"],
+            row["question_index"],
+        )
+    )
+
+    fieldnames = [
+        "test",
+        "question_index",
+        "question",
+        "GPT-5.6-terra",
+        "Kimi-K3",
+        "GLM-5.2-FP8",
+        "flagged_for_human_verification",
+        "final_status",
+    ]
+
+    with CSV_PATH.open(
+        "w",
+        encoding="utf-8-sig",
+        newline="",
+    ) as f:
+        writer = csv.DictWriter(
+            f,
+            fieldnames=fieldnames,
+        )
+
+        writer.writeheader()
+        writer.writerows(rows)
+
+    flagged_count = sum(
+        row["flagged_for_human_verification"]
+        for row in rows
+    )
+
+    print(
+        f"\nWrote {len(rows)} rows -> {CSV_PATH}",
+        flush=True,
+    )
+
+    print(
+        f"Flagged for human verification: "
+        f"{flagged_count}",
+        flush=True,
+    )
+
 
 def main() -> None:
     input_files = sorted(
@@ -267,18 +407,33 @@ def main() -> None:
         flush=True,
     )
 
+    all_results = []
+
     for input_path in input_files:
-        output_path = OUTPUT_DIR / input_path.name
+        output_path = (
+            OUTPUT_DIR / input_path.name
+        )
 
         print(
             f"\nClassifying {input_path.name}",
             flush=True,
         )
 
-        classify_question_file(
+        results = classify_question_file(
             input_path=input_path,
             output_path=output_path,
         )
+
+        all_results.append(
+            (
+                input_path.stem,
+                results,
+            )
+        )
+
+    write_review_csv(
+        all_results
+    )
 
 
 if __name__ == "__main__":

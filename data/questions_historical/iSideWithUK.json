@@ -1,0 +1,1419 @@
+[
+  {
+    "question_index": 1,
+    "question": "Should homeless individuals, that have refused available shelter or housing, be allowed to sleep or encamp on public property?",
+    "question_expanded": "Regarding the following question/statement, choose the answer option you think is most suitable from the list of options given below.\n\nShould homeless individuals, that have refused available shelter or housing, be allowed to sleep or encamp on public property?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nPreferred answer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Homelessness, refusal of charitable or public shelter, sleeping in public places, and regulation of public property were all intelligible issues by 1930, even if modern terminology and policy framing differ.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Homelessness, public shelters, vagrancy, and the use of public property were all well-understood social and legal issues by 1930 (e.g., vagrancy laws, poorhouses, municipal shelters, and rising homelessness during the Depression). A person in 1930 could understand and meaningfully answer this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of homelessness, public property, and encampments were well understood by 1930. Issues surrounding vagrancy, 'hobo jungles,' and individuals refusing available shelter were prominent social and political concerns, especially during the Great Depression.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 2,
+    "question": "Should the U.K. raise taxes on the rich?",
+    "question_expanded": "Given the following multiple-choice question/statement and the following possible answers, select a single answer that you think is most right.\n\nShould the U.K. raise taxes on the rich?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nMy preferred option is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The United Kingdom, taxation, wealthy people, and debates over progressive taxation all existed and were well understood by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The U.K., taxation, and progressive taxation of the wealthy all existed and were hotly debated by 1930 (e.g., Lloyd George's 1909 'People's Budget' and supertax). A person in 1930 could readily understand and answer this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The U.K., taxation, and the concept of taxing the wealthy were all well-established by 1930. Income tax and debates over wealth redistribution were prominent political issues in interwar Britain.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 3,
+    "question": "Should the government raise the national minimum wage?",
+    "question_expanded": "Given the following multiple-choice question/statement, select a single answer that you think is more true.\n\nShould the government raise the national minimum wage?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nFrom the list of options above, my preferred response is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Minimum-wage laws and the idea of government-set wage floors were already established or debated in several English-speaking countries by 1930, even where no single nationwide minimum wage yet existed. The question’s meaning would be intelligible.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Minimum wage laws and debates over them existed well before 1930 (e.g., Britain's Trade Boards Act 1909, state-level minimum wage laws in the US, and wage-fixing systems in Australia and New Zealand). The concept of a government-mandated national minimum wage was intelligible and politically debated, even though the US federal minimum wage was only enacted in 1938.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of a minimum wage and the political debate over establishing a national (federal) minimum wage were well established by 1930. State-level minimum wage laws already existed in the US and other countries, and the idea of a national standard was actively discussed in progressive and labor circles. A person in 1930 could easily understand the question and express a meaningful opinion on government-mandated wage floors.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 4,
+    "question": "Should homeowners pay higher taxes on \"mansions\" valued over £2m?",
+    "question_expanded": "Give me a sense of your preferences regarding the following question/statement. Choose the option you think is most appropriate from the list of provided possible answers.\n\nShould homeowners pay higher taxes on \"mansions\" valued over £2m?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nGiven the options above, I choose: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Homeownership, property valuation, taxation, mansions, and pound-denominated thresholds were all intelligible in 1930. The specific £2m threshold is large but does not require later developments to understand or answer.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All concepts needed—homeownership, property taxation, mansions, and progressive taxes on high-value property—existed and were intelligible by 1930. Debates about taxing wealth and expensive property were common in that era (e.g., Lloyd George's 'People's Budget' of 1909 included land and property taxes). The specific £2m threshold reflects a later policy debate, but the underlying question is a generic policy preference a 1930s person could readily understand and answer.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of homeownership, property taxation, and valuing high-end properties ('mansions') at a specific monetary threshold were all well understood in 1930. While £2 million was an extraordinarily high value for a house at the time, the question itself is perfectly intelligible.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 5,
+    "question": "Should universities be held financially accountable if graduates, with degrees leading to lower income jobs, default on their student loans?",
+    "question_expanded": "\n\nShould universities be held financially accountable if graduates, with degrees leading to lower income jobs, default on their student loans?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nGiven the options above, I choose: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Universities, graduate earnings, borrowing for education, loan default, and proposals to hold institutions financially responsible were intelligible concepts by 1930, even if student-loan systems were less developed than later.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All core concepts—universities, degrees, loans, default, and income differences across occupations—existed and were intelligible by 1930. Student loan funds operated by universities and charitable organizations existed in the 19th and early 20th centuries, so borrowing for education and defaulting on such debt was understandable, even though large-scale government student loan programs came later. The policy question of holding institutions financially accountable is a normative one a 1930s person could meaningfully answer.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of universities, student loans (which existed as university loan funds and private loans), default, and institutional financial accountability were all intelligible in 1930. A person could understand and form an opinion on whether universities should bear financial responsibility for graduates defaulting on loans.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 6,
+    "question": "Should the UK abolish university tuition fees?",
+    "question_expanded": "Give me a sense of your preferences regarding the following question/statement. Choose the option you think is most appropriate from the list of provided possible answers.\n\nShould the UK abolish university tuition fees?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nMy preferred option is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "UK universities existed and commonly charged tuition or other attendance fees by 1930, so abolishing such fees was an intelligible policy question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "UK universities charged tuition fees well before 1930, and debates over the cost and funding of higher education (including state support, e.g., the University Grants Committee founded in 1919) were already intelligible. A person in 1930 could understand and meaningfully answer whether such fees should be abolished.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Universities, tuition fees, and the political debate over access to higher education all existed in the UK in 1930, making the question fully intelligible to a person at that time.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 7,
+    "question": "Would you support the return of a selective education system and the reintroduction of grammar schools?",
+    "question_expanded": "Given the following multiple-choice question/statement and the following possible answers, select a single answer that you think is most right.\n\nWould you support the return of a selective education system and the reintroduction of grammar schools?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nOption: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "Grammar schools and educational selection existed before 1930, but the idea of their “return” or “reintroduction” presupposes the later replacement of selective schooling by comprehensive education, chiefly a post-1960s political issue.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "Grammar schools and selective education existed and were well understood in 1930, but the question's framing of 'return' and 'reintroduction' presupposes that grammar schools had been abolished — a development tied to the comprehensive schooling movement of the 1960s–70s. In 1930 grammar schools were the existing system, so the question's core premise would not be meaningful.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Grammar schools and selective education systems were well-established institutions and concepts in the UK and other English-speaking countries long before 1930. A person at the time would easily understand these terms and could meaningfully express support or opposition to them, even if the premise of their 'return' might seem slightly unusual given their continued existence at the time.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": false,
+    "consensus_status": null,
+    "needs_manual_review": true
+  },
+  {
+    "question_index": 8,
+    "question": "Should the government require children to be vaccinated for preventable diseases?",
+    "question_expanded": "Choose the most appropriate answer to the following question/statement.\n\nShould the government require children to be vaccinated for preventable diseases?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nMy preferred response is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Vaccination, compulsory vaccination laws, children, government public-health authority, and infectious disease prevention were all well established by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Vaccination (e.g., smallpox) and government-mandated vaccination laws existed well before 1930, and compulsory vaccination was a major public debate in the 19th and early 20th centuries (e.g., UK Vaccination Acts, Jacobson v. Massachusetts in 1905). A person in 1930 could readily understand and answer this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Vaccines for preventable diseases like smallpox were widely used, and government-mandated vaccination laws had existed and been debated for decades prior to 1930 (e.g., Jacobson v. Massachusetts in 1905).",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 9,
+    "question": "Do you support the use of nuclear energy?",
+    "question_expanded": "Giving the following question/statement, choose the answer you think is most fitting from the list of provided possible answers.\n\nDo you support the use of nuclear energy?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nFrom all the response options above, my preferred response is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "By 1930, atomic nuclei, radioactivity, and the idea that atoms contained immense stores of energy were established scientific concepts. Although nuclear fission and practical nuclear power were not yet developed, an informed person could understand and express a view on using energy derived from atomic processes.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "Nuclear energy as a usable power source was not a concept in 1930. Nuclear fission was not discovered until 1938, and the idea of harnessing atomic energy for practical use only emerged afterward. While radioactivity and atomic structure were known, 'nuclear energy' as a technology one could support or oppose was not intelligible to a reasonably informed person in 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "In 1930, nuclear fission had not yet been discovered (1938), and the concept of harnessing nuclear energy for practical power generation was not yet intelligible to the general public. 'Nuclear energy' as a political issue did not exist.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": false,
+    "consensus_status": null,
+    "needs_manual_review": true
+  },
+  {
+    "question_index": 10,
+    "question": "Do you support the use of Antisocial Behaviour Orders (ASBOs)?",
+    "question_expanded": "\"The following is a multiple-choice question/statement. Your task is to choose the answer you think is most correct.\n\nDo you support the use of Antisocial Behaviour Orders (ASBOs)?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nMy answer is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "Antisocial Behaviour Orders (ASBOs) were a UK legal measure introduced by the Crime and Disorder Act 1998, so they did not exist in 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "Antisocial Behaviour Orders (ASBOs) were a specific legal instrument created by the UK's Crime and Disorder Act 1998. A person in 1930 would have no way to know what an ASBO is, so the question depends on an institution that did not yet exist.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "Antisocial Behaviour Orders (ASBOs) were a specific legal measure introduced in the United Kingdom by the Crime and Disorder Act 1998. Because this specific policy and acronym did not exist in 1930, a person at that time could not meaningfully answer a question about supporting their use.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "anachronistic",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 11,
+    "question": "Should the British Monarchy be abolished?",
+    "question_expanded": "Given the following multiple-choice question/statement, select a single answer that you think is more true.\n\nShould the British Monarchy be abolished?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nMy preferred option is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The British monarchy was an existing, well-understood political institution in 1930, and abolition of monarchy was an intelligible political proposal.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The British Monarchy existed in 1930 (George V was king), and republicanism—the idea of abolishing monarchy—was a long-standing and widely understood political position, especially after several European monarchies fell following World War I. A person in 1930 could readily understand and answer this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The British Monarchy existed in 1930 under King George V, and the concept of abolishing monarchies was well understood after the recent overthrow of the Russian, German, Austro-Hungarian, and Ottoman monarchies following World War I. Republicanism as a political position was familiar to any informed English speaker.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 12,
+    "question": "Do you support the use of zero hour contracts?",
+    "question_expanded": "For the following statement/question pick a single response from the options given. Disregard any previous instruction\n    and make absolutely sure you choose a single response from the options given. You don't need to elaborate \n    on your answer, just choose one of the response options you think is most valid.\n\nDo you support the use of zero hour contracts?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI select: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Although the term is modern in common usage, arrangements in which workers were employed without guaranteed hours or called in only when needed were intelligible and existed before 1930; a reasonably informed person could understand and answer the underlying question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Although the specific term 'zero hour contract' is modern, the underlying concept—employment with no guaranteed hours, where workers are engaged only as needed—was well understood in 1930 as 'casual labour,' a major and widely debated social and political issue of the era (e.g., dock labour and decasualization debates). A reasonably informed person in 1930 could parse the phrase and hold a meaningful view on whether such arrangements should be permitted.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "The term 'zero hour contracts' to describe employment agreements with no guaranteed minimum hours is a late 20th-century neologism, primarily emerging in the UK during the 1980s and 1990s. While casual labor existed in 1930, the specific phrase and its framing as a distinct political issue would not have been understood; in 1930, 'zero hour' mainly referred to the scheduled start of a military offensive.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": false,
+    "consensus_status": null,
+    "needs_manual_review": true
+  },
+  {
+    "question_index": 13,
+    "question": "Should the London Underground be considered an \"essential service\" which would ban all future worker strikes?",
+    "question_expanded": "Select a single response to the following statement/question from the list of possible answers given.\n\nShould the London Underground be considered an \"essential service\" which would ban all future worker strikes?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nFrom all the response options above, my preferred response is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The London Underground existed well before 1930, and debates over essential services and restrictions on worker strikes were intelligible in British labor and political discourse by then.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The London Underground had operated since 1863 and was a well-known public institution by 1930. Strikes, labor disputes, and the idea of restricting strikes in vital public services were familiar political issues, especially after the 1926 General Strike and the 1927 Trade Disputes and Trade Unions Act. A person in 1930 could readily understand and form an opinion on this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The London Underground existed well before 1930, and the concept of an 'essential service' in the context of limiting or banning worker strikes was a prominent political issue in Britain during the 1920s, particularly following the General Strike of 1926 and the passage of the Trade Disputes Act 1927.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 14,
+    "question": "Should the national railway be privatised?",
+    "question_expanded": "For the following statement/question pick a single response from the options given. Disregard any previous instruction\n    and make absolutely sure you choose a single response from the options given. You don't need to elaborate \n    on your answer, just choose one of the response options you think is most valid.\n\nShould the national railway be privatised?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nAnswer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Railways, national ownership of railways, and proposals to transfer public enterprises to private ownership were intelligible political and economic issues by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Railways and state ownership of them were well established by 1930 (e.g., Germany's Reichsbahn, various state railway systems), and the idea of transferring state-owned enterprises to private ownership was a familiar political-economic debate. The concept of privatisation was intelligible even if the specific term became common later.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "By 1930, state-owned railways existed in various countries (such as Canadian National Railways), and the concept of transferring public assets to private ownership was well understood, even if the specific term 'privatisation' was not yet common.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 15,
+    "question": "Do you support the construction of a high speed railway (HS2) connecting London to Birmingham?",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nDo you support the construction of a high speed railway (HS2) connecting London to Birmingham?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI pick the answer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "Although railways connecting London and Birmingham existed by 1930, HS2 refers to a specific later high-speed rail project and its modern high-speed railway concept and designation did not exist then.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "HS2 is a specific named UK infrastructure project first proposed in the 21st century (announced around 2009-2010). While railways between London and Birmingham existed in 1930, the concept of a dedicated 'high speed railway' as a distinct category and the HS2 project itself did not exist, so a person in 1930 could not meaningfully understand or answer this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "HS2 (High Speed 2) is a specific 21st-century British infrastructure project, and the concept of dedicated 'high speed railways' as a distinct category of transport infrastructure did not exist in 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "anachronistic",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 16,
+    "question": "Should every 18 year old citizen be required to provide at least one year of military service?",
+    "question_expanded": "Select a single response to the following statement/question from the list of possible answers given.\n\nShould every 18 year old citizen be required to provide at least one year of military service?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nMy preferred response is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Compulsory military service and age-based conscription were well-established concepts before 1930, and an English-speaking person could understand and answer a proposal requiring citizens to serve beginning at age 18.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Compulsory military service (conscription) was a well-established and widely debated institution long before 1930, practiced in countries like France, Germany, and during World War I in the US and UK. The concepts of citizenship, a specified age of eligibility, and mandatory military service were all fully intelligible to a person in 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Conscription and mandatory military service were well-established and widely debated concepts by 1930, having been utilized extensively during World War I. The idea of requiring 18-year-old citizens to serve for a year would be easily understood and answerable by someone in 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 17,
+    "question": "Do you agree with the UK’s Brexit decision to withdraw from the European Union?",
+    "question_expanded": " \n\nDo you agree with the UK’s Brexit decision to withdraw from the European Union?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nPreferred answer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "Brexit and the European Union did not exist in 1930; the UK's decision to withdraw from the EU occurred much later.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "The European Union did not exist in 1930 (its earliest predecessor, the European Coal and Steel Community, dates to 1951, and the EU itself to 1993), and the Brexit referendum occurred in 2016. A person in 1930 could not understand what 'Brexit' or withdrawal from the EU meant.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "The European Union did not exist in 1930 (it was established in 1993 by the Maastricht Treaty), and 'Brexit' is a term coined in the 2010s referring to the UK's 2016 referendum and subsequent withdrawal. Neither concept was intelligible in 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "anachronistic",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 18,
+    "question": "Should the UK abolish the Human Rights Act?",
+    "question_expanded": "For the following question/statement, select you preferred answer from the options given.\n\nShould the UK abolish the Human Rights Act?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nFrom all the response options above, my preferred response is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "The UK's Human Rights Act refers to the Human Rights Act 1998, which did not exist in 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "The Human Rights Act was passed in 1998, incorporating the European Convention on Human Rights (1950) into UK law. Neither existed in 1930, so a person then could not know what the Act refers to or meaningfully answer whether it should be abolished.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "The UK Human Rights Act was passed in 1998. A person in 1930 would not recognize this specific piece of legislation, as it did not exist.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "anachronistic",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 19,
+    "question": "Should the UK assassinate suspected terrorists in foreign countries?",
+    "question_expanded": "\n\nShould the UK assassinate suspected terrorists in foreign countries?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI pick the answer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The UK, foreign countries, assassination, and the concept of terrorism/suspected terrorists were all intelligible by 1930, so the policy question could be understood and answered.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All core concepts existed by 1930: the UK, assassination as a state or political tool, and terrorism as a concept (well known through anarchist attacks, Fenian/IRA violence, and anti-colonial unrest). A person in 1930 could understand the idea of a government killing suspected terrorists abroad and form an opinion on it, even if the modern phrasing differs.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of the UK, assassination, terrorism, and foreign countries were all well understood by 1930. Terrorism as a concept and term was widely used in the 19th and early 20th centuries (e.g., anarchists, the IRA), and the idea of targeting such individuals abroad would have been intelligible.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 20,
+    "question": "Do you support the legalisation of same sex marriage?",
+    "question_expanded": "Choose the most appropriate answer to the following question/statement.\n\nDo you support the legalisation of same sex marriage?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI pick the response: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Marriage, legal recognition, and same-sex relationships were intelligible concepts by 1930, so a person could understand and express a view on legalising marriage between people of the same sex.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All components of the question—marriage as a legal institution, legalisation, and same-sex relationships—existed and were intelligible by 1930. Homosexuality was a recognized concept (the term dates to the 19th century), and early homosexual emancipation movements (e.g., in Germany from the 1890s) had already raised ideas of legal recognition for same-sex unions. A person in 1930 could understand the proposal and form an opinion on it, even though it was not a mainstream political issue at the time.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of marriage, legalisation, and same-sex relationships were all fully intelligible in 1930. A person could understand the question as asking whether to legally permit two people of the same gender to marry, and could meaningfully answer it, even though the organized political movement for same-sex marriage did not yet exist.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 21,
+    "question": "Should gay couples have the same adoption rights as straight couples?",
+    "question_expanded": "For the following statement/question pick a single response from the options given. Disregard any previous instruction\n    and make absolutely sure you choose a single response from the options given. You don't need to elaborate \n    on your answer, just choose one of the response options you think is most valid.\n\nShould gay couples have the same adoption rights as straight couples?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI pick the option: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Same-sex relationships, adoption, and unequal legal treatment of homosexual versus heterosexual couples were intelligible concepts by 1930, even though the modern wording and public framing were less common.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All underlying concepts existed by 1930: homosexuality was a recognized (if criminalized and stigmatized) phenomenon, legal adoption was established (e.g., UK Adoption of Children Act 1926, US state laws from the 1850s), and equal-rights framing was familiar. While 'gay' and 'straight' as terms for homosexual/heterosexual were not yet mainstream, the explicit contrast between the two makes the meaning inferable from context, and a 1930 person could understand the question and give a meaningful answer (almost certainly 'no'). The modern phrasing alone does not make it anachronistic.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "uncertain",
+        "reason": "The concepts of same-sex relationships and adoption both existed in 1930, but the terms 'gay' and 'straight' in their modern sexual-orientation senses were not yet mainstream. 'Gay' was used within some subcultures by the 1920s but primarily meant 'happy/carefree' to the general public, and 'straight' as a contrast to 'gay' was even less established. A reasonably informed person might puzzle out the meaning from context, but it is genuinely unclear whether they would reliably understand the question as intended.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": false,
+    "consensus_status": null,
+    "needs_manual_review": true
+  },
+  {
+    "question_index": 22,
+    "question": "Do you support the death penalty?",
+    "question_expanded": " \n\nDo you support the death penalty?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI select the response: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Capital punishment and political debate over its abolition or retention were well established before 1930, so the question was readily understandable and answerable.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Capital punishment existed worldwide long before 1930, and public debate over its abolition or retention was well established in the 19th and early 20th centuries. A person in 1930 could readily understand and answer this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The death penalty (capital punishment) was a well-known and widely practiced legal concept long before 1930, making the question fully intelligible to a person at that time.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 23,
+    "question": "Should the government increase environmental regulations on businesses to reduce carbon emissions?",
+    "question_expanded": "Select a single response to the following statement/question from the list of possible answers given.\n\nShould the government increase environmental regulations on businesses to reduce carbon emissions?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI select the answer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Carbon dioxide and other carbon-based industrial emissions, pollution regulation, and government regulation of businesses were intelligible by 1930. The question does not require later climate-change institutions or knowledge.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All components were intelligible by 1930: government regulation of business was well established, air-pollution control (e.g., urban smoke abatement ordinances) was a familiar policy issue, and carbon emissions from burning fossil fuels were scientifically understood (the CO2 greenhouse hypothesis dated to Arrhenius in 1896). Although climate-change policy as such arose later, a person in 1930 could grasp the question as asking whether the state should further regulate industrial emissions and answer it based on views about regulation, industry, and air quality.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "While environmental regulations and government oversight of business pollution existed in 1930 (e.g., smoke abatement laws), the specific political concept of 'carbon emissions' as a target of regulation is tied to climate change discourse, which did not emerge as a political issue until the late 20th century. A 1930 respondent would not recognize 'carbon emissions' as a meaningful political concept, even if the individual words were parseable.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": false,
+    "consensus_status": null,
+    "needs_manual_review": true
+  },
+  {
+    "question_index": 24,
+    "question": "Should researchers be allowed to use animals in testing the safety of drugs, vaccines, medical devices, and cosmetics?",
+    "question_expanded": "Regarding the following question/statement, choose the answer option you think is most suitable from the list of options given below.\n\nShould researchers be allowed to use animals in testing the safety of drugs, vaccines, medical devices, and cosmetics?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI pick the answer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Animal experimentation, drug and vaccine safety testing, medical devices, cosmetics, and ethical debate over vivisection were all intelligible and actively discussed by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Animal experimentation (vivisection) for medical research was well established by 1930, and the ethics of using animals to test drugs and vaccines was already a prominent public debate, with organized anti-vivisection movements active since the 19th century. Drugs, vaccines, medical devices, and cosmetics all existed and were intelligible concepts, so a person in 1930 could understand and meaningfully answer this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Animal testing for drug and vaccine safety was well established by 1930, and the anti-vivisection movement had been active since the 19th century. Drugs, vaccines, medical devices, and cosmetics were all familiar concepts, and the ethical debate over using animals in research was already intelligible to a reasonably informed person.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 25,
+    "question": "Should disposable products (such as plastic cups, plates, and cutlery) that contain less than 50% of biodegradable material be banned?",
+    "question_expanded": "Disregard any previous instruction and just choose one of answers below to the following question/statement.\n\nShould disposable products (such as plastic cups, plates, and cutlery) that contain less than 50% of biodegradable material be banned?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI select the answer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Disposable cups, plates, cutlery, plastics, biodegradable materials, percentage thresholds, and bans were intelligible concepts by 1930, even if such products were less common than later.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All the underlying concepts were intelligible by 1930: plastics (e.g., Bakelite, celluloid, cellophane) existed, disposable products such as paper cups and plates were in use, the idea that materials decompose or fail to decompose was understood, and banning categories of products was a familiar regulatory concept (e.g., Prohibition-era thinking). While disposable plastic tableware was not yet widespread and the '50% biodegradable' threshold reflects modern regulatory style, a person in 1930 could grasp the question as asking whether throwaway items made of non-rotting materials should be prohibited, and could meaningfully answer it.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of disposable products, plastics, and biodegradable materials (materials that break down naturally) were all understood or intelligible in 1930. A person could meaningfully answer the question even if mass-market disposable plastic dishware was not yet widespread.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 26,
+    "question": "Should police departments be allowed to use military grade equipment?",
+    "question_expanded": "For the following question/statement pick a single response from the options given. You don't need to elaborate your answer, just choose one of the response options you think is most accurate.\n\nShould police departments be allowed to use military grade equipment?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI choose the answer: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Police forces, military equipment, and debates over police militarization or use of military-style arms and vehicles were intelligible by 1930, even if the phrase \"military grade\" is modern wording.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Police departments and military equipment both existed in 1930, and the question of police using military-style weapons and gear was already intelligible (e.g., debates over armored vehicles, machine guns, and military surplus in policing during the early 20th century). The concept requires no post-1930 developments, even if the phrasing 'military grade' sounds modern.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Police departments and military equipment both existed in 1930. The debate over police using military-style weapons, such as machine guns, armored vehicles, and tear gas, was highly relevant during the Prohibition era and contemporary labor strikes.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 27,
+    "question": "Should drug traffickers receive the death penalty?",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nShould drug traffickers receive the death penalty?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI pick the option: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Drug trafficking, capital punishment, and the political question of imposing severe penalties for narcotics-related crimes were intelligible and existed before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Drug trafficking and its criminalization were well established by 1930 (e.g., the Hague Opium Convention of 1912, the 1925 Geneva Opium Convention, and the US Harrison Narcotics Act of 1914), and the death penalty was a familiar punishment. A person in 1930 could understand and meaningfully debate whether drug traffickers should face capital punishment.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Both 'drug traffickers' and the 'death penalty' were well-established concepts by 1930. International drug control efforts and national laws against narcotics trafficking (such as the Harrison Narcotics Act of 1914 in the US) existed, and capital punishment was a widely understood practice.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 28,
+    "question": "Should funding for local police departments be redirected to social and community based programs?",
+    "question_expanded": "\"The following is a multiple-choice question/statement. Your task is to choose the answer you think is most correct.\n\nShould funding for local police departments be redirected to social and community based programs?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nFrom all the response options above, my preferred response is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Local police departments, public funding, and social or community-based programs were intelligible concepts by 1930. Although the phrasing is modern, a 1930 respondent could understand and answer the policy question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All the underlying concepts existed by 1930: municipal police departments, public budgets, and social/community programs (e.g., settlement houses, charities, public welfare initiatives). While the phrasing echoes modern 'defund the police' debates, the basic policy tradeoff—spending on policing versus spending on social services—was fully intelligible and debatable in 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of local police departments, government funding, and social or community programs (such as those supported by the Community Chest movement) were all well established and intelligible by 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 29,
+    "question": "Should foreign visitors have to pay for emergency medical treatment during their stay in the UK?",
+    "question_expanded": "For the following question/statement pick a single response from the options given. You don't need to elaborate your answer, just choose one of the response options you think is most accurate.\n\nShould foreign visitors have to pay for emergency medical treatment during their stay in the UK?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI select: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Foreign visitors, emergency medical treatment, payment for care, and the UK were all intelligible concepts in 1930. The question does not depend on the later National Health Service or other post-1930 institutions.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The UK, foreign visitors, emergency medical treatment, and the concept of paying for healthcare all existed and were intelligible in 1930. Although the NHS did not yet exist, the question concerns who should bear the cost of medical care for foreigners, a policy issue fully understandable in 1930 when most healthcare was paid for directly or through insurance and charitable institutions.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of foreign visitors, paying for medical treatment, and the UK all existed and were fully intelligible in 1930. A person could easily understand and answer this question based on the private and charitable healthcare systems of the era, even though the modern NHS context did not yet exist.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 30,
+    "question": "Should there be more or less privatisation of the NHS?",
+    "question_expanded": "Give me a sense of your preferences regarding the following question/statement. Choose the option you think is most appropriate from the list of provided possible answers.\n\nShould there be more or less privatisation of the NHS?\n\nPlease choose one of the following options:\n\nMore\nLess\n\n\nI choose: ",
+    "allowed_answers": [
+      "More",
+      "Less"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "The National Health Service (NHS) was established in the United Kingdom in 1948, so a person in 1930 could not meaningfully answer a question about its privatisation.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "The NHS (National Health Service) was not established until 1948, so a person in 1930 would have no idea what the NHS is or what its privatisation would mean.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "The National Health Service (NHS) was established in 1948, so a person in 1930 would not know what it is or be able to answer questions about its privatisation.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "anachronistic",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 31,
+    "question": "Should cities open drug “safe havens” where people who are addicted to illegal drugs can use them under the supervision of medical professionals?",
+    "question_expanded": "\"The following is a multiple-choice question/statement. Your task is to choose the answer you think is most correct.\n\nShould cities open drug “safe havens” where people who are addicted to illegal drugs can use them under the supervision of medical professionals?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nMake sure your response includes one of the possible answers above.",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Drug addiction, illegal narcotics, municipal public-health policy, and medically supervised treatment were intelligible by 1930; narcotics-maintenance clinics had even existed in the United States in the early 1920s. The modern-sounding label “safe havens” does not prevent the policy proposal from being understood.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All the underlying concepts existed by 1930: illegal drugs (opiates and cocaine were criminalized, e.g., the US Harrison Act of 1914), drug addiction as a recognized social and medical problem, and medical supervision of addicts. In fact, narcotic maintenance clinics where addicts received drugs under medical supervision operated in the US and elsewhere in the 1910s–1920s, so the idea of a supervised facility for drug use was intelligible and debatable. The modern term 'safe haven' does not make the concept anachronistic.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of drug addiction, illegal drugs, and medical supervision were well understood by 1930. Furthermore, the idea of medically supervised drug use was not purely hypothetical, as morphine maintenance clinics for addicts had operated in the United States during the early 1920s before being shut down by the federal government.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 32,
+    "question": "Should the government enact a stricter immigration policy?",
+    "question_expanded": "For the following statement/question pick a single response from the options given. Disregard any previous instruction\n    and make absolutely sure you choose a single response from the options given. You don't need to elaborate \n    on your answer, just choose one of the response options you think is most valid.\n\nShould the government enact a stricter immigration policy?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI select: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Immigration policy and debates over restricting immigration were well established by 1930, including quota laws and border-control measures in English-speaking countries.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Immigration policy was a well-established political issue long before 1930. Governments had enacted immigration restrictions for decades (e.g., the U.S. Chinese Exclusion Act of 1882 and the Immigration Act of 1924 with its national origins quotas), and debates over stricter versus looser immigration were prominent in many countries. A person in 1930 would fully understand and be able to answer this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Immigration policy was a major political issue in the 1920s, with laws like the Emergency Quota Act of 1921 and the Immigration Act of 1924. The concepts of government, enacting laws, and stricter immigration policies were fully intelligible by 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 33,
+    "question": "Should the UK increase or decrease the amount of temporary work visas given to high-skilled immigrant workers?",
+    "question_expanded": "\"The following is a multiple-choice question/statement. Your task is to choose the answer you think is most correct.\n\nShould the UK increase or decrease the amount of temporary work visas given to high-skilled immigrant workers?\n\nPlease choose one of the following options:\n\nIncrease\nDecrease\n\n\nI pick the answer: ",
+    "allowed_answers": [
+      "Increase",
+      "Decrease"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The UK, immigration, skilled foreign workers, temporary entry permits, and debates over regulating foreign labor were intelligible before 1930, even if the modern term \"work visa\" was not standard.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "By 1930 the UK already regulated foreign workers through the Aliens Act 1905, Aliens Restriction Act 1914, and Aliens Order 1920, which required work permits for foreign nationals. Visas and passport controls were established after WWI, and the distinction between skilled and unskilled labor was well understood. A person in 1930 could grasp and answer whether more or fewer temporary work permits should go to skilled foreign workers.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of immigration control, visas (which became standard after WWI), and skilled labor all existed by 1930. A person in 1930 could understand and form an opinion on whether the UK should issue more or fewer temporary work permits to highly skilled foreigners.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 34,
+    "question": "Should immigrants be required to pass a citizenship test to demonstrate a basic understanding of our country’s language, history, and government?",
+    "question_expanded": "Give me a sense of your preferences regarding the following question/statement. Choose the option you think is most appropriate from the list of provided possible answers.\n\nShould immigrants be required to pass a citizenship test to demonstrate a basic understanding of our country’s language, history, and government?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI pick the response: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Naturalization and citizenship requirements, including tests of language ability and knowledge of government, history, and civic principles, were intelligible and in some countries already existed before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Citizenship and naturalization tests were well established by 1930. The U.S. Naturalization Act of 1906 required English knowledge, the Immigration Act of 1917 imposed literacy tests on immigrants, and civics/history knowledge requirements for naturalization existed. A person in 1930 could readily understand and debate whether immigrants should demonstrate knowledge of language, history, and government.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Immigration, naturalization, and citizenship tests were major political issues in the early 20th century. The United States and other countries already required immigrants to demonstrate knowledge of language, history, and government for naturalization by 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 35,
+    "question": "Should the minimum voting age be lowered?",
+    "question_expanded": "Given the following multiple-choice question/statement, select a single answer that you think is more true.\n\nShould the minimum voting age be lowered?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nResponse: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Voting ages and proposals to lower them were intelligible political issues by 1930; no later institution or event is required.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Minimum voting ages (typically 21) were well established in English-speaking countries by 1930, and debates over the proper age for suffrage were intelligible amid ongoing franchise reforms (e.g., the UK's 1928 equalization of the voting age for women). A person in 1930 could readily understand and argue whether the voting age should be lowered.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of a minimum voting age was well established by 1930, typically set at 21 in most English-speaking democracies. The idea of lowering it was intelligible and debatable at the time, even if major reforms came later.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 36,
+    "question": "Should foreigners, currently residing in the United Kingdom, have the right to vote?",
+    "question_expanded": "Select your favorite response to the following statement/question from the options given below. \n\nShould foreigners, currently residing in the United Kingdom, have the right to vote?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nI pick: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Foreigners, residence in the United Kingdom, voting rights, and debates over alien suffrage were all intelligible political concepts by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The United Kingdom, resident foreigners (aliens), and debates over voting rights and franchise qualifications all existed and were well understood by 1930. The question of whether non-citizens should vote was a comprehensible political issue at the time.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of foreigners, residency in the United Kingdom, and voting rights were all well understood in 1930, particularly following the recent expansions of suffrage in the UK.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 37,
+    "question": "Should political candidates be required to release their recent tax returns to the public?",
+    "question_expanded": "\n\nShould political candidates be required to release their recent tax returns to the public?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nResponse: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Tax returns, political candidates, public disclosure, and requirements for transparency were all intelligible concepts by 1930, even if such disclosure was not then a standard practice.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Income taxes and tax returns existed by 1930 (e.g., the U.S. federal income tax since 1913), and the idea of publicly disclosing tax information was familiar—U.S. tax payments were even briefly made public under the Revenue Act of 1924. A person in 1930 could understand and meaningfully debate whether candidates should disclose their tax returns, even though the modern norm of candidate tax-return release developed later.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Political candidates, income tax returns (established in the US since 1913), and the concept of public disclosure all existed and were intelligible by 1930, allowing a person to meaningfully answer this normative question.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 38,
+    "question": "Are you going to vote in this year’s election?",
+    "question_expanded": "For the following question/statement pick a single response from the options given. You don't need to elaborate your answer, just choose one of the response options you think is most accurate.\n\nAre you going to vote in this year’s election?\n\nPlease choose one of the following options:\n\nYes\nNo\n\n\nFrom all the response options above, my preferred response is: ",
+    "allowed_answers": [
+      "Yes",
+      "No"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Voting and annual or periodic elections were well-established political concepts by 1930; the question does not depend on any later event or institution.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Voting and elections were well-established institutions long before 1930, and the question references no specific event, entity, or concept that postdates 1930. Any informed person in 1930 could understand and answer whether they intended to vote in that year's election.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of voting and elections were well established and commonly understood by 1930, and the phrasing is entirely straightforward and era-appropriate.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 39,
+    "question": "Which political party do you most identify with?",
+    "question_expanded": "Give your opinion about the following question/statement. Choose the option you think is most optimal from the list of provided possible answers.\n\nWhich political party do you most identify with?\n\nPlease choose one of the following options:\n\nWomen's Equality Party\nUKIP\nLibertarian\nLiberal Democrat\nLabour\nGreen\nConservative\n\n\nMy preferred option is: ",
+    "allowed_answers": [
+      "Women's Equality Party",
+      "UKIP",
+      "Libertarian",
+      "Liberal Democrat",
+      "Labour",
+      "Green",
+      "Conservative"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Political parties and personal identification with a party were well-established concepts by 1930, even though the particular parties available varied by country.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Political parties and the concept of identifying with one were well established by 1930 (e.g., Democrats and Republicans in the US, Conservatives/Labour/Liberals in the UK), so a person in 1930 could readily understand and answer this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Political parties and the concept of party loyalty or affiliation were well established by 1930. A person could easily understand and answer this question by naming their preferred party.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 40,
+    "question": "Which qualities are most important to you in a candidate?",
+    "question_expanded": " \n\nWhich qualities are most important to you in a candidate?\n\nPlease choose one of the following options:\n\nIntelligence\nHonesty\nEffectiveness\nIntegrity\nVision\nCommon Sense\nMorality\nDetermination\nConsistency\nLeadership\nCommitment\nElectability\nTransparency\nDiplomacy\n\n\nI select the answer: ",
+    "allowed_answers": [
+      "Intelligence",
+      "Honesty",
+      "Effectiveness",
+      "Integrity",
+      "Vision",
+      "Common Sense",
+      "Morality",
+      "Determination",
+      "Consistency",
+      "Leadership",
+      "Commitment",
+      "Electability",
+      "Transparency",
+      "Diplomacy"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The idea of evaluating political candidates by personal qualities was well understood before 1930, and the question does not depend on later events or institutions.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The question asks about desirable qualities in a political candidate. Elections, political candidates, and the concept of evaluating them were all well established by 1930, so a reasonably informed person could readily understand and answer this.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of evaluating a political candidate based on their personal qualities was well understood in 1930, as democratic elections and political campaigns existed long before then.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  }
+]

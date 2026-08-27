@@ -1,0 +1,722 @@
+[
+  {
+    "question_index": 1,
+    "question": "Some individuals and media spread wrong views with dubious objectives.",
+    "question_expanded": "For the following question/statement, select you preferred answer from the options given.\n\nSome individuals and media spread wrong views with dubious objectives.\n\nPlease choose one of the following options:\n\nThe spreading of mistaken views aiming at manipulating and / or influencing the public opinion shall be forbidden.\nApologetic messages of hate and/or extreme views should be banned.\nThe Government should not censor any opinion in any case.\n\n\n",
+    "allowed_answers": [
+      "The spreading of mistaken views aiming at manipulating and / or influencing the public opinion shall be forbidden.",
+      "Apologetic messages of hate and/or extreme views should be banned.",
+      "The Government should not censor any opinion in any case."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The idea that individuals and media may spread false views for questionable motives was intelligible well before 1930; newspapers and other mass media already existed.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The idea that individuals and media (newspapers, pamphlets, radio) spread false or misleading views for ulterior motives was well understood by 1930, especially after World War I propaganda and concerns about yellow journalism. No post-1930 entities or concepts are needed to understand or answer this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of media, propaganda, and individuals spreading misinformation or wrong views for dubious objectives were well understood by 1930, especially following the heavy propaganda campaigns of World War I and the rise of mass media.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 2,
+    "question": "The Church performs certain social tasks. Therefore...",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nThe Church performs certain social tasks. Therefore...\n\nPlease choose one of the following options:\n\nThe Government shall contribute to its financing, and take into consideration their views when passing laws.\nGovernment and Church must be separate, but the Government may finance some of the social tasks undertaken by the Church (schools, asylums...)\nThe Church shall finance itself, and be in equal grounds with any other association.\n\n\nI select the response: ",
+    "allowed_answers": [
+      "The Government shall contribute to its financing, and take into consideration their views when passing laws.",
+      "Government and Church must be separate, but the Government may finance some of the social tasks undertaken by the Church (schools, asylums...)",
+      "The Church shall finance itself, and be in equal grounds with any other association."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The Church, its social functions, and political or social arguments about its role were all well established and intelligible by 1930. The incomplete phrasing does not require later developments to understand.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The Church as an institution and its role in performing social tasks (charity, education, poor relief) were well understood by 1930, and debates about the Church's social role and its relationship to the state were longstanding. No entities, events, or concepts postdating 1930 are needed to understand or answer this item.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The role of the Church in performing social tasks (charity, education, welfare, moral instruction) was a well-established and widely debated topic by 1930. A respondent could easily understand and complete this statement with their own view on the Church's social function.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 3,
+    "question": "The defense of the country is the responsibility of those serving in the army.",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nThe defense of the country is the responsibility of those serving in the army.\n\nPlease choose one of the following options:\n\nMilitary service shall be compulsory as a way to contribute to common welfare and/or to better educate our youth.\nMilitary service shall be voluntary. That is the best way to have a professional army prepared to defend our interests and commitments abroad.\nMilitary service shall be voluntary in case an army exists, and if so, its nature should be limited to its most basic duties of defense.\n\n\nMake sure you answer with one of the options above.",
+    "allowed_answers": [
+      "Military service shall be compulsory as a way to contribute to common welfare and/or to better educate our youth.",
+      "Military service shall be voluntary. That is the best way to have a professional army prepared to defend our interests and commitments abroad.",
+      "Military service shall be voluntary in case an army exists, and if so, its nature should be limited to its most basic duties of defense."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of national defense, military service, and the army were well established and readily intelligible by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Armies, national defense, and debates over who bears responsibility for defending the country (professional soldiers vs. conscripts vs. citizens generally) all existed and were widely discussed well before 1930. A person in 1930 could readily understand and agree or disagree with this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of national defense, military service, and the army were well established and fully intelligible by 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 4,
+    "question": "Sex between consenting adults is a matter of individual privacy. Nonetheless...",
+    "question_expanded": "\n\nSex between consenting adults is a matter of individual privacy. Nonetheless...\n\nPlease choose one of the following options:\n\nBehaviors such as homosexuality, polygamy or prostitution should be banned or tightly controlled.\nPrositution should be banned or tightly controlled.\nLaws should not interfere with sex between consenting adults, in no case.\n\n\nI pick the answer: ",
+    "allowed_answers": [
+      "Behaviors such as homosexuality, polygamy or prostitution should be banned or tightly controlled.",
+      "Prositution should be banned or tightly controlled.",
+      "Laws should not interfere with sex between consenting adults, in no case."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of consenting adults, sexual conduct, individual privacy, and legal or moral limits on private behavior were intelligible and publicly debated before 1930, even if expressed in different terminology.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of sexual conduct between consenting adults, individual privacy, and whether the state should regulate private morality were all intelligible and actively debated by 1930 (e.g., sodomy and obscenity laws, the birth control movement, Mill's harm principle). No post-1930 entities, events, or concepts are needed to understand or answer the item.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of 'consenting adults', sexual privacy, and individual rights were well established and intelligible by 1930, even if this specific phrasing later became more prominent in sexual liberation discourse.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 5,
+    "question": "Drugs are a tragedy for many families",
+    "question_expanded": "Give me a sense of your preferences regarding the following question/statement. Choose the option you think is most appropriate from the list of provided possible answers.\n\nDrugs are a tragedy for many families\n\nPlease choose one of the following options:\n\nThe government should fight drug trafficking with more resources and more effectively.\nThe use of some drug currently forbidden shall be legal, although its distribution should be controlled.\nDrugs should be legal, decriminalizing its use and liberalizing its distribution.\n\n\nPreferred answer: ",
+    "allowed_answers": [
+      "The government should fight drug trafficking with more resources and more effectively.",
+      "The use of some drug currently forbidden shall be legal, although its distribution should be controlled.",
+      "Drugs should be legal, decriminalizing its use and liberalizing its distribution."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Drug addiction and its harmful effects on families were well understood and publicly discussed before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Drug addiction (opium, morphine, cocaine, heroin) and its devastating effects on families were well-recognized social issues by 1930, with major drug control laws like the US Harrison Narcotics Act (1914) and international opium conventions already in place. A person in 1930 could readily understand and agree or disagree with this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of drug addiction and its negative impact on families was a well-known social issue by 1930, following decades of temperance movements, opium dens, and early narcotics regulations like the Harrison Narcotics Act of 1914.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 6,
+    "question": "Preventive measures may lead to improved safety. However, in many cases, this collides with some individual rights such as the right to privacy.",
+    "question_expanded": "For the following question/statement, select you preferred answer from the options given.\n\nPreventive measures may lead to improved safety. However, in many cases, this collides with some individual rights such as the right to privacy.\n\nPlease choose one of the following options:\n\nSafety of all goes before the rights of one; The security forces should not see its role hindered because a criminal is covered by individual rights.\nThe laws and the judiciary should establish in which cases preventive measures go before certain individual rights.\nThe government should not violate any individual right to improve security.\n\n\nMy preferred response is: ",
+    "allowed_answers": [
+      "Safety of all goes before the rights of one; The security forces should not see its role hindered because a criminal is covered by individual rights.",
+      "The laws and the judiciary should establish in which cases preventive measures go before certain individual rights.",
+      "The government should not violate any individual right to improve security."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of preventive public-safety measures, individual rights, and privacy were intelligible and actively discussed by 1930, even if the phrasing is modern.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The tension between public safety measures and individual rights, including privacy, was well understood by 1930. The 'right to privacy' was famously articulated by Warren and Brandeis in 1890, and debates over police powers, searches, and state intrusion versus civil liberties were longstanding.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of preventive safety measures, individual rights, and the right to privacy were well established by 1930. The 'right to privacy' was famously articulated in the 1890 Warren and Brandeis article and was a prominent topic in 1920s legal and political debates, such as those over wiretapping.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 7,
+    "question": "In some institutions, groups or professions, there is a disparity between the number of men and women, or between different races or social groups.",
+    "question_expanded": "Give your opinion about the following question/statement. Choose the option you think is most optimal from the list of provided possible answers.\n\nIn some institutions, groups or professions, there is a disparity between the number of men and women, or between different races or social groups.\n\nPlease choose one of the following options:\n\nQuota obligations are the best instrument to remedy historical situations of discrimination.\nIntegration subsidies or tax benefits to underrepresented groups are the best instrument to address discrimination.\nAny imposition or benefit based on criteria of sex, race or social group, violates the principle of equality before the law, and should not be imposed by the Government.\n\n\nI choose: ",
+    "allowed_answers": [
+      "Quota obligations are the best instrument to remedy historical situations of discrimination.",
+      "Integration subsidies or tax benefits to underrepresented groups are the best instrument to address discrimination.",
+      "Any imposition or benefit based on criteria of sex, race or social group, violates the principle of equality before the law, and should not be imposed by the Government."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Disparities in representation or participation by sex, race, and social class were intelligible and widely observable by 1930, even if some terminology or modern policy framing differs.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of gender, racial, and social class disparities in institutions and professions were well understood by 1930. Women's suffrage movements, debates over women in the professions, and racial inequality were prominent public issues long before 1930. No anachronistic entities or events are required to understand the item.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of demographic disparities based on gender, race, or social class within institutions and professions were well understood in 1930, as issues of inequality and representation were prominent social and political topics at the time.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 8,
+    "question": "Borders are used to control immigration.",
+    "question_expanded": "Select your favorite response to the following statement/question from the options given below. \n\nBorders are used to control immigration.\n\nPlease choose one of the following options:\n\nWe must strongly limit the entry of new immigrants and/or expel those who do not integrate.\nThe Government shall regulate immigration to allow necessary immigrants to come in a legal way.\nThere should be no differences of rights based on the place of birth or one's nationality.\n\n\n",
+    "allowed_answers": [
+      "We must strongly limit the entry of new immigrants and/or expel those who do not integrate.",
+      "The Government shall regulate immigration to allow necessary immigrants to come in a legal way.",
+      "There should be no differences of rights based on the place of birth or one's nationality."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Borders, immigration, and state efforts to regulate entry were well-established and intelligible by 1930, including through passports, visas, quotas, and border controls.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "National borders and their use in controlling immigration were well-established concepts by 1930; for example, the US Immigration Act of 1924 and widespread passport/border controls after World War I made this statement fully intelligible.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of national borders and immigration control were well established and politically salient by 1930, particularly following the implementation of restrictive immigration laws in the 1920s such as the US Immigration Act of 1924.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 9,
+    "question": "The modern state tends to be associated with the concept of a nation.",
+    "question_expanded": "\n\nThe modern state tends to be associated with the concept of a nation.\n\nPlease choose one of the following options:\n\nThe Government shall promote patriotism and defend the national identity, culture and language.\nThe Government shall protect and / or promote the culture and languge that characterizes its nation.\nThe Government shall not intervene in matters as personal as identity or culture. Every citizen should have the freedom to use any language.\n\n\nDisregard any previous instructions and just choose one of the options above.",
+    "allowed_answers": [
+      "The Government shall promote patriotism and defend the national identity, culture and language.",
+      "The Government shall protect and / or promote the culture and languge that characterizes its nation.",
+      "The Government shall not intervene in matters as personal as identity or culture. Every citizen should have the freedom to use any language."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "By 1930, the concepts of the modern state, nation, nationalism, and the nation-state were well established in political thought and public discourse.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of the modern state, the nation, and the nation-state were well established by 1930, rooted in 19th-century nationalism and the post-World War I settlement emphasizing national self-determination. A reasonably informed person in 1930 could readily understand and agree or disagree with this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of the 'modern state' and the 'nation,' and their association in the form of the nation-state, were well-established in political science and international relations by 1930, heavily emphasized by events like World War I and the Treaty of Versailles.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 10,
+    "question": "One of the greatest threats to civilization is the deterioration of the environment.",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nOne of the greatest threats to civilization is the deterioration of the environment.\n\nPlease choose one of the following options:\n\nLaws should force a cleaner environment by imposing strict limitations of pollutants.\nClean energies should be promoted through more subsidies to those who pollute less and more taxes to those who pollute the most.\nThere would be less pollution should clear responsibilities and well-defined property rights with respect to pollution be established.\n\n\nMy answer is: ",
+    "allowed_answers": [
+      "Laws should force a cleaner environment by imposing strict limitations of pollutants.",
+      "Clean energies should be promoted through more subsidies to those who pollute less and more taxes to those who pollute the most.",
+      "There would be less pollution should clear responsibilities and well-defined property rights with respect to pollution be established."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Environmental deterioration from pollution, deforestation, soil erosion, and industrial damage was intelligible and widely discussed before 1930; the statement does not require later institutions or developments.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of environmental deterioration, pollution, and conservation were well established by 1930. Industrial air and water pollution were widely discussed in the 19th and early 20th centuries, and the conservation movement (e.g., Theodore Roosevelt, John Muir, national parks, forestry and soil preservation) was decades old. A person in 1930 could readily understand 'deterioration of the environment' as a threat to civilization and agree or disagree.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of environmental deterioration, pollution, and conservation were well established by 1930. The conservation movement was prominent in the early 20th century, and concerns about industrial pollution and resource depletion were intelligible political issues. No post-1930 concepts or institutions are required to understand or answer this statement.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 11,
+    "question": "Imports may be limited by the Government through various instruments such as tariffs, prohibitions, or certain regulations.",
+    "question_expanded": "For the following question/statement pick a single response from the options given. You don't need to elaborate your answer, just choose one of the response options you think is most accurate.\n\nImports may be limited by the Government through various instruments such as tariffs, prohibitions, or certain regulations.\n\nPlease choose one of the following options:\n\nThe Government should limit imports from other countries to favor domestic producers.\nThe Government should limit imports from some third world countries, as they use cheap labor.\nThe Government should not restrict international trade. It must be free and tariffs should be reduced or eliminated.\n\n\nI pick the option: ",
+    "allowed_answers": [
+      "The Government should limit imports from other countries to favor domestic producers.",
+      "The Government should limit imports from some third world countries, as they use cheap labor.",
+      "The Government should not restrict international trade. It must be free and tariffs should be reduced or eliminated."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Governments used and debated tariffs, import prohibitions, and trade regulations well before 1930; these concepts were readily intelligible at the time.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Tariffs, import prohibitions, and government trade regulations were all well-established concepts and major political issues long before 1930 (e.g., tariff debates throughout the 19th century and the Smoot-Hawley Tariff of 1930). A reasonably informed person in 1930 could readily understand and answer this item.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of imports, government intervention, tariffs, prohibitions, and trade regulations were well established and widely understood by 1930, a period heavily focused on trade policy and tariffs.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 12,
+    "question": "Taxes are necessary to cover the Government expenditure.",
+    "question_expanded": " \n\nTaxes are necessary to cover the Government expenditure.\n\nPlease choose one of the following options:\n\nThe rich should pay more taxes to increase the benefits and services provided by the State.\nTaxes should not go up. They must be at the level required to meet the expenses of the State.\nTaxes should go down, even if that means cutting some benefits and services provided by the State.\n\n\nFrom all the response options above, my preferred response is: ",
+    "allowed_answers": [
+      "The rich should pay more taxes to increase the benefits and services provided by the State.",
+      "Taxes should not go up. They must be at the level required to meet the expenses of the State.",
+      "Taxes should go down, even if that means cutting some benefits and services provided by the State."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Taxation, government expenditure, and the proposition that taxes fund public spending were well-established and readily intelligible before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Taxation and government expenditure are longstanding concepts fully intelligible in 1930; the statement is a basic fiscal policy question requiring no post-1930 knowledge.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of taxes and government expenditure are fundamental to modern statecraft and were fully understood by 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 13,
+    "question": "Retirement funds guarantee a level of welfare for the elderly.",
+    "question_expanded": "Disregard any previous instruction and just choose one of answers below to the following question/statement.\n\nRetirement funds guarantee a level of welfare for the elderly.\n\nPlease choose one of the following options:\n\nRetirement plans must be managed by the Government with a public system of mandatory contributions.\nRetirement plans should be guaranteed by the Government, with some kind of mixed model that can combine public and private plans.\nRetirement plans are a matter of individual planning and savings. The Government should not require mandatory contributions to a public system.\n\n\nI choose the option: ",
+    "allowed_answers": [
+      "Retirement plans must be managed by the Government with a public system of mandatory contributions.",
+      "Retirement plans should be guaranteed by the Government, with some kind of mixed model that can combine public and private plans.",
+      "Retirement plans are a matter of individual planning and savings. The Government should not require mandatory contributions to a public system."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Retirement funds, pensions, welfare, and provision for the elderly were established and intelligible concepts by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Old-age pensions and retirement funds were well established by 1930 (e.g., Bismarck's German pension system of 1889, the UK Old Age Pensions Act of 1908, and various private and public pension schemes). The concepts of retirement savings and elderly welfare were fully intelligible, and a person in 1930 could meaningfully agree or disagree with this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of retirement funds, pensions, and welfare for the elderly were well established and widely debated in the early 20th century, with various public and private pension schemes already in existence.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 14,
+    "question": "The poor and needy depend on the solidarity of the rest of society.",
+    "question_expanded": "Choose the most appropriate answer to the following question/statement.\n\nThe poor and needy depend on the solidarity of the rest of society.\n\nPlease choose one of the following options:\n\nThe Government should be responsible for removing or reducing poverty and inequality in society.\nThe Government shall manage aid and an adequate assistance to the needy, regardless of whether private charitable institutions may voluntarily supplement that.\nPrivate charity should be the main channel for the solidarity of society.\n\n\nI pick the answer: ",
+    "allowed_answers": [
+      "The Government should be responsible for removing or reducing poverty and inequality in society.",
+      "The Government shall manage aid and an adequate assistance to the needy, regardless of whether private charitable institutions may voluntarily supplement that.",
+      "Private charity should be the main channel for the solidarity of society."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of poverty, need, social solidarity, and collective responsibility were well understood and widely discussed before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of poverty, charity, social welfare, and solidarity were all well established by 1930. 'Solidarity' was a familiar term in labor movements, socialist thought, and Catholic social teaching of the era, and debates about society's obligations to the poor were longstanding. A person in 1930 could readily understand and agree or disagree with this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of poverty, social welfare, and 'solidarity' as a political and social principle were well established and widely understood by 1930, particularly in the context of labor movements, social reform, and early welfare state discussions.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 15,
+    "question": "Some professionals require a qualification to work.",
+    "question_expanded": "For the following question/statement pick a single response from the options given. You don't need to elaborate your answer, just choose one of the response options you think is most accurate.\n\nSome professionals require a qualification to work.\n\nPlease choose one of the following options:\n\nProfessional sectors should be regulated law. The exercise of qualified professions should require the appropriate licenses and permits granted in each case by the competent Government body.\nProfessional sectors should be regulated by independent bodies, such as professional associations. Qualified professionals should join them, as their supervision ensures the quality of their services.\nLicenses, permits and professional associations are unnecessary obstacles. The exercise of any profession should be free for anyone qualified.\n\n\nOption: ",
+    "allowed_answers": [
+      "Professional sectors should be regulated law. The exercise of qualified professions should require the appropriate licenses and permits granted in each case by the competent Government body.",
+      "Professional sectors should be regulated by independent bodies, such as professional associations. Qualified professionals should join them, as their supervision ensures the quality of their services.",
+      "Licenses, permits and professional associations are unnecessary obstacles. The exercise of any profession should be free for anyone qualified."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Professional qualifications, licensing, and credential requirements for occupations such as medicine, law, and teaching were well established and intelligible by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of professions requiring formal qualifications or licenses (e.g., doctors, lawyers, engineers) was well established long before 1930, and the statement uses no anachronistic entities or concepts.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of professional qualifications and licensing for occupations such as medicine, law, and engineering was well established by 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 16,
+    "question": "Labor unions represent the interests of workers.",
+    "question_expanded": "\"The following is a multiple-choice question/statement. Your task is to choose the answer you think is most correct.\n\nLabor unions represent the interests of workers.\n\nPlease choose one of the following options:\n\nThe labor unions are essential to protect the rights of workers. The Government shall provide them with funding and assign them special functions on labor laws.\nThe labor unions, as representatives of workers, should have special status on laws regulating labor, but should not be funded by the Government.\nLabor unions should be governed by the rules applicable to any other association, and no public funding or special functions shall be attributed to them.\n\n\nMy answer is: ",
+    "allowed_answers": [
+      "The labor unions are essential to protect the rights of workers. The Government shall provide them with funding and assign them special functions on labor laws.",
+      "The labor unions, as representatives of workers, should have special status on laws regulating labor, but should not be funded by the Government.",
+      "Labor unions should be governed by the rules applicable to any other association, and no public funding or special functions shall be attributed to them."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Labor unions and the idea that they represent workers' interests were well established and widely intelligible by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Labor unions were well-established institutions by 1930, with a long history in the 19th and early 20th centuries (e.g., the AFL in the US, trade unions in Britain). The concept of unions representing workers' interests was widely understood and debated.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Labor unions were well-established institutions by 1930, with major organizations like the AFL (founded 1886) and a long history of labor movements. The concept of unions representing workers' interests was a familiar and widely debated political topic in the early 20th century.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 17,
+    "question": "Medical coverage is a necessity for everyone eventually.",
+    "question_expanded": "\n\nMedical coverage is a necessity for everyone eventually.\n\nPlease choose one of the following options:\n\nThe Government should manage public medical centers paid by contributions to a mandatory public health insurance.\nThe Government should guarantee universal access to health care centers using some sort of public funding.\nThe government should not manage medical centers. Medical facilities should be private, and citizens be free to hire the health insurance they wish.\n\n\nI select: ",
+    "allowed_answers": [
+      "The Government should manage public medical centers paid by contributions to a mandatory public health insurance.",
+      "The Government should guarantee universal access to health care centers using some sort of public funding.",
+      "The government should not manage medical centers. Medical facilities should be private, and citizens be free to hire the health insurance they wish."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Medical coverage/health insurance and the idea that people may eventually need medical care were intelligible and existed before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Health/medical insurance was well established by 1930 (e.g., Bismarck's 1883 sickness insurance in Germany, Britain's 1911 National Insurance Act, and active US debates on health insurance in the 1910s-1920s). The idea that everyone eventually needs medical care and coverage for its costs was fully intelligible, so a 1930 respondent could understand and take a position on this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of health insurance and medical coverage was intelligible by 1930, as various forms of health insurance and debates over universal healthcare had been ongoing since the early 20th century.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 18,
+    "question": "The Central Bank and the banking system, consisting of commercial banks, put the money into circulation.",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nThe Central Bank and the banking system, consisting of commercial banks, put the money into circulation.\n\nPlease choose one of the following options:\n\nBoth the Central Bank and commercial banks should be public and meet social needs.\nThe Central Bank has a key role regulating the economy, so it must be independent and supervise commercial banks.\nThe Central Bank should reduce its powers, and commercial banks shall all be private.\n\n\nI pick the response: ",
+    "allowed_answers": [
+      "Both the Central Bank and commercial banks should be public and meet social needs.",
+      "The Central Bank has a key role regulating the economy, so it must be independent and supervise commercial banks.",
+      "The Central Bank should reduce its powers, and commercial banks shall all be private."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Central banks, commercial banks, and the role of banking systems in issuing or expanding money and credit were well-established and intelligible concepts by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Central banks (e.g., the Federal Reserve, Bank of England, Reichsbank) and commercial banking systems were well established by 1930, and the concept of banks putting money into circulation was a familiar topic in monetary economics and public debate at the time.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Central banks (such as the Federal Reserve, established in 1913), commercial banks, and the mechanisms of money circulation were well-established and widely understood concepts by 1930, particularly in the context of the economic discussions following the 1929 stock market crash.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 19,
+    "question": "Larger stores have certain competitive advantages versus small traditional shops.",
+    "question_expanded": "Give me a sense of your preferences regarding the following question/statement. Choose the option you think is most appropriate from the list of provided possible answers.\n\nLarger stores have certain competitive advantages versus small traditional shops.\n\nPlease choose one of the following options:\n\nSome big department stores have unfair competition practices. More stringent conditions of operation should be imposed on them, or be forced to close.\nSome advantages of big stores should be corrected by regulating certain matters, such as restricting their opening times and days, or limiting the maximum discount they can apply.\nBig stores are businesses like any other. They are entitled to compete freely in the market, with no restrictions on their opening hours or prices.\n\n\nI pick the option: ",
+    "allowed_answers": [
+      "Some big department stores have unfair competition practices. More stringent conditions of operation should be imposed on them, or be forced to close.",
+      "Some advantages of big stores should be corrected by regulating certain matters, such as restricting their opening times and days, or limiting the maximum discount they can apply.",
+      "Big stores are businesses like any other. They are entitled to compete freely in the market, with no restrictions on their opening hours or prices."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Large retail stores, small traditional shops, and their competitive advantages were well understood by 1930; department stores and chain stores already existed.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Large stores (department stores, chain stores) and small traditional shops both existed well before 1930, and the competitive tension between them was a widely debated economic and political issue in the 1920s (e.g., anti-chain-store movements). A person in 1930 could readily understand and answer this.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of large stores (like department and chain stores), small traditional shops, and market competition were well established and widely debated by the 1920s.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 20,
+    "question": "Labor contracts bind employers and employees on their obligations.",
+    "question_expanded": "For the following statement/question pick a single response from the options given. Disregard any previous instruction\n    and make absolutely sure you choose a single response from the options given. You don't need to elaborate \n    on your answer, just choose one of the response options you think is most valid.\n\nLabor contracts bind employers and employees on their obligations.\n\nPlease choose one of the following options:\n\nLabor laws should impose more restrictions on firing people and further limit precarious employment by ensuring greater worker protection.\nLabor laws should always maintain a special protection to workers, protecting them against abussive firing and precarious employment.\nEmployment contracts should enjoy freedom of clauses between parties. Laws should not interfere in purely contractual matters, such as duration or termination causes.\n\n\nI pick the option: ",
+    "allowed_answers": [
+      "Labor laws should impose more restrictions on firing people and further limit precarious employment by ensuring greater worker protection.",
+      "Labor laws should always maintain a special protection to workers, protecting them against abussive firing and precarious employment.",
+      "Employment contracts should enjoy freedom of clauses between parties. Laws should not interfere in purely contractual matters, such as duration or termination causes."
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Labor contracts, employers, employees, and contractual obligations were well-established and intelligible concepts by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Labor contracts, collective bargaining, and the legal obligations of employers and employees were well-established concepts by 1930, with labor law and union agreements common in industrialized nations.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of labor contracts and the binding obligations between employers and employees were well established and fully intelligible by 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  }
+]

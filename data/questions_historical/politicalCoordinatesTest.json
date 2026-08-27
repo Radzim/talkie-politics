@@ -1,0 +1,1370 @@
+[
+  {
+    "question_index": 1,
+    "question": "My country should give more foreign and developmental aid to third-world countries.",
+    "question_expanded": " \n\nMy country should give more foreign and developmental aid to third-world countries.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nDisregard any previous instructions and just choose one of the options above.",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "The term “third-world countries” was coined after World War II, in the context of Cold War-era classifications. A person in 1930 could understand foreign aid, but not this category as used in the question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "The term and concept of 'third-world countries' derives from the Cold War division of the world (First/Second/Third World), coined in the 1950s, and the modern notion of state 'developmental aid' programs emerged only after World War II. A person in 1930 would have no framework for understanding 'third-world' as a category of nations.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "The term 'third-world countries' was coined in 1952 during the Cold War to describe nations unaligned with either the Western or Soviet blocs. This concept and terminology would not have been intelligible to a person in 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "anachronistic",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 2,
+    "question": "The government should provide healthcare to its citizens free of charge.",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nThe government should provide healthcare to its citizens free of charge.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nMy answer is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Governments, citizenship, public healthcare, and proposals for free medical services were all intelligible political concepts by 1930, even though systems varied by country.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of government-provided healthcare was well established by 1930. Germany had state health insurance since Bismarck's reforms in the 1880s, Britain passed the National Insurance Act in 1911, and debates over 'state medicine' or 'socialized medicine' were active in the 1920s. A reasonably informed person in 1930 could readily understand and take a position on this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of government-provided healthcare was well established and debated by 1930. Germany had state-sponsored sickness insurance since the 1880s, Britain's National Health Insurance Act was passed in 1911, and discussions of 'socialized medicine' were common in political discourse. A person in 1930 would clearly understand and could meaningfully answer this question.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 3,
+    "question": "If an immigrant wants to fly the flag of his home country on my country's soil, that's okay with me.",
+    "question_expanded": "Disregard any previous instruction and just choose one of answers below to the following question/statement.\n\nIf an immigrant wants to fly the flag of his home country on my country's soil, that's okay with me.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nFrom the list of options above, my preferred response is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Immigration, national flags, and attitudes toward displaying a home country's flag on another country's territory were all intelligible and relevant before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Immigration, national flags, and debates over immigrants' expressions of loyalty or attachment to their home countries all existed and were widely discussed by 1930 (e.g., during the immigration debates of the 1920s). No anachronistic entities or concepts are required to understand or answer this item.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of immigration, national flags, and national sovereignty were well established and heavily debated by 1930, especially following post-WWI immigration restrictions and rising nationalism.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 4,
+    "question": "Capital punishment should be an option in some cases.",
+    "question_expanded": "Given the following multiple-choice question/statement and the following possible answers, select a single answer that you think is most right.\n\nCapital punishment should be an option in some cases.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI pick the answer: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Capital punishment (the death penalty) was a long-established legal and political issue by 1930, and people could meaningfully express whether it should be available for certain crimes or circumstances.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Capital punishment (the death penalty) existed for centuries before 1930, and public debate over whether it should be retained or abolished was well established by the 18th and 19th centuries (e.g., Beccaria's 1764 treatise, abolition in some jurisdictions like Michigan in 1846). A person in 1930 could readily understand and answer this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Capital punishment was widely practiced and debated in 1930. The concept of the death penalty as a policy option was well understood, and questions about its appropriateness were common in political and ethical discourse of the era.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 5,
+    "question": "Immigration to my country should be minimized and strictly controlled.",
+    "question_expanded": "Disregard any previous instruction and just choose one of answers below to the following question/statement.\n\nImmigration to my country should be minimized and strictly controlled.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nDisregard any previous instructions and just choose one of the options above.",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Immigration restriction and strict border control were well-understood political issues by 1930, with many countries already having immigration laws and quota systems.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Immigration and its restriction were well-established political issues long before 1930 (e.g., the US Immigration Act of 1924, Chinese Exclusion Act, and debates in many countries). A person in 1930 could readily understand and answer this.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Immigration policy and border control were major political issues in the 1920s, exemplified by laws like the US Immigration Act of 1924, making the concept fully intelligible to someone in 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 6,
+    "question": "Western civilization has benefited more from Christianity than from the ideas of Ancient Greece.",
+    "question_expanded": "Regarding the following question/statement, choose the answer option you think is most suitable from the list of options given below.\n\nWestern civilization has benefited more from Christianity than from the ideas of Ancient Greece.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI choose the answer: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Christianity, Ancient Greece, Western civilization, and comparative judgments about their intellectual and cultural influence were all well-established and intelligible concepts by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All concepts involved—Western civilization, Christianity, and the ideas of Ancient Greece—were well established and widely discussed by 1930. Comparing the relative contributions of Christian and classical Greek thought to Western civilization was a familiar intellectual and educational debate long before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "All concepts in the statement—Western civilization, Christianity, and the ideas of Ancient Greece—were well established and widely discussed by 1930. Classical education and comparative civilizational analysis were common in intellectual discourse, so a reasonably informed person could understand and meaningfully answer this item.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 7,
+    "question": "If people want to drive without a seat belt, that should be their decision.",
+    "question_expanded": "For the following statement/question pick a single response from the options given. Disregard any previous instruction\n    and make absolutely sure you choose a single response from the options given. You don't need to elaborate \n    on your answer, just choose one of the response options you think is most valid.\n\nIf people want to drive without a seat belt, that should be their decision.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\n ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Automobiles, driving, and safety belts were intelligible by 1930, even though mandatory automobile seat-belt laws and widespread installation came later. The individual-liberty issue is also understandable in 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Automobiles were widespread by 1930, and seat belts (safety belts) already existed as a known technology, used in aircraft and racing cars since the early 20th century. The underlying question—whether individuals or the government should decide on personal safety measures—was a fully intelligible political concept in 1930, so a person could understand and meaningfully answer it even though seat belt mandates were not yet a salient debate.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Seat belts existed in 1930 (e.g., in aviation and racing), and the concepts of driving and personal liberty versus government safety regulation were fully intelligible. A person could understand the hypothetical scenario and meaningfully express an opinion on whether such a choice should be left to the individual.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 8,
+    "question": "Overall, security leaks like those perpetrated by Edward Snowden and WikiLeaks do more harm than good.",
+    "question_expanded": "Select your favorite response to the following statement/question from the options given below. \n\nOverall, security leaks like those perpetrated by Edward Snowden and WikiLeaks do more harm than good.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI pick: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "The item explicitly refers to Edward Snowden and WikiLeaks, which did not exist until the 21st century.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "The question depends on Edward Snowden (whose leaks occurred in 2013) and WikiLeaks (founded in 2006, prominent from 2010). Neither existed in 1930, so a person then could not understand what 'security leaks like those' refers to, even though the general concept of leaking government secrets was intelligible.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "The question explicitly references Edward Snowden and WikiLeaks, both of which did not exist until the 21st century, making it impossible for a person in 1930 to understand or answer the question.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "anachronistic",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 9,
+    "question": "Surveillance and counter-terrorism programs have gone too far.",
+    "question_expanded": " \n\nSurveillance and counter-terrorism programs have gone too far.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI pick the response: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Surveillance by governments and policing or military measures against politically motivated violence were well understood before 1930, even if the modern term \"counter-terrorism\" was less standardized.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Both concepts existed by 1930: government surveillance (including wiretapping, as in the 1928 Olmstead case) and terrorism as a political phenomenon (anarchist bombings, assassinations) were well known, as were state programs to suppress them (e.g., the Palmer Raids of 1919-1920). A person in 1930 could understand the claim that such programs had gone too far and agree or disagree. The phrasing sounds modern, but the underlying concepts are not anachronistic.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of surveillance (e.g., wiretapping, police monitoring) and counter-terrorism (e.g., efforts against anarchists and communists like the Palmer Raids) were well established and politically intelligible by 1930 following the Red Scare and World War I-era espionage laws.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 10,
+    "question": "Equality is more important than economic growth.",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nEquality is more important than economic growth.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI choose the response: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Both equality and economic growth were intelligible political and economic concepts by 1930, and people could meaningfully express a preference between them.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Both equality and economic growth were well-established political and economic concepts by 1930. Debates over wealth distribution, socialism, labor rights, and the trade-offs between egalitarian policies and industrial/economic expansion were central to 19th- and early 20th-century political discourse, making this value judgment fully intelligible and answerable in 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Both 'equality' and 'economic growth' were well-established political and economic concepts by 1930. Debates about the trade-off between equality and economic progress were central to socialist, progressive, and liberal political discourse, and the general notion of economic expansion and prosperity was widely understood long before formal GDP accounting was developed.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 11,
+    "question": "The government should set a cap on the wages of bankers and CEOs.",
+    "question_expanded": "Disregard any previous instruction and just choose one of answers below to the following question/statement.\n\nThe government should set a cap on the wages of bankers and CEOs.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI pick the response: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Governments, bankers, corporate executives/CEOs, wages, and proposals for wage caps were intelligible concepts by 1930, even if the modern phrasing and prominence of executive-pay debates are later.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Bankers and corporate chief executives existed well before 1930, and the idea of government limits on wages was intelligible—wage and price controls had been used during World War I, and debates over executive pay and income inequality were current, especially after the 1929 crash. A person in 1930 could understand and take a position on this.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of government intervention in wages, bankers, and top corporate executives (CEOs) were well understood in 1930, particularly in the immediate aftermath of the 1929 stock market crash, which generated significant public scrutiny of Wall Street and high-level corporate pay.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 12,
+    "question": "It almost never ends well when the government gets involved in business.",
+    "question_expanded": "\n\nIt almost never ends well when the government gets involved in business.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI select: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Government involvement in business, including regulation, state ownership, subsidies, and public enterprises, was a well-understood political and economic issue before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Debates over government intervention in business and the economy (laissez-faire vs. regulation, socialism, trust-busting) were central political issues well before 1930, and the statement uses no concepts or entities that postdate 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of government intervention in business and the debates surrounding economic regulation were well established by 1930, particularly following the Progressive Era and during the onset of the Great Depression.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 13,
+    "question": "Import tariffs on foreign products are a good way to protect jobs in my country.",
+    "question_expanded": "For the following statement/question pick a single response from the options given. Disregard any previous instruction\n    and make absolutely sure you choose a single response from the options given. You don't need to elaborate \n    on your answer, just choose one of the response options you think is most valid.\n\nImport tariffs on foreign products are a good way to protect jobs in my country.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nMake sure your response includes one of the possible answers above.",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Import tariffs, foreign products, and protecting domestic employment were well-established economic and political concepts by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Import tariffs and the debate over protectionism versus free trade were central political issues well before 1930 (e.g., the Smoot-Hawley Tariff of 1930, 19th-century tariff debates). A person in 1930 could readily understand and answer this.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Import tariffs and their use as a tool to protect domestic jobs were well-understood and widely debated political concepts by 1930, especially around the time of the Smoot-Hawley Tariff Act.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 14,
+    "question": "Free trade is better for third-world countries than developmental aid.",
+    "question_expanded": "\n\nFree trade is better for third-world countries than developmental aid.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI select the response: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "The term “third-world countries” was coined after 1930 (in the 1950s) and refers to a later Cold War-era geopolitical/development category. The modern framing of “developmental aid” likewise relies on later development-policy discourse.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "The term 'third-world countries' presupposes the Cold War division of the world into First (capitalist West), Second (communist bloc), and Third (non-aligned/poor) worlds — a framework coined by Alfred Sauvy in 1952 and meaningless without the post-WWII geopolitical order. A person in 1930 would have no referent for 'third world.' While the underlying idea of free trade versus assistance for poor or colonized regions was debatable in 1930, the question as phrased depends on a later political development, not merely modern-sounding wording.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "The term 'third-world countries' originates from Cold War-era geopolitical categorization (coined by Alfred Sauvy in 1952), and 'developmental aid' as a systematic policy concept directed at underdeveloped nations is largely a post-WWII phenomenon tied to decolonization. A person in 1930 would not recognize the framing of 'third-world countries' or the concept of 'developmental aid' as presented here.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "anachronistic",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 15,
+    "question": "Rehabilitating criminals is more important than punishing them.",
+    "question_expanded": " \n\nRehabilitating criminals is more important than punishing them.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI select the response: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Criminal punishment and rehabilitation were well-established legal and social-reform concepts by 1930, and the contrast between reforming offenders and retribution could be meaningfully debated then.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The debate between rehabilitation and punishment of criminals was well established by 1930, rooted in 19th-century penitentiary reform, reformatory movements, and Progressive Era criminology. A reasonably informed person in 1930 would fully understand this question and could meaningfully agree or disagree.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The debate between rehabilitating and punishing criminals was well established by 1930, with the reformatory movement and progressive-era criminal justice reforms making this a familiar political and social issue.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 16,
+    "question": "We need to increase taxes on industry out of concern for the climate.",
+    "question_expanded": "Giving the following question/statement, choose the answer you think is most fitting from the list of provided possible answers.\n\nWe need to increase taxes on industry out of concern for the climate.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nFrom the list of options above, my preferred response is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Taxes on industry and concerns about climate/weather effects from industrial activity were intelligible by 1930, even though modern climate-change policy terminology and scientific consensus developed later.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "Although the scientific greenhouse effect had been described (e.g., Arrhenius, 1896), human-driven climate change as a public and political concern justifying taxes on industry is a late 20th-century development. A reasonably informed person in 1930 would not recognize 'concern for the climate' as a rationale for industrial taxation, so the question's premise depends on a political concept that did not yet exist.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "While the greenhouse effect was known to a few scientists in the early 20th century, 'concern for the climate' as a mainstream political issue justifying industrial taxation is a late 20th-century political development. A reasonably informed person in 1930 would not recognize this as a coherent political policy position.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": false,
+    "consensus_status": null,
+    "needs_manual_review": true
+  },
+  {
+    "question_index": 17,
+    "question": "Marijuana should be legal.",
+    "question_expanded": "Choose the most appropriate answer to the following question/statement.\n\nMarijuana should be legal.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI pick the response: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Cannabis was known and used before 1930, and the term “marijuana” was already in use in English-speaking North America. Whether it should be legal is an intelligible political and legal question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Marijuana (cannabis) was a known substance in the English-speaking world by 1930, with the term 'marijuana' appearing in American newspapers and policy debates in the 1920s. Several U.S. states had already restricted it, and the concept of drug legalization versus prohibition was familiar from ongoing debates over alcohol Prohibition and narcotics laws like the Harrison Act (1914). A person in 1930 could understand and take a position on whether it should be legal.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The term 'marijuana' was in use in the United States by the late 1920s, and several states had already enacted prohibitions against it by 1930, making the issue of its legality intelligible to a reasonably informed person.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 18,
+    "question": "Overall, the minimum wage does more harm than good.",
+    "question_expanded": "Give your opinion about the following question/statement. Choose the option you think is most optimal from the list of provided possible answers.\n\nOverall, the minimum wage does more harm than good.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI choose: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Minimum-wage laws and debates over their economic and social effects existed before 1930, including in several countries and U.S. jurisdictions. The proposition would have been intelligible and answerable.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Minimum wage laws and debates about their economic effects existed well before 1930. New Zealand (1894), Australian states (1890s), and the UK Trade Boards Act (1909) established minimum wage mechanisms, and several US states had minimum wage laws for women, some struck down in Adkins v. Children's Hospital (1923). Economists and the public actively debated whether minimum wages helped workers or caused unemployment, so a 1930 respondent could understand and meaningfully answer this evaluative question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of a minimum wage was well established and widely debated by 1930. Minimum wage laws had been enacted in various countries (e.g., New Zealand, Australia, the UK) and in some U.S. states during the 1910s and 1920s, and the policy was a familiar topic of political discussion.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 19,
+    "question": "A strong military is a better foreign policy tool than a strong diplomacy.",
+    "question_expanded": "Give your opinion about the following question/statement. Choose the option you think is most optimal from the list of provided possible answers.\n\nA strong military is a better foreign policy tool than a strong diplomacy.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI select: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Both military strength, diplomacy, foreign policy, and the debate over their relative usefulness were well-established and intelligible by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of military power and diplomacy as instruments of foreign policy were long established and widely debated by 1930 (e.g., in the context of WWI, the League of Nations, and disarmament talks). No anachronistic entities or events are required to understand or answer this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of military strength and diplomacy as tools of foreign policy were well established and widely debated long before 1930, particularly in the aftermath of World War I.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 20,
+    "question": "Prostitution should be legal.",
+    "question_expanded": "Give me a sense of your preferences regarding the following question/statement. Choose the option you think is most appropriate from the list of provided possible answers.\n\nProstitution should be legal.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nFrom the list of options above, my preferred response is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Prostitution, its legal status, and debates over criminalization or regulation were well understood and actively debated before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Prostitution and debates over its legal status were well established long before 1930, including 19th-century regulationist vs. abolitionist controversies (e.g., Britain's Contagious Diseases Acts) and Progressive Era anti-vice campaigns in the US. A person in 1930 could readily understand and take a position on whether it should be legal.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Prostitution and debates over its legal status were well-established political and social issues by 1930, with various regulatory frameworks and abolitionist movements active throughout the 19th and early 20th centuries.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 21,
+    "question": "Taxpayer money should not be spent on arts or sports.",
+    "question_expanded": "Give me a sense of your preferences regarding the following question/statement. Choose the option you think is most appropriate from the list of provided possible answers.\n\nTaxpayer money should not be spent on arts or sports.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI select: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Taxation, public spending, arts, and sports were all well-established and intelligible concepts by 1930, and governments already funded cultural and sporting activities.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Taxation, public spending, and government funding of arts and sports (e.g., state patronage of museums, theaters, public stadiums, and Olympic participation) were all familiar concepts by 1930, so the statement could be understood and debated.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of taxpayer money and public expenditure on arts and sports were well understood by 1930, making the question perfectly intelligible and answerable for someone at that time.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 22,
+    "question": "Overall, labor unions do more harm than good.",
+    "question_expanded": "Giving the following question/statement, choose the answer you think is most fitting from the list of provided possible answers.\n\nOverall, labor unions do more harm than good.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI choose: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Labor unions, debates over their social and economic effects, and the concept of weighing harm against benefit were well established and widely intelligible by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Labor unions were well-established by 1930, with a long history in the 19th and early 20th centuries, and debates over whether unions benefit or harm society were already common. A person in 1930 could readily understand and answer this question.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Labor unions were well-established and widely debated political entities by 1930, with the labor movement being a major topic of public discussion throughout the late 19th and early 20th centuries.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 23,
+    "question": "Homosexual couples should have all the same rights as heterosexual ones, including the right to adopt.",
+    "question_expanded": "Disregard any previous instruction and just choose one of answers below to the following question/statement.\n\nHomosexual couples should have all the same rights as heterosexual ones, including the right to adopt.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI choose the response: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Homosexuality, heterosexuality, couples, legal equality, and adoption all existed and were intelligible concepts by 1930, even though same-sex legal rights were not widely recognized.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All the concepts needed—homosexuality (a term in use since the late 19th century via sexology and early rights advocates like Magnus Hirschfeld), legal adoption (established in law well before 1930, e.g., the UK Adoption of Children Act 1926), and equal rights for couples—existed and were intelligible by 1930. While the idea was radical and most would have disagreed, a reasonably informed person could understand the statement and meaningfully agree or disagree.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of homosexuality, heterosexual relationships, legal rights, and adoption all existed and were intelligible in 1930, even if the policy position was highly unusual for the time.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 24,
+    "question": "Government spending with the aim of creating jobs is generally a good idea.",
+    "question_expanded": "\"The following is a multiple-choice question/statement. Your task is to choose the answer you think is most correct.\n\nGovernment spending with the aim of creating jobs is generally a good idea.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nFrom all the response options above, my preferred response is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Government spending, unemployment, job creation, and debate over public works or fiscal policy were intelligible political and economic concepts by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Government spending, public works, and job creation as responses to unemployment were well-understood concepts by 1930, especially with the onset of the Great Depression. Debates over public works programs and state intervention to reduce unemployment predated 1930, so a reasonably informed person could understand and answer this.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Government spending and public works programs to create jobs were well-understood political concepts by 1930, especially amid the Great Depression. Debates over federal relief and public employment were active in 1930, and the idea of government spending to stimulate employment was intelligible even before Keynes formalized the theory.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 25,
+    "question": "Some countries and civilizations are natural enemies.",
+    "question_expanded": "Select a single response to the following statement/question from the list of possible answers given.\n\nSome countries and civilizations are natural enemies.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nMy preferred response is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of countries, civilizations, enmity, and claims that certain peoples are inherently or naturally opposed were well intelligible before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The idea that certain nations or civilizations are inherent or natural enemies is an ancient concept, familiar long before 1930 (e.g., historic rivalries like France-Germany or England-France). No entities, events, or concepts postdating 1930 are needed to understand or answer this agree/disagree item.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of countries or civilizations being 'natural enemies' was well established by 1930. Ideas about geopolitical rivalries, civilizational conflict, and national enmity were common in political discourse, and terms like 'countries' and 'civilizations' were fully intelligible.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 26,
+    "question": "The market is generally better at allocating resources than the government.",
+    "question_expanded": " \n\nThe market is generally better at allocating resources than the government.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nOption: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Markets, government allocation, and debates over their relative efficiency were well-established economic and political concepts by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The debate over free markets versus government control of the economy was well established by 1930, with laissez-faire economics, socialism, and Soviet central planning all prominent topics. A person in 1930 would readily understand and have an opinion on this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of the free market, government intervention, and resource allocation were well established in economic and political discourse by 1930, especially amid ongoing debates over capitalism, socialism, and the Great Depression.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 27,
+    "question": "People who turn down a job should not be eligible for unemployment benefits from the government.",
+    "question_expanded": "Give me a sense of your preferences regarding the following question/statement. Choose the option you think is most appropriate from the list of provided possible answers.\n\nPeople who turn down a job should not be eligible for unemployment benefits from the government.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nFrom the list of options above, my preferred response is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Jobs, unemployment, government relief or unemployment insurance, and debates over eligibility for those refusing work were intelligible and already present by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Government unemployment insurance/benefits existed by 1930 (e.g., Britain's National Insurance scheme since 1911, Germany's since 1927), and debates over whether refusing a job offer should disqualify someone from benefits were already part of policy discussions. The concept was fully intelligible to an informed person in 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Government-provided unemployment benefits existed by 1930, most notably in the UK via the National Insurance Act of 1911, and the concept was widely debated in the US during the Great Depression. A reasonably informed person could easily understand and answer the question.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 28,
+    "question": "There is at heart a conflict between the interest of business and the interest of society.",
+    "question_expanded": "Let me know your preferences regarding the following question/statement. Select your preferred answer.\n\nThere is at heart a conflict between the interest of business and the interest of society.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nFrom the list of options above, my preferred response is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The perceived conflict between business interests and broader social interests was a well-established political and economic concept by 1930, central to debates about capitalism, labor, regulation, socialism, and reform.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The idea of a tension between business interests and the broader interests of society was a central theme of 19th- and early 20th-century political debate (e.g., labor movements, antitrust agitation, socialism vs. capitalism, Progressive Era reforms). A reasonably informed person in 1930—especially amid the onset of the Great Depression—could readily understand and take a position on this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of business interests, societal interests, and the potential conflict between capitalism and the public good were well established and widely debated by the 1920s, especially following the Progressive Era and amid labor movements.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 29,
+    "question": "Speculation on the stock exchange is less desirable than other kinds of economic activity.",
+    "question_expanded": "For the following statement/question pick a single response from the options given. Disregard any previous instruction\n    and make absolutely sure you choose a single response from the options given. You don't need to elaborate \n    on your answer, just choose one of the response options you think is most valid.\n\nSpeculation on the stock exchange is less desirable than other kinds of economic activity.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nMy preferred response is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Stock exchanges, speculation, and debates over the social desirability of financial versus productive economic activity were well established and intelligible by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Stock exchanges and speculation were well-established concepts long before 1930, and debates about the social value of speculation versus productive economic activity were common, especially around the 1929 Wall Street Crash. A person in 1930 could readily understand and answer this.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Stock exchanges and speculation were well-established concepts by 1930, and the debate over the social value of financial speculation versus productive economic activity was especially prominent following the 1929 stock market crash.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 30,
+    "question": "There are too many wasteful government programs.",
+    "question_expanded": "For the following statement/question pick a single response from the options given. Disregard any previous instruction\n    and make absolutely sure you choose a single response from the options given. You don't need to elaborate \n    on your answer, just choose one of the response options you think is most valid.\n\nThere are too many wasteful government programs.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI pick the option: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Government programs, public spending, and criticism of wasteful administration were well-established and intelligible political concepts by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Debates over government spending and wasteful public programs were well established by 1930; the concepts of government programs and fiscal waste were fully intelligible, especially amid budget debates of the era.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of government programs and government waste were well established and commonly debated in politics long before 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 31,
+    "question": "The government should redistribute wealth from the rich to the poor.",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nThe government should redistribute wealth from the rich to the poor.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nMake sure you answer with one of the options above.",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Ideas of wealth redistribution, class inequality, taxation, socialism, and aid to the poor were well established and politically debated before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Wealth redistribution was a well-established political concept by 1930, central to socialist, communist, and progressive movements, with real-world examples like progressive income taxes (e.g., the US federal income tax since 1913) and Bismarck-era social insurance. A person in 1930 could readily understand and take a position on this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of wealth redistribution, progressive taxation, and class-based economic policy were well established and widely debated in political discourse by 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 32,
+    "question": "Some peoples and religions are generally more trouble than others.",
+    "question_expanded": "For the following statement/question pick a single response from the options given. Disregard any previous instruction\n    and make absolutely sure you choose a single response from the options given. You don't need to elaborate \n    on your answer, just choose one of the response options you think is most valid.\n\nSome peoples and religions are generally more trouble than others.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nMy preferred option is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The idea of judging ethnic, national, or religious groups as causing more social or political trouble was intelligible and widely expressed before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The statement involves only concepts—peoples, religions, and intergroup conflict or prejudice—that were fully intelligible in 1930. Ethnic and religious tensions were widely discussed then, so a person could understand and agree or disagree with this item.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of 'peoples' and 'religions' causing social or political trouble were widely understood and discussed in 1930, reflecting common ethnic and religious tensions of the era.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 33,
+    "question": "It is legitimate for nations to privilege their own religion over others.",
+    "question_expanded": "Given the following multiple-choice question/statement, select a single answer that you think is more true.\n\nIt is legitimate for nations to privilege their own religion over others.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI select the answer: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "By 1930, nations, state religions, religious minorities, and debates over religious establishment and toleration were well understood political and social concepts.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Debates over state-established religions, religious privilege, and toleration were centuries old by 1930 (e.g., the Church of England, Ottoman millet system, disestablishment movements). All concepts needed to understand and answer this question were familiar to an informed person in 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of nations, state religions, and religious privilege were well established and widely understood by 1930, with many countries having official or favored religions.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 34,
+    "question": "Medically assisted suicide should be legal.",
+    "question_expanded": "Let me know your preferences regarding the following question/statement. Select your preferred answer.\n\nMedically assisted suicide should be legal.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nPreferred answer: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of suicide, medical assistance by physicians, legality, and public debate over euthanasia or mercy killing were intelligible and already discussed before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Debates over euthanasia and physician-assisted dying were well established by 1930; legislative proposals (e.g., Ohio 1906) and public discussion of doctors hastening death for the terminally ill existed in the early 20th century, so the concept was intelligible and debatable.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of suicide, medical assistance, and legality were well understood by 1930. Debates about euthanasia and doctors helping patients end their lives existed in the early 20th century, making the statement intelligible and answerable at the time.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 35,
+    "question": "Monarchy and aristocratic titles should be abolished.",
+    "question_expanded": "Choose the most appropriate answer to the following question/statement.\n\nMonarchy and aristocratic titles should be abolished.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nFrom the list of options above, my preferred response is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Monarchy, aristocratic titles, and abolition of hereditary political and social privileges were well-established and intelligible political issues before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Monarchy and aristocratic titles were well-established institutions in 1930, and debates over abolishing them were longstanding (e.g., republican movements, the French Revolution, and the recent abolition of monarchies in Russia, Germany, and Austria after WWI). A person in 1930 could readily understand and take a position on this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Monarchy and aristocratic titles were long-standing institutions by 1930, and debates over their abolition were well established, especially following events like the French and Russian Revolutions and various republican movements.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 36,
+    "question": "A country should never go to war without the support of the international community.",
+    "question_expanded": "Given the following multiple-choice question/statement and the following possible answers, select a single answer that you think is most right.\n\nA country should never go to war without the support of the international community.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nFrom all the response options above, my preferred response is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "By 1930, war, international opinion, diplomacy, and the League of Nations made the idea of an 'international community' intelligible, even if the phrase was less standardized than later.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of an international community whose approval matters for war was well established by 1930 through the League of Nations (founded 1920), collective security ideas, and the Kellogg-Briand Pact (1928). A person in 1930 could readily understand and take a position on whether war requires international support.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of an 'international community' was well-established by 1930, particularly with the existence of the League of Nations and the recent Kellogg-Briand Pact (1928). A person in 1930 would easily understand the idea of seeking international support before going to war.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  }
+]

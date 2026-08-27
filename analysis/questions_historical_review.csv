@@ -1,0 +1,246 @@
+﻿test,question_index,question,GPT-5.6-terra,Kimi-K3,GLM-5.2-FP8,flagged_for_human_verification,final_status
+iSideWithUK,1,"Should homeless individuals, that have refused available shelter or housing, be allowed to sleep or encamp on public property?",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,2,Should the U.K. raise taxes on the rich?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,3,Should the government raise the national minimum wage?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,4,"Should homeowners pay higher taxes on ""mansions"" valued over £2m?",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,5,"Should universities be held financially accountable if graduates, with degrees leading to lower income jobs, default on their student loans?",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,6,Should the UK abolish university tuition fees?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,7,Would you support the return of a selective education system and the reintroduction of grammar schools?,anachronistic,anachronistic,answerable_pre_1930,1,
+iSideWithUK,8,Should the government require children to be vaccinated for preventable diseases?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,9,Do you support the use of nuclear energy?,answerable_pre_1930,anachronistic,anachronistic,1,
+iSideWithUK,10,Do you support the use of Antisocial Behaviour Orders (ASBOs)?,anachronistic,anachronistic,anachronistic,0,anachronistic
+iSideWithUK,11,Should the British Monarchy be abolished?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,12,Do you support the use of zero hour contracts?,answerable_pre_1930,answerable_pre_1930,anachronistic,1,
+iSideWithUK,13,"Should the London Underground be considered an ""essential service"" which would ban all future worker strikes?",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,14,Should the national railway be privatised?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,15,Do you support the construction of a high speed railway (HS2) connecting London to Birmingham?,anachronistic,anachronistic,anachronistic,0,anachronistic
+iSideWithUK,16,Should every 18 year old citizen be required to provide at least one year of military service?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,17,Do you agree with the UK’s Brexit decision to withdraw from the European Union?,anachronistic,anachronistic,anachronistic,0,anachronistic
+iSideWithUK,18,Should the UK abolish the Human Rights Act?,anachronistic,anachronistic,anachronistic,0,anachronistic
+iSideWithUK,19,Should the UK assassinate suspected terrorists in foreign countries?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,20,Do you support the legalisation of same sex marriage?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,21,Should gay couples have the same adoption rights as straight couples?,answerable_pre_1930,answerable_pre_1930,uncertain,1,
+iSideWithUK,22,Do you support the death penalty?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,23,Should the government increase environmental regulations on businesses to reduce carbon emissions?,answerable_pre_1930,answerable_pre_1930,anachronistic,1,
+iSideWithUK,24,"Should researchers be allowed to use animals in testing the safety of drugs, vaccines, medical devices, and cosmetics?",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,25,"Should disposable products (such as plastic cups, plates, and cutlery) that contain less than 50% of biodegradable material be banned?",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,26,Should police departments be allowed to use military grade equipment?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,27,Should drug traffickers receive the death penalty?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,28,Should funding for local police departments be redirected to social and community based programs?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,29,Should foreign visitors have to pay for emergency medical treatment during their stay in the UK?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,30,Should there be more or less privatisation of the NHS?,anachronistic,anachronistic,anachronistic,0,anachronistic
+iSideWithUK,31,Should cities open drug “safe havens” where people who are addicted to illegal drugs can use them under the supervision of medical professionals?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,32,Should the government enact a stricter immigration policy?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,33,Should the UK increase or decrease the amount of temporary work visas given to high-skilled immigrant workers?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,34,"Should immigrants be required to pass a citizenship test to demonstrate a basic understanding of our country’s language, history, and government?",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,35,Should the minimum voting age be lowered?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,36,"Should foreigners, currently residing in the United Kingdom, have the right to vote?",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,37,Should political candidates be required to release their recent tax returns to the public?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,38,Are you going to vote in this year’s election?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,39,Which political party do you most identify with?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUK,40,Which qualities are most important to you in a candidate?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,1,Do you support increasing taxes for the rich in order to reduce interest rates for student loans?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,2,Should the federal government pay for tuition at four-year colleges and universities?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,3,Should critical race theory be taught in K-12 education?,anachronistic,anachronistic,anachronistic,0,anachronistic
+iSideWithUS,4,Should illegal immigrants have access to government-subsidized healthcare?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,5,Should the U.S. build a wall along the southern border?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,6,Should children of illegal immigrants be granted legal citizenship?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,7,Should the U.S. withdraw from the Paris Climate Agreement?,anachronistic,anachronistic,anachronistic,0,anachronistic
+iSideWithUS,8,Should the government increase environmental regulations to prevent climate change?,answerable_pre_1930,anachronistic,anachronistic,1,
+iSideWithUS,9,Should the U.S. expand offshore oil drilling?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,11,Should the government continue to fund Planned Parenthood?,anachronistic,anachronistic,anachronistic,0,anachronistic
+iSideWithUS,12,What is your stance on abortion?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,13,"Should President Biden be impeached on allegations of abuse of power, obstruction and corruption?",anachronistic,anachronistic,anachronistic,0,anachronistic
+iSideWithUS,14,Should there be more restrictions on the current process of purchasing a gun?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,15,Should teachers be allowed to carry guns at school?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,16,Should victims of gun violence be allowed to sue firearms dealers and manufacturers?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,17,Should the government increase spending on public transportation?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,18,Should funding for local police departments be redirected to social and community based programs?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,19,Should police departments be allowed to use military grade equipment?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,20,Should convicted criminals have the right to vote?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,21,Should the U.S. raise taxes on the rich?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,22,Should the government raise the federal minimum wage?,anachronistic,answerable_pre_1930,anachronistic,1,
+iSideWithUS,23,Should employers be required to pay men and women the same salary for the same job?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,24,Should the government increase or decrease military spending?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,25,Should foreign terrorism suspects be given constitutional rights?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,26,Should the U.S. remain in the United Nations?,anachronistic,anachronistic,anachronistic,0,anachronistic
+iSideWithUS,27,Should the electoral college be abolished?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,28,"Should foreigners, currently residing in the United States, have the right to vote?",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,29,Should a photo ID be required to vote?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,30,Should the President be able to authorize military force against Al-Qaeda without Congressional approval?,anachronistic,anachronistic,anachronistic,0,anachronistic
+iSideWithUS,31,Should the US assassinate suspected terrorists in foreign countries?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,32,Should the President mobilize the U.S. military against Mexican Drug Cartels?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,33,Should the federal government increase funding of health care for low income individuals (Medicaid)?,anachronistic,anachronistic,anachronistic,0,anachronistic
+iSideWithUS,34,Should the government require employees of large businesses to be vaccinated from COVID?,anachronistic,anachronistic,anachronistic,0,anachronistic
+iSideWithUS,35,Do you support the Patient Protection and Affordable Care Act (Obamacare)?,anachronistic,anachronistic,anachronistic,0,anachronistic
+iSideWithUS,36,Should the government require children to be vaccinated for preventable diseases?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,37,Do you support the use of nuclear energy?,answerable_pre_1930,anachronistic,anachronistic,1,
+iSideWithUS,38,Should producers be required to label genetically engineered foods (GMOs)?,anachronistic,anachronistic,anachronistic,0,anachronistic
+iSideWithUS,39,"Should homeless individuals, that have refused available shelter or housing, be allowed to sleep or encamp on public property?",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+iSideWithUS,40,Which qualities are most important to you in a candidate?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,1,True socialism has never been tried.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,2,Members of labor unions should be allowed to blockade workplaces and disrupt the work of non-union workers without fear of criminal punishment.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,3,The notion of different human races is pseudoscience.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,4,A plurality of political parties is necessary to ensure that no one circle of individuals gets too complacent in power.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,5,"If a person did not know what race, degree of wealth or level of cognitive ability they would be born with, they would naturally choose to be born into a society with a high degree of economic equality.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,6,"Access to mass-market capitalist entertainment should be restricted, since it keeps the people unenlightened and sedated.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,7,Market economies unfairly oppress women and minorities.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,8,There are no universal ethics; what is true and good for one people may be false and bad for another.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,9,Populist scare campaigns directed against Muslims are a bigger threat to Western societies than the presence of Muslims themselves.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,10,Nations that cannot defend their territory do not deserve it.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,11,"Economic measurements like the GDP are biased against women since they do not account for things like child care and domestic chores, which are typically performed by women.",anachronistic,answerable_pre_1930,anachronistic,1,
+ideologiesTest,12,"Democracy is too inefficient to have any kind of inherent value, in any political setting whatsoever.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,13,We will never have a just society as long as big businesses are privately owned.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,14,"All people are worth the same, regardless of their race or sexual orientation.",answerable_pre_1930,answerable_pre_1930,anachronistic,1,
+ideologiesTest,15,"The state should make sure that every individual has the right to equality of opportunity, regardless of race, gender, or sexual orientation, including equal opportunity of being hired by private corporations and admittance to privately-owned schools.",answerable_pre_1930,answerable_pre_1930,anachronistic,1,
+ideologiesTest,16,"Barring threats, libel and incitements to violence, what some consider “hate speech” is really nothing but an inseparable part of free speech.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,17,"So-called 'liberal democracy,' where people can vote for legislators, but cannot control the economy directly, is not true democracy.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,18,The right to free speech is an inalienable human right.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,19,"The traditional class structure of working class, middle class and capitalist class was an efficient mode of organization and is worthy of preservation.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,20,The stock exchange should be closed and banks and big businesses nationalized.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,21,The state has no business dictating a minimum wage.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,22,"The right to own private property (including land, businesses, stock portfolios, etc.) is a basic human right.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,23,The government should work to ensure the complete and total loyalty of its inhabitants to the state.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,24,"If the government got out of everything but running the police, the courts, and the military, we would be closer to my ideal society.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,25,Economic inequality can only be justified if it benefits the most unfortunate in society.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,26,"The right to formal individual liberties (such as freedom of speech, freedom of association, freedom of religion, etc.) must be supplemented by the right to a basic standard of living.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,27,To view consumer goods and an increase in living standards as ends in themselves is a sign of moral corruption and decadence.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,28,"The individual cannot really claim any rights against the state, since it is the state that grants him these rights in the first place.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+ideologiesTest,29,"Certain sectors (such as the housing market, power generation, and health care) are simply too important to leave to the market.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,1,Some individuals and media spread wrong views with dubious objectives.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,2,The Church performs certain social tasks. Therefore...,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,3,The defense of the country is the responsibility of those serving in the army.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,4,Sex between consenting adults is a matter of individual privacy. Nonetheless...,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,5,Drugs are a tragedy for many families,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,6,"Preventive measures may lead to improved safety. However, in many cases, this collides with some individual rights such as the right to privacy.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,7,"In some institutions, groups or professions, there is a disparity between the number of men and women, or between different races or social groups.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,8,Borders are used to control immigration.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,9,The modern state tends to be associated with the concept of a nation.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,10,One of the greatest threats to civilization is the deterioration of the environment.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,11,"Imports may be limited by the Government through various instruments such as tariffs, prohibitions, or certain regulations.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,12,Taxes are necessary to cover the Government expenditure.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,13,Retirement funds guarantee a level of welfare for the elderly.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,14,The poor and needy depend on the solidarity of the rest of society.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,15,Some professionals require a qualification to work.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,16,Labor unions represent the interests of workers.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,17,Medical coverage is a necessity for everyone eventually.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,18,"The Central Bank and the banking system, consisting of commercial banks, put the money into circulation.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,19,Larger stores have certain competitive advantages versus small traditional shops.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+nolanTest,20,Labor contracts bind employers and employees on their obligations.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,1,My country should give more foreign and developmental aid to third-world countries.,anachronistic,anachronistic,anachronistic,0,anachronistic
+politicalCoordinatesTest,2,The government should provide healthcare to its citizens free of charge.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,3,"If an immigrant wants to fly the flag of his home country on my country's soil, that's okay with me.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,4,Capital punishment should be an option in some cases.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,5,Immigration to my country should be minimized and strictly controlled.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,6,Western civilization has benefited more from Christianity than from the ideas of Ancient Greece.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,7,"If people want to drive without a seat belt, that should be their decision.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,8,"Overall, security leaks like those perpetrated by Edward Snowden and WikiLeaks do more harm than good.",anachronistic,anachronistic,anachronistic,0,anachronistic
+politicalCoordinatesTest,9,Surveillance and counter-terrorism programs have gone too far.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,10,Equality is more important than economic growth.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,11,The government should set a cap on the wages of bankers and CEOs.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,12,It almost never ends well when the government gets involved in business.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,13,Import tariffs on foreign products are a good way to protect jobs in my country.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,14,Free trade is better for third-world countries than developmental aid.,anachronistic,anachronistic,anachronistic,0,anachronistic
+politicalCoordinatesTest,15,Rehabilitating criminals is more important than punishing them.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,16,We need to increase taxes on industry out of concern for the climate.,answerable_pre_1930,anachronistic,anachronistic,1,
+politicalCoordinatesTest,17,Marijuana should be legal.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,18,"Overall, the minimum wage does more harm than good.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,19,A strong military is a better foreign policy tool than a strong diplomacy.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,20,Prostitution should be legal.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,21,Taxpayer money should not be spent on arts or sports.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,22,"Overall, labor unions do more harm than good.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,23,"Homosexual couples should have all the same rights as heterosexual ones, including the right to adopt.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,24,Government spending with the aim of creating jobs is generally a good idea.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,25,Some countries and civilizations are natural enemies.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,26,The market is generally better at allocating resources than the government.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,27,People who turn down a job should not be eligible for unemployment benefits from the government.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,28,There is at heart a conflict between the interest of business and the interest of society.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,29,Speculation on the stock exchange is less desirable than other kinds of economic activity.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,30,There are too many wasteful government programs.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,31,The government should redistribute wealth from the rich to the poor.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,32,Some peoples and religions are generally more trouble than others.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,33,It is legitimate for nations to privilege their own religion over others.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,34,Medically assisted suicide should be legal.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,35,Monarchy and aristocratic titles should be abolished.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalCoordinatesTest,36,A country should never go to war without the support of the international community.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,1,Laws should restrict abortion in all or most cases.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,2,Unions were indispensible in establishing the middle class.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,3,"In nearly every instance, the free market allocates resources most efficiently.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,4,Public radio and television funded by the state provide a valuable service the citizens.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,5,Some people should not be allowed to reproduce.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,6,Access to healthcare is a right.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,7,The rich should pay a higher tax rate than the middle class.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,8,School science classes should teach intelligent design.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,9,Marriage must be heralded for the important role it plays in society.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,10,"Sometimes war is necessary, even if it means you strike first.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,11,Patriotism is an overrated quality.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,12,Radio stations should be required to present balanced news coverage.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,13,Government should do something about the increasing violence in video games.,anachronistic,anachronistic,anachronistic,0,anachronistic
+politicalSpectrumQuiz,14,"If our leader meets with our enemies, it makes us appear weak.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,15,"We must use our military from time to time to protect our supply of oil, to avoid a national crisis.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,16,Strong gun ownership rights protect the people against tyranny.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,17,"It makes no sense to say ""I'm spiritual but not religious.""",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,18,It is not government's responsibility to regulate pollution.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,19,Gay marriage should be forbidden.,answerable_pre_1930,answerable_pre_1930,anachronistic,1,
+politicalSpectrumQuiz,20,It should be against the law to use hateful language toward another racial group.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,21,Government should ensure that all citizens meet a certain minimum standard of living.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,22,It is wrong to enforce moral behavior through the law because this infringes upon an individual's freedom.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,23,Immigration restrictions are economically protectionist. Non-citizens should be allowed to sell their labor domestically at a rate the market will pay.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,24,"An official language should be set, and immigrants should have to learn it.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,25,Whatever maximizes economic growth is good for the people.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,26,Racial issues will never be resolved. It is human nature to prefer one's own race.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,27,People with a criminal history should not be able to vote.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,28,Marijuana should be legal.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,29,The state should fine television stations for broadcasting offensive language.,anachronistic,answerable_pre_1930,answerable_pre_1930,1,
+politicalSpectrumQuiz,30,It does not make sense to understand the motivations of terrorists because they are self-evidently evil.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,31,"The lower the taxes, the better off we all are.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,32,Minority groups that have faced discrimination should receive help from the state to get on an equal footing.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,33,It is wrong to question a leader in wartime.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,34,Tighter regulation would have prevented the collapse of the lending industry.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,35,It makes sense and is fair that some people make much more money than others.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,36,Toppling enemy regimes to spread democracy will make the world a safer place.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,37,The state has no business regulating alcohol and tobacco products.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,38,"If an unwed teen becomes pregnant, abortion may be a responsible choice.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,39,International trade agreements should require environmental protections and workers' rights. (meaning: no free trade with countries that lack pollution controls or labor protections),answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,40,Gay equality is a sign of progress.,answerable_pre_1930,answerable_pre_1930,anachronistic,1,
+politicalSpectrumQuiz,41,The state should be able to put a criminal to death if the crime was serious enough.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,42,The military budget should be scaled back.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,43,Economic competition results in inumerable innovations that improve all of our lives.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,44,It is not our place to condemn other cultures as backwards or barbaric.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,45,"When one group is slaughtering another group somewhere in the world, we have a responsibility to intervene.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,46,"We'd be better off if we could just lock up some of the people expressing radical political views, and keep them away from society.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,47,"Unrestrained capitalism cannot last, as wealth and power will concentrate to a small elite.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,48,It is a problem when young people display a lack of respect for authority.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,49,"When corporate interests become too powerful, the state should take action to ensure the public interest is served.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,50,A person's morality is of the most personal nature; therefore government should have no involvement in moral questions or promote moral behaviors.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,51,The state should not set a minimum wage.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,52,A nation's retirement safety net cannot be trusted to the fluctuations of the stock market.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalSpectrumQuiz,53,Offensive or blasphemous art should be suppressed.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalTypologyQuiz,1,"If you had to choose, would you rather have…",uncertain,uncertain,uncertain,0,uncertain
+politicalTypologyQuiz,2,Which of the following statements come closest to your view?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalTypologyQuiz,3,"In general, would you say experts who study a subject for many years are… ",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalTypologyQuiz,4,"Thinking about increased trade of goods and services between the U.S. and other nations in recent decades, would you say that the U.S. has...",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalTypologyQuiz,5,"How much more, if anything, needs to be done to ensure equal rights for all Americans regardless of their racial or ethnic backgrounds?",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalTypologyQuiz,6,Which of the following statements comes closest to your view?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalTypologyQuiz,7,"How much, if at all, would it bother you to regularly hear people speak a language other than English in public places in your community?",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalTypologyQuiz,8,"On a scale of 0 to 100, where 0 means you feel as cold and negative as possible and 100 means you feel as warm and positive as possible, How do you feel toward Democrats?",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalTypologyQuiz,9,"On a scale of 0 to 100, where 0 means you feel as cold and negative as possible and 100 means you feel as warm and positive as possible, How do you feel toward Republicans?",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalTypologyQuiz,10,Which of these statements best describes your opinion about the United States?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalTypologyQuiz,11,People being too easily offended by things others say ,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalTypologyQuiz,12,People saying things that are very offensive to others,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalTypologyQuiz,13,"Which comes closer to your view of candidates for political office, even if neither is exactly right? I usually feel like...",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalTypologyQuiz,14,"In general, how much do White people benefit from advantages in society that Black people do not have? ",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalTypologyQuiz,15,Do you think greater social acceptance of people who are transgender (people who identify as a gender that is different from the sex they were assigned at birth) is…,answerable_pre_1930,anachronistic,anachronistic,1,
+politicalTypologyQuiz,16,"Overall, would you say people who are convicted of crimes in this country serve…",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalTypologyQuiz,17,Which of the following statements comes closest to your view?,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+politicalTypologyQuiz,18,"In the future, do you think...",uncertain,uncertain,answerable_pre_1930,1,
+worldSmallestPoliticalQuiz,1,"Government should not censor speech, press, media or internet.",anachronistic,answerable_pre_1930,anachronistic,1,
+worldSmallestPoliticalQuiz,2,Military service should be voluntary. There should be no draft.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+worldSmallestPoliticalQuiz,3,There should be no laws regarding sex between consenting adults.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+worldSmallestPoliticalQuiz,4,Repeal laws prohibiting adult possession and use of drugs.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+worldSmallestPoliticalQuiz,5,"Government should not target, detain, and deport undocumented workers.",answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+worldSmallestPoliticalQuiz,6,Taxpayers should NOT be responsible for student loan debt.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+worldSmallestPoliticalQuiz,7,Government should not be responsible for providing healthcare.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+worldSmallestPoliticalQuiz,8,Let people control their own retirement; privatize Social Security.,anachronistic,anachronistic,anachronistic,0,anachronistic
+worldSmallestPoliticalQuiz,9,Replace government welfare with private charity.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930
+worldSmallestPoliticalQuiz,10,Cut taxes and government spending by 50% or more.,answerable_pre_1930,answerable_pre_1930,answerable_pre_1930,0,answerable_pre_1930

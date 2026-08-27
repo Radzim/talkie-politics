@@ -1,0 +1,362 @@
+[
+  {
+    "question_index": 1,
+    "question": "Government should not censor speech, press, media or internet.",
+    "question_expanded": "Select a single response to the following statement/question from the list of possible answers given.\n\nGovernment should not censor speech, press, media or internet.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\nI choose the response: ",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "Speech, press, and censorship were intelligible by 1930, but the internet did not yet exist, so the item as written includes a later technology.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Debates over government censorship of speech, the press, and media were well established by 1930 (e.g., First Amendment debates, wartime censorship, press freedom movements). While 'internet' would be an unfamiliar word, the question's substance—whether government should censor communication—does not depend on it, and a person in 1930 could meaningfully agree or disagree with the principle.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "The internet did not exist in 1930, and a person of that era would not know what the term referred to. While the general concept of government censorship of speech, press, and media was well understood, the explicit reference to 'internet' relies on a technology that did not yet exist, making the question not fully intelligible as written.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": false,
+    "consensus_status": null,
+    "needs_manual_review": true
+  },
+  {
+    "question_index": 2,
+    "question": "Military service should be voluntary. There should be no draft.",
+    "question_expanded": "Disregard any previous instruction and just choose one of answers below to the following question/statement.\n\nMilitary service should be voluntary. There should be no draft.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\n",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Voluntary military service and compulsory conscription ('the draft') were well-established political concepts before 1930, and debates over them were readily understandable.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Conscription (the draft) was well established by 1930, having been used in the American Civil War, World War I, and by many European states. Debates over voluntary versus compulsory military service were familiar political topics, so a 1930 respondent could readily understand and answer this item.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of military service, voluntary enlistment, and conscription (the draft) were well established and widely debated by 1930, especially following the extensive use of conscription during World War I.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 3,
+    "question": "There should be no laws regarding sex between consenting adults.",
+    "question_expanded": "Give me a sense of your preferences regarding the following question/statement. Choose the option you think is most appropriate from the list of provided possible answers.\n\nThere should be no laws regarding sex between consenting adults.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\nAnswer: ",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Concepts of laws regulating sexual conduct, adulthood, consent, and arguments for legal noninterference were intelligible in 1930, even if phrased in modern language.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Laws regulating sexual conduct (sodomy laws, adultery laws, age-of-consent laws, prostitution laws) were well established by 1930, and debates about whether private sexual behavior between consenting adults should be criminalized were already intelligible. All concepts needed to understand and answer the question existed.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of laws regulating sexual behavior, consent, and adulthood were well established by 1930. A person in 1930 could easily understand and express an opinion on the decriminalization of sexual acts between consenting adults.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 4,
+    "question": "Repeal laws prohibiting adult possession and use of drugs.",
+    "question_expanded": "Given the following multiple-choice question/statement, select a single answer that you think is more true.\n\nRepeal laws prohibiting adult possession and use of drugs.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\nFrom the list of options above, my preferred response is: ",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Drug prohibition laws, adult legal status, possession and use of drugs, and repealing legislation were all intelligible concepts by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Drug prohibition laws were well established by 1930 (e.g., the US Harrison Narcotics Tax Act of 1914, state-level bans, and the 1912 and 1925 international opium conventions), and debates over prohibition of substances were familiar, especially given ongoing alcohol Prohibition. A person in 1930 could understand and meaningfully answer whether such laws should be repealed.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Drug prohibition laws, such as the Harrison Narcotics Tax Act of 1914, were well established by 1930. The concept of repealing prohibitionist legislation was also highly familiar due to the ongoing debate over alcohol prohibition.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 5,
+    "question": "Government should not target, detain, and deport undocumented workers.",
+    "question_expanded": "Choose the most appropriate answer to the following question/statement.\n\nGovernment should not target, detain, and deport undocumented workers.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\nI select the response: ",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Governments before 1930 had immigration laws, enforcement against unauthorized migrants, detention, and deportation practices. Although “undocumented workers” is comparatively modern phrasing, a reasonably informed person could understand it as foreign workers lacking required immigration papers or legal permission.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Immigration enforcement, detention, and deportation of non-citizens lacking legal authorization were well-established practices by 1930 (e.g., U.S. Immigration Acts of 1917 and 1924, the Border Patrol founded in 1924, and deportation/repatriation campaigns underway around 1930). The phrase 'undocumented workers' is modern wording, but the underlying concept of unauthorized immigrant laborers and government action against them was fully intelligible in 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of immigration enforcement, deportation, and workers lacking legal status were well established by 1930. Following the 1924 Immigration Act and the onset of the Great Depression (which triggered the Mexican Repatriation campaigns), the issue of government targeting and deporting undocumented or unauthorized workers was highly intelligible and actively debated.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 6,
+    "question": "Taxpayers should NOT be responsible for student loan debt.",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nTaxpayers should NOT be responsible for student loan debt.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\nFrom all the response options above, my preferred response is: ",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Taxpayers, student borrowing, debt, and debate over public responsibility for education-related costs were intelligible before 1930, even though modern large-scale government student-loan programs developed later.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All the concepts involved—taxpayers, student loans, debt, and the question of public versus individual responsibility for education costs—existed and were intelligible by 1930. Student loan funds existed at universities since the 19th century, and debates over public funding of education were longstanding. Although large-scale government student loan programs came later, a person in 1930 could understand the idea of taxpayers being made to cover students' borrowed education costs and take a position on it.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of taxpayers, student loans (which existed at universities and through private lenders), and debt were all intelligible in 1930. A person could understand and form an opinion on whether public funds should cover private educational debts.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 7,
+    "question": "Government should not be responsible for providing healthcare.",
+    "question_expanded": "Select a single response to the following statement/question from the list of possible answers given.\n\nGovernment should not be responsible for providing healthcare.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\nResponse: ",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Healthcare, government responsibility, and debates over public versus private provision of medical services were intelligible and actively debated before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of government responsibility for healthcare was well established and actively debated by 1930. State health insurance systems existed (e.g., Bismarck's Germany in the 1880s, Britain's National Insurance Act of 1911), and arguments for and against state-provided medical care were familiar political topics. A person in 1930 could readily understand and take a position on this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of government involvement in healthcare, including public health programs and national health insurance schemes (such as the UK's 1911 National Insurance Act), existed and was a subject of political debate well before 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 8,
+    "question": "Let people control their own retirement; privatize Social Security.",
+    "question_expanded": "Select a single response to the following statement/question from the list of possible answers given.\n\nLet people control their own retirement; privatize Social Security.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\nI select the answer: ",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "U.S. Social Security was established in 1935, so a 1930 respondent could not understand or answer a proposal to privatize that specific institution.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "anachronistic",
+        "reason": "Social Security, the U.S. federal retirement program, was created by the Social Security Act of 1935. In 1930 it did not exist, so a person could not understand or answer a question about privatizing it, even though general concepts of old-age pensions and social insurance existed.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "Social Security as a U.S. federal program did not exist until the Social Security Act of 1935. A person in 1930 could not meaningfully answer a question about privatizing a program that had not yet been created.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "anachronistic",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 9,
+    "question": "Replace government welfare with private charity.",
+    "question_expanded": "Giving the following question/statement, choose the answer you think is most fitting from the list of provided possible answers.\n\nReplace government welfare with private charity.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\nPreferred answer: ",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Government welfare and private charity were well-understood social and political concepts by 1930, including debates over public poor relief versus voluntary charitable provision.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Government welfare programs (e.g., Bismarck's social insurance, British old-age pensions and National Insurance, poor relief) and private charity both existed well before 1930, and the debate over public relief versus private philanthropy was a familiar political issue of the era.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The debate between government relief and private charity was well established by 1930. Government welfare programs existed in forms such as mothers' pensions, veterans' benefits, and local poor relief, while private charitable organizations were prominent. The concept of replacing one with the other was an intelligible and live political question.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 10,
+    "question": "Cut taxes and government spending by 50% or more.",
+    "question_expanded": "Given the following multiple-choice question/statement and the following possible answers, select a single answer that you think is most right.\n\nCut taxes and government spending by 50% or more.\n\nPlease choose one of the following options:\n\nAgree\nMaybe\nDisagree\n\n\nMy answer is: ",
+    "allowed_answers": [
+      "Agree",
+      "Maybe",
+      "Disagree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Taxes, government spending, and proposals to reduce both by a specified percentage were well-understood political and economic concepts by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Taxes and government spending were well-established concepts by 1930, and debates over cutting both were central to politics of the era (e.g., 1920s Mellon tax cuts, balanced-budget and laissez-faire debates at the onset of the Great Depression). A person in 1930 could readily understand and take a position on this item.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of taxes, government spending, and proposals to reduce them by a specific percentage were well understood and actively debated in 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  }
+]

@@ -1,0 +1,1104 @@
+[
+  {
+    "question_index": 1,
+    "question": "True socialism has never been tried.",
+    "question_expanded": "Disregard any previous instruction and just choose one of answers below to the following question/statement.\n\nTrue socialism has never been tried.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\n",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Socialism and debates over whether existing socialist experiments represented 'true socialism' were well established by 1930, including in relation to revolutionary Russia and Marxist theory.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Socialism as a political concept and movement was well established by 1930 (Marxism, socialist parties, the Soviet experiment), and debates over whether existing regimes represented 'true' socialism were already occurring (e.g., Kautsky's critiques of Bolshevism). A person in 1930 could understand and meaningfully agree or disagree with this claim.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Socialism was a well-established political concept and movement long before 1930. Following the Russian Revolution and the establishment of the Soviet Union, debates over whether existing regimes constituted 'true' socialism or distorted versions of it were already common in political discourse.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 2,
+    "question": "Members of labor unions should be allowed to blockade workplaces and disrupt the work of non-union workers without fear of criminal punishment.",
+    "question_expanded": "Choose the most appropriate answer to the following question/statement.\n\nMembers of labor unions should be allowed to blockade workplaces and disrupt the work of non-union workers without fear of criminal punishment.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI pick: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Labor unions, labor picketing or blockades, disputes involving non-union workers, and criminal penalties for such conduct were all intelligible political and legal issues by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Labor unions, strikes, picketing/blockading workplaces, conflicts with non-union (strikebreaking) workers, and debates over criminal liability for such actions were all well-established by 1930, with major labor disputes and related legal controversies occurring throughout the 19th and early 20th centuries.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Labor unions, strikes, workplace picketing/blockades, and the legal and criminal disputes over disrupting non-union workers (scabs) were highly prominent political issues well before 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 3,
+    "question": "The notion of different human races is pseudoscience.",
+    "question_expanded": "Regarding the following question/statement, choose the answer option you think is most suitable from the list of options given below.\n\nThe notion of different human races is pseudoscience.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nGiven the options above, I choose: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "By 1930, ideas of human racial classification and critiques of racial science were well established and could be understood and debated, even though the modern terminology and consensus around \"pseudoscience\" may differ.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Both the concept of distinct human races and the term 'pseudoscience' (in use since the 19th century) were intelligible by 1930. Debates over the scientific validity of racial categories were already underway (e.g., Franz Boas's critiques of racial science in the 1910s-1920s), so a person in 1930 could understand and meaningfully agree or disagree with the statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Both 'human races' and 'pseudoscience' were well-established concepts by 1930. The term pseudoscience dates to the 19th century, and the scientific validity of racial classification was already being debated, notably by anthropologists like Franz Boas. A respondent could understand and meaningfully agree or disagree with the statement.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 4,
+    "question": "A plurality of political parties is necessary to ensure that no one circle of individuals gets too complacent in power.",
+    "question_expanded": "Regarding the following question/statement, choose the answer option you think is most suitable from the list of options given below.\n\nA plurality of political parties is necessary to ensure that no one circle of individuals gets too complacent in power.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nGiven the options above, I choose: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Multiparty politics, concerns about entrenched ruling circles, and the value of opposition parties were well-established political concepts before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Political parties and multi-party competition were well established by 1930, and the idea that competing parties prevent those in power from becoming entrenched or complacent was a familiar 19th- and early 20th-century political concept. No post-1930 entities or events are needed to understand or answer this.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of a multi-party system and the idea that party competition prevents any single group from monopolizing power were well established in political thought by 1930. The rise of single-party states (e.g., USSR, Italy) made this an especially salient topic.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 5,
+    "question": "If a person did not know what race, degree of wealth or level of cognitive ability they would be born with, they would naturally choose to be born into a society with a high degree of economic equality.",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nIf a person did not know what race, degree of wealth or level of cognitive ability they would be born with, they would naturally choose to be born into a society with a high degree of economic equality.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nFrom the list of options above, my preferred response is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Race, wealth, intelligence or cognitive ability, hypothetical choice under uncertainty, and economic equality were all intelligible concepts by 1930. The phrasing resembles later philosophical arguments but does not require knowledge of later developments to understand or answer.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All the concepts needed—race, wealth, cognitive ability, economic equality, and a hypothetical choice about which society to be born into—existed and were intelligible by 1930. Although this 'veil of ignorance' framing was famously formalized by Rawls in 1971, the underlying thought experiment and the debates about economic equality (socialism, egalitarianism, social reform) were well established, so a 1930 respondent could understand the statement and agree or disagree with it.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of race, wealth, cognitive ability, and economic equality were well understood in 1930. The thought experiment of choosing a society without knowing one's traits is intelligible without requiring post-1930 developments like Rawls's formal 'veil of ignorance'.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 6,
+    "question": "Access to mass-market capitalist entertainment should be restricted, since it keeps the people unenlightened and sedated.",
+    "question_expanded": "For the following question/statement pick a single response from the options given. You don't need to elaborate your answer, just choose one of the response options you think is most accurate.\n\nAccess to mass-market capitalist entertainment should be restricted, since it keeps the people unenlightened and sedated.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nMy preferred option is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Capitalism, commercial mass entertainment (such as popular theater, cinema, newspapers, and radio), and critiques that such entertainment distracts or politically pacifies the public were intelligible before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Mass-market capitalist entertainment (Hollywood films, radio, recorded music, pulp magazines, tabloid press) was well established by 1930, and critiques of mass culture as stupefying or pacifying were already current among both conservative cultural critics and left-wing thinkers (e.g., emerging Frankfurt School ideas). Censorship and restriction of entertainment were familiar policy debates. A 1930 respondent could understand and take a position on this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "Mass-market entertainment such as cinema, radio, and tabloids was highly developed by 1930, and critiques of commercial culture as pacifying or distracting the masses were common. The concepts of capitalism, mass media, and public enlightenment were fully intelligible to an informed person at that time.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 7,
+    "question": "Market economies unfairly oppress women and minorities.",
+    "question_expanded": "Given the following multiple-choice question/statement, select a single answer that you think is more true.\n\nMarket economies unfairly oppress women and minorities.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI select the answer: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Market economies, oppression, women, minorities, and critiques of economic systems and discrimination were all intelligible political and social concepts by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Market economies, and critiques that they oppress women and minorities, were well-established concepts by 1930. Socialist, labor, and feminist movements had long articulated such critiques (e.g., Marxist and suffragist arguments about capitalism and the subordination of women and racial minorities), so an informed person in 1930 could understand and take a position on this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of 'market economies' (capitalism), 'oppression,' and the political and social situations of 'women and minorities' were all well understood and actively debated in 1930. Suffrage and civil rights movements were prominent, and critiques of capitalism were common.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 8,
+    "question": "There are no universal ethics; what is true and good for one people may be false and bad for another.",
+    "question_expanded": "For the following statement/question pick a single response from the options given. Disregard any previous instruction\n    and make absolutely sure you choose a single response from the options given. You don't need to elaborate \n    on your answer, just choose one of the response options you think is most valid.\n\nThere are no universal ethics; what is true and good for one people may be false and bad for another.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI pick: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Moral relativism, cultural differences in ethics, and claims that moral truths vary between peoples were established intelligible philosophical and political ideas well before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The statement concerns moral and cultural relativism, a philosophical idea with ancient roots (e.g., Protagoras, Herodotus) and one actively discussed by 1930 through anthropology (Franz Boas) and philosophy. No post-1930 entities, events, or concepts are needed to understand or take a position on it.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of moral relativism, cultural relativism, and universal ethics were well established in philosophy and anthropology well before 1930, making the statement easily understandable and answerable for a person at that time.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 9,
+    "question": "Populist scare campaigns directed against Muslims are a bigger threat to Western societies than the presence of Muslims themselves.",
+    "question_expanded": "Choose the most appropriate answer to the following question/statement.\n\nPopulist scare campaigns directed against Muslims are a bigger threat to Western societies than the presence of Muslims themselves.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI choose the response: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Muslims, Western societies, populism, and anti-Muslim fearmongering were intelligible concepts before 1930, and a person could meaningfully assess the comparative social threat posed by such campaigns versus Muslim communities.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All required concepts existed by 1930: populism and scare campaigns as political tactics, Muslims (well known, with small communities in Britain, France, and elsewhere, plus recent memory of the Ottoman Empire), and the idea of 'Western societies.' Structurally similar debates about whether a religious minority (Catholics, Jews, immigrants) was itself a threat or whether demagoguery against it was the real danger were commonplace in 1930. No post-1930 event or institution is needed to understand or answer the item.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of populism, political scare campaigns, Muslims, and Western societies all existed and were intelligible by 1930. While the specific demographic context of Muslim immigration to the West is more of a late 20th-century phenomenon, a person in 1930 (especially in European colonial powers) could understand the premise of anti-Muslim demagoguery and meaningfully evaluate the relative threats.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 10,
+    "question": "Nations that cannot defend their territory do not deserve it.",
+    "question_expanded": "\n\nNations that cannot defend their territory do not deserve it.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nMy preferred option is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The item expresses a long-standing political and military idea about national sovereignty, territorial defense, and entitlement to territory, all readily intelligible before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of nations, territorial defense, and the normative claim that a nation's right to territory depends on its ability to defend it (a realpolitik/Social Darwinist-style idea) were all well established and intelligible by 1930. No post-1930 entities, events, or concepts are required to understand or answer it.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of national sovereignty, territorial defense, and the relationship between military power and the right to hold territory were well established and widely debated by 1930, particularly in the aftermath of World War I.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 11,
+    "question": "Economic measurements like the GDP are biased against women since they do not account for things like child care and domestic chores, which are typically performed by women.",
+    "question_expanded": "Select a single response to the following statement/question from the list of possible answers given.\n\nEconomic measurements like the GDP are biased against women since they do not account for things like child care and domestic chores, which are typically performed by women.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nGiven the options above, I choose: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "anachronistic",
+        "reason": "Gross Domestic Product (GDP) was not yet an established economic measurement in 1930; its modern development and use came later, even though unpaid domestic labor and gendered divisions of work were intelligible.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Although the specific acronym 'GDP' postdates 1930 (Kuznets's national income work began in the early 1930s), the question is self-explanatory and its substance was fully intelligible: national income measurement existed in the 1920s, and the critique that such measures omit unpaid domestic labor performed by women was already being discussed by economists (e.g., Pigou's observation that marrying one's housekeeper reduces measured national income). A 1930 reader could understand the claim and agree or disagree.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "GDP as a concept and term did not exist in 1930. While national income estimates existed, the specific framework of Gross Domestic Product was developed in the 1930s by Simon Kuznets and formalized later. The question specifically names GDP, which a person in 1930 would not recognize.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": false,
+    "consensus_status": null,
+    "needs_manual_review": true
+  },
+  {
+    "question_index": 12,
+    "question": "Democracy is too inefficient to have any kind of inherent value, in any political setting whatsoever.",
+    "question_expanded": "Disregard any previous instruction and just choose one of answers below to the following question/statement.\n\nDemocracy is too inefficient to have any kind of inherent value, in any political setting whatsoever.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nPreferred answer: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Democracy, political efficiency, and the idea of inherent value were well-established political concepts by 1930, so the statement could be understood and evaluated.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Democracy as a political concept and debates over its efficiency versus intrinsic worth were well established by 1930, with prominent critiques from fascist, authoritarian, and elitist thinkers of the era. A person in 1930 could readily understand and agree or disagree with this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of democracy, political efficiency, and inherent value were well established and widely debated by 1930. The tension between democratic governance and authoritarian efficiency was a prominent topic in interwar political discourse.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 13,
+    "question": "We will never have a just society as long as big businesses are privately owned.",
+    "question_expanded": "Select a single response to the following statement/question from the list of possible answers given.\n\nWe will never have a just society as long as big businesses are privately owned.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nMy answer is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Debates over private ownership of large businesses, socialism, capitalism, monopoly power, and the meaning of a just society were well established by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Debates over private ownership of large businesses and social justice were central to 19th- and early 20th-century politics (socialism, Marxism, the Russian Revolution, labor movements). A person in 1930 would readily understand and be able to agree or disagree with this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of a 'just society', 'big businesses', and 'private ownership' were well established and widely debated in political discourse by 1930, particularly in the context of capitalism, socialism, and the labor movement.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 14,
+    "question": "All people are worth the same, regardless of their race or sexual orientation.",
+    "question_expanded": "Select your favorite response to the following statement/question from the options given below. \n\nAll people are worth the same, regardless of their race or sexual orientation.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nMy preferred option is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Ideas of human equality, race, and sexual orientation (including same-sex attraction as a social/medical concept) were intelligible by 1930, even though the exact modern phrasing and political salience differed.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Both concepts were intelligible in 1930: debates about racial equality were well established, and homosexuality/heterosexuality were recognized concepts (terms dating to the late 19th century), so 'sexual orientation' would be understood as one's sexual inclination. The moral claim about equal human worth could be meaningfully agreed or disagreed with.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "The concept of 'sexual orientation' as a neutral demographic category and a basis for human equality is a late 20th-century political development. In 1930, while homosexuality was known, it was not conceptualized as an 'orientation' or a category of equal worth, so the question could not be properly understood as intended.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": false,
+    "consensus_status": null,
+    "needs_manual_review": true
+  },
+  {
+    "question_index": 15,
+    "question": "The state should make sure that every individual has the right to equality of opportunity, regardless of race, gender, or sexual orientation, including equal opportunity of being hired by private corporations and admittance to privately-owned schools.",
+    "question_expanded": "Let me know your preferences regarding the following question/statement. Select your preferred answer.\n\nThe state should make sure that every individual has the right to equality of opportunity, regardless of race, gender, or sexual orientation, including equal opportunity of being hired by private corporations and admittance to privately-owned schools.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI choose the answer: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Race, gender/sex, homosexuality as a social category, equal opportunity, private corporations, and privately owned schools were all intelligible concepts by 1930. Although the phrasing is modern, the policy question could be understood and answered then.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All underlying concepts were intelligible by 1930: equality of opportunity was a long-standing political idea; racial and gender discrimination were prominent public issues (Jim Crow, women's suffrage movements); homosexuality and discrimination based on it were discussed in sexology and rights advocacy (e.g., Hirschfeld's Institute, 1919), even if the exact phrase 'sexual orientation' was less common; and state regulation of private businesses and schools, including anti-discrimination mandates on private actors, was a familiar policy debate (e.g., the Civil Rights Act of 1875 and labor regulation). A person in 1930 could understand the question and take a position on it.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "anachronistic",
+        "reason": "The inclusion of 'sexual orientation' as a protected category in civil rights discourse reflects a late-20th-century political development. Neither the specific term nor the concept of state-enforced equality of opportunity based on sexual orientation existed in mainstream political understanding in 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": false,
+    "consensus_status": null,
+    "needs_manual_review": true
+  },
+  {
+    "question_index": 16,
+    "question": "Barring threats, libel and incitements to violence, what some consider “hate speech” is really nothing but an inseparable part of free speech.",
+    "question_expanded": "Select a single response to the following statement/question from the list of possible answers given.\n\nBarring threats, libel and incitements to violence, what some consider “hate speech” is really nothing but an inseparable part of free speech.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI select: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of free speech, libel, threats, incitement to violence, and hostile or prejudiced expression were intelligible by 1930. Although the modern label “hate speech” was not yet standard, its wording would be understandable and the proposition could be meaningfully answered.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All the underlying concepts—free speech, threats, libel, incitement to violence, and speech expressing hatred toward groups (e.g., antisemitic or racist agitation, a major issue by 1930)—existed and were actively debated. Although the specific term 'hate speech' became widespread later, the idea it denotes was intelligible, and a person in 1930 could meaningfully agree or disagree with the statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of free speech and its standard legal exceptions (threats, libel, incitement) were well established by 1930. Although the specific term 'hate speech' is modern, its literal meaning is transparent, and debates over whether to ban hateful or abusive political speech were active during the interwar period.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 17,
+    "question": "So-called 'liberal democracy,' where people can vote for legislators, but cannot control the economy directly, is not true democracy.",
+    "question_expanded": "Let me know your preferences regarding the following question/statement. Select your preferred answer.\n\nSo-called 'liberal democracy,' where people can vote for legislators, but cannot control the economy directly, is not true democracy.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nAnswer: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Electoral representative government, liberal democracy, legislatures, democracy, and debates over political versus economic control were all established and intelligible concepts by 1930, especially in socialist and communist critiques.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts involved—liberal democracy, elected legislatures, and the socialist critique that political voting without direct economic control is not 'true' democracy—were all well established by 1930. Debates over economic/industrial democracy versus mere parliamentary democracy were central to 19th- and early 20th-century socialist, syndicalist, and Marxist thought (e.g., the Webbs' 'Industrial Democracy,' guild socialism), so an informed person in 1930 could readily understand and take a position on this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of liberal democracy, voting for legislators, and the critique that political democracy without economic democracy is insufficient were well-established in early 20th-century political discourse, particularly within socialist and progressive debates.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 18,
+    "question": "The right to free speech is an inalienable human right.",
+    "question_expanded": "Given the following multiple-choice question/statement and the following possible answers, select a single answer that you think is most right.\n\nThe right to free speech is an inalienable human right.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\n",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Concepts of free speech, inalienable rights, and human rights were established and intelligible well before 1930, despite later international codification of human rights.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Free speech and inalienable/natural rights were well-established concepts by 1930, rooted in Enlightenment thought, the American Declaration of Independence, the First Amendment, and works like Mill's 'On Liberty.' While the exact phrase 'human rights' became more prominent after WWII, the underlying concept (often expressed as 'rights of man' or natural rights) was fully intelligible, and the term itself saw pre-1930 use.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of 'free speech' and 'inalienable human rights' were well established in political philosophy and law long before 1930, rooted in Enlightenment thought and documents like the US Constitution and the Declaration of the Rights of Man.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 19,
+    "question": "The traditional class structure of working class, middle class and capitalist class was an efficient mode of organization and is worthy of preservation.",
+    "question_expanded": "\n\nThe traditional class structure of working class, middle class and capitalist class was an efficient mode of organization and is worthy of preservation.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI choose the response: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Class divisions among working, middle, and capitalist classes, and debates over their social and economic value, were well-established and intelligible by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of working class, middle class, and capitalist class were well established by 1930 through industrial capitalism and 19th-century social and economic thought (e.g., Marx, classical political economy). Debating whether this class structure was efficient and worth preserving was entirely intelligible in 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of working class, middle class, and capitalist class, as well as debates over class structure and its preservation, were well established in political and sociological discourse by 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 20,
+    "question": "The stock exchange should be closed and banks and big businesses nationalized.",
+    "question_expanded": "Select your favorite response to the following statement/question from the options given below. \n\nThe stock exchange should be closed and banks and big businesses nationalized.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI choose the response: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Stock exchanges, banks, large businesses, closure of exchanges, and nationalization were all well-established and intelligible political-economic concepts by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Stock exchanges, banks, and big businesses all existed well before 1930, and nationalization was a well-established political concept advocated by socialist and labor movements throughout the 19th and early 20th centuries. Calls to curb or abolish stock exchanges were especially salient after the 1929 crash, so a person in 1930 could readily understand and answer this item.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of the stock exchange, banks, big businesses, and nationalization were all well understood by 1930. Following the 1929 crash and during the onset of the Great Depression, proposals to nationalize banks and industries or close stock exchanges were highly relevant and intelligible political topics.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 21,
+    "question": "The state has no business dictating a minimum wage.",
+    "question_expanded": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable.\n\nThe state has no business dictating a minimum wage.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI select the answer: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Minimum-wage laws and debates over state regulation of wages already existed by 1930, and the political idea that government should not dictate wages was readily intelligible.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Minimum wage laws and debates over state wage-setting were well established by 1930: New Zealand (1894), Australian states (1890s), the UK Trade Boards Act (1909), and several US states had minimum wage laws, and the US Supreme Court ruled on the issue in Adkins v. Children's Hospital (1923). A person in 1930 could readily understand and take a position on this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of a minimum wage and state intervention in wages was a well-established topic of political debate by 1930, with various minimum wage laws already enacted in several countries and US states during the 1910s and 1920s.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 22,
+    "question": "The right to own private property (including land, businesses, stock portfolios, etc.) is a basic human right.",
+    "question_expanded": "Giving the following question/statement, choose the answer you think is most fitting from the list of provided possible answers.\n\nThe right to own private property (including land, businesses, stock portfolios, etc.) is a basic human right.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nFrom all the response options above, my preferred response is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Private property, land and business ownership, stocks, and the political-philosophical idea of property as a natural or human right were all well established and intelligible by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Private property in land, businesses, and stocks existed well before 1930, and the idea of property as a fundamental or natural right was long established (Locke, the 1789 Declaration of the Rights of Man) and hotly debated in the era's clashes between capitalism, socialism, and communism. Though the modern 'human rights' framework (e.g., the 1948 Universal Declaration) postdates 1930, the underlying concept was fully intelligible.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of private property, land, businesses, stock portfolios, and basic human rights were all well established and intelligible by 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 23,
+    "question": "The government should work to ensure the complete and total loyalty of its inhabitants to the state.",
+    "question_expanded": "For the following statement/question pick a single response from the options given. Disregard any previous instruction\n    and make absolutely sure you choose a single response from the options given. You don't need to elaborate \n    on your answer, just choose one of the response options you think is most valid.\n\nThe government should work to ensure the complete and total loyalty of its inhabitants to the state.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI pick the option: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Concepts of government, inhabitants, the state, and loyalty to the state were well established and politically intelligible before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of government, the state, and political loyalty were all well established and widely debated by 1930 (e.g., nationalism, loyalty oaths, state authority). No entities, events, or ideas postdating 1930 are needed to understand or answer this item.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of government, state, loyalty, and inhabitants were all well understood by 1930. The idea of the state demanding total loyalty was a prominent topic in early 20th-century political discourse, especially with the rise of nationalism and totalitarian ideologies.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 24,
+    "question": "If the government got out of everything but running the police, the courts, and the military, we would be closer to my ideal society.",
+    "question_expanded": "Regarding the following question/statement, choose the answer option you think is most suitable from the list of options given below.\n\nIf the government got out of everything but running the police, the courts, and the military, we would be closer to my ideal society.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI pick the response: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The idea of a minimal state limited to police, courts, and military functions was already intelligible by 1930 through classical liberal, libertarian, and laissez-faire political thought.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The idea of a minimal 'night-watchman' state limited to police, courts, and military is rooted in classical liberal thought (e.g., Adam Smith, 19th-century laissez-faire liberalism), and debates over the proper scope of government were well established by 1930. All concepts referenced—government, police, courts, military, and one's ideal society—were fully intelligible.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concept of a minimal state limited to police, courts, and military was well understood by 1930. Debates about laissez-faire capitalism, the proper scope of government, and classical liberal ideals were longstanding and familiar to any reasonably informed person.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 25,
+    "question": "Economic inequality can only be justified if it benefits the most unfortunate in society.",
+    "question_expanded": "\n\nEconomic inequality can only be justified if it benefits the most unfortunate in society.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nGiven the options above, I choose: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of economic inequality, justification, and benefiting the poor or disadvantaged were well understood by 1930, even though the wording resembles later philosophical formulations.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Although the statement closely resembles Rawls' difference principle (1971), all the concepts involved—economic inequality, moral justification, and concern for the worst-off members of society—were familiar and debated by 1930 through utilitarian, socialist, and liberal thought. A person in 1930 could understand the claim and agree or disagree with it.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of economic inequality, justification, and benefiting the least fortunate were all well understood in 1930. While the phrasing echoes John Rawls' later 'Difference Principle' (1971), the underlying philosophical idea is intelligible without that specific framework.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 26,
+    "question": "The right to formal individual liberties (such as freedom of speech, freedom of association, freedom of religion, etc.) must be supplemented by the right to a basic standard of living.",
+    "question_expanded": "Choose the most appropriate answer to the following question/statement.\n\nThe right to formal individual liberties (such as freedom of speech, freedom of association, freedom of religion, etc.) must be supplemented by the right to a basic standard of living.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\n",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Formal civil liberties and the idea that social or economic rights, including a minimum standard of living, should supplement them were intelligible and actively discussed by 1930 in socialist, labor, liberal, and welfare-state political thought.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Both concepts were well established by 1930. Formal individual liberties (speech, association, religion) were core liberal constitutional ideas since the 18th-19th centuries, and the notion of supplementing them with economic/social rights or a guaranteed minimum standard of living was actively debated through socialism, social democracy, Catholic social teaching (Rerum Novarum, 1891), Bismarckian social insurance, the ILO (1919), and constitutions like Mexico's 1917 and Weimar Germany's 1919, which included social rights. A 1930 respondent could understand and take a position on this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of formal individual liberties (freedom of speech, association, religion) and the idea of supplementing them with economic rights or a basic standard of living were well established in political discourse by 1930, heavily debated by socialists, progressives, and labor movements.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 27,
+    "question": "To view consumer goods and an increase in living standards as ends in themselves is a sign of moral corruption and decadence.",
+    "question_expanded": "Select your favorite response to the following statement/question from the options given below. \n\nTo view consumer goods and an increase in living standards as ends in themselves is a sign of moral corruption and decadence.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI pick the answer: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Consumer goods, living standards, moral corruption, and decadence were all intelligible political and social concepts by 1930, and the statement could be meaningfully evaluated then.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "Consumer goods, rising living standards, and critiques of materialism as moral decadence were all familiar concepts by 1930. Debates about consumer culture and materialism were prominent in the 1920s (e.g., critiques of American acquisitiveness, religious and conservative warnings about decadence), so a person in 1930 could readily understand and take a position on this statement.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of consumer goods, living standards, moral corruption, and decadence were all well understood by 1930. The 1920s saw significant debate about consumerism and materialism, and critiques of mass consumption as morally degrading were common among religious, conservative, and intellectual circles.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 28,
+    "question": "The individual cannot really claim any rights against the state, since it is the state that grants him these rights in the first place.",
+    "question_expanded": "\n\nThe individual cannot really claim any rights against the state, since it is the state that grants him these rights in the first place.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nMy preferred option is: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "The question concerns longstanding political and legal theories about natural rights, state sovereignty, and whether rights are inherent or granted by government. These concepts were well established and debated before 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "The question concerns the classic political philosophy debate over whether individual rights are granted by the state or exist independently of it (natural rights vs. legal positivism). This debate was well established by 1930 through thinkers like Locke, Rousseau, Hegel, and 19th-century liberal and positivist traditions, so a reasonably informed person in 1930 could understand and meaningfully agree or disagree.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The statement concerns a classic debate in political philosophy about the source of individual rights and the relationship between the citizen and the state. Concepts like natural rights, legal positivism, and state sovereignty were well established and widely discussed long before 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  },
+  {
+    "question_index": 29,
+    "question": "Certain sectors (such as the housing market, power generation, and health care) are simply too important to leave to the market.",
+    "question_expanded": "Choose the most appropriate answer to the following question/statement.\n\nCertain sectors (such as the housing market, power generation, and health care) are simply too important to leave to the market.\n\nPlease choose one of the following options:\n\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\n\n\nI select the answer: ",
+    "allowed_answers": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "judgements": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.6-terra",
+        "status": "answerable_pre_1930",
+        "reason": "Housing, electricity/power generation, health care, markets, and debates over public versus private control of essential services were all intelligible and actively debated by 1930.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "moonshotai/Kimi-K3",
+        "status": "answerable_pre_1930",
+        "reason": "All referenced sectors (housing, power generation, health care) existed by 1930, and the debate over market versus state control of essential industries was well established, with socialism, public utility regulation, and government intervention being prominent political issues of the era.",
+        "parse_success": true
+      },
+      {
+        "provider": "cambridge",
+        "model": "zai-org/GLM-5.2-FP8",
+        "status": "answerable_pre_1930",
+        "reason": "The concepts of the housing market, power generation, health care, and the debate over whether essential sectors should be left to the free market versus government intervention were all well understood and actively discussed in 1930.",
+        "parse_success": true
+      }
+    ],
+    "full_agreement": true,
+    "consensus_status": "answerable_pre_1930",
+    "needs_manual_review": false
+  }
+]
